@@ -1,0 +1,16 @@
+baseURL = "https://matkv.github.io"
+title = "My New Hugo Site"
+theme = "matkv"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 20
