@@ -2,8 +2,8 @@
 title: "Home"
 ---
 
-# Hi there
+# Hi!
 
-Welcome to your new Hugo site.
+This is my new website.
 
-Now go build something great.
+It is currently under construction.

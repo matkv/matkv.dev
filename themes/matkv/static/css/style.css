@@ -2,11 +2,12 @@
 
 body {
   color: #333;
-  font-size: 125%;
+  font-size: 100%;
   line-height: 1.5;
   max-width: 45rem;
   padding: 1rem;
   margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .content {
@@ -17,16 +18,23 @@ body {
 
 .site-nav {
   display: flex;
+  
 }
 
 .site-nav a {
   display: block;
   padding: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.site-nav:visited{
+  color: #333;
 }
 
 .site-nav .logo {
-  font-weight: bold;
   padding-left: 0;
+  font-weight: 700;
 }
 
 .main-menu {
@@ -56,4 +64,16 @@ body {
 
 .post-snippet h3 {
   margin-bottom: 0.25rem;
+}
+
+.post-snippet a{
+  text-decoration: none;
+}
+
+.post-snippet time{
+  font-size: 80%;
+}
+
+.footer p {
+  font-size: 90%;
 }

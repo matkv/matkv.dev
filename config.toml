@@ -5,19 +5,19 @@ theme = "matkv"
 [menu]
   [[menu.main]]
     identifier = "posts"
-    name = "Blog"
+    name = "blog"
     url = "/blog"
     weight = 10
 
   [[menu.main]]
     identifier = "about"
-    name = "About"
+    name = "about"
     url = "/about"
     weight = 10
 
   [[menu.main]]
     identifier = "projects"
-    name = "Projects"
+    name = "projects"
     url = "/projects"
     weight = 10
     
