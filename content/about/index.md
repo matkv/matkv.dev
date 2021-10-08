@@ -2,4 +2,4 @@
 title: "About"
 ---
 
-This page will be used for some basic information about me & maybe a digital CV.
+On this page I plan to show some basic information about me & probably a digital CV that describes my education and my past and current workplaces.
