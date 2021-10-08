@@ -1,24 +1,27 @@
 /* LAYOUT */
 
 body {
-  color: #333;
-  font-size: 90%;
+  color: #000;
+  font-size: 100%;
   line-height: 1.5;
   max-width: 45rem;
   padding: 1rem;
   margin: 0 auto;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;  
 }
 
 .content {
   margin-bottom: 2rem;
 }
 
+a:visited, a:active, a:focus {
+  color: #000;
+}
+
 /* NAVIGATION */
 
 .site-nav {
   display: flex;
-  
 }
 
 .site-nav a {
@@ -26,10 +29,6 @@ body {
   padding: 1rem;
   text-decoration: none;
   text-transform: uppercase;
-}
-
-.site-nav:visited{
-  color: #333;
 }
 
 .site-nav .logo {
@@ -47,7 +46,7 @@ body {
 @media screen and (max-width: 48rem) {
   .site-nav,
   .main-menu {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .site-nav a {
@@ -74,6 +73,14 @@ body {
   font-size: 80%;
 }
 
+/* FOOTER */
+
+.footer {
+  position: fixed;  
+  bottom: 0;
+}
+
 .footer p {
-  font-size: 90%;
+  font-size: 75%;
+  color: gray;
 }
