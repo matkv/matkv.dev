@@ -2,7 +2,7 @@
 title: "Home"
 ---
 
-# Hi!
+# Hi :)
 
 This is my new website.
 
