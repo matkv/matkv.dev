@@ -22,6 +22,9 @@ jobs:
     
       - name: Git checkout
         uses: actions/checkout@v2
+        
+      - name: Update theme
+        run: git submodule update --init --recursive
     
       - name: Hugo setup
         uses: peaceiris/actions-hugo@v2.4.13
