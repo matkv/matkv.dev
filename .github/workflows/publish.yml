@@ -1,5 +1,4 @@
 # This workflow builds the hugo site and publishes it
-
 name: CI
 
 # Controls when the workflow will run
@@ -25,7 +24,7 @@ jobs:
         uses: actions/checkout@v2
     
       - name: Setup hugo          
-      - uses: paceiris/actions-hugo@v2
+        uses: paceiris/actions-hugo@v2
         with: 
           hugo-version: "0.88.1"
           
