@@ -1,6 +1,7 @@
 baseURL = "https://matkv.github.io"
 title = "matko"
 theme = "matkv"
+paginate = "5"
 
 [menu]
   [[menu.main]]
@@ -20,4 +21,3 @@ theme = "matkv"
     name = "projects"
     url = "/projects"
     weight = 10
-    
