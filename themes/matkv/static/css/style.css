@@ -14,7 +14,7 @@ body {
   margin-bottom: 2rem;
 }
 
-a:visited, a:active, a:focus {
+a {
   color: #000;
 }
 
