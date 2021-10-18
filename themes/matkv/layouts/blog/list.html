@@ -1,0 +1,34 @@
+{{ partial "header.html" . }}
+
+<h1>Blog</h1>
+
+{{ .Content }}
+
+{{ $paginator := .Paginate (.Data.Pages) }}
+
+{{ range $paginator.Pages }}
+<article class="post-snippet">
+  <h3>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </h3>
+  <time datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}">
+    {{ .Date.Format "January 2, 2006" }}
+  </time>
+
+  <p>{{.Summary}}</p>
+
+<!--Only show the summary (first 50 words), if the post is longer
+than that, show a read more link-->
+
+  {{ if .Truncated }}
+    <div class="read-more">
+      <a href="{{ .RelPermalink }}">Read More…</a>
+    </div>
+  {{end}}
+
+</article>
+{{ end }}
+
+{{ template "_internal/pagination.html" . }}
+
+{{ partial "footer.html" . }}
