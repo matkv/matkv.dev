@@ -14,7 +14,7 @@
   
   {{ $imagelink := print .Site.BaseURL .RelPermalink .Params.coverimage}}
 
-  <img src="{{ $imagelink }}" style="width:100px;height:100px;">
+  <a href="{{ .RelPermalink }}"><img src="{{ $imagelink }}" style="width:200px;"></a>
  
   <p>{{.Summary}}</p>
 </article>
