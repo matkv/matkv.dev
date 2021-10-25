@@ -6,23 +6,25 @@
 
 {{ $paginator := .Paginate (.Data.Pages) }}
 
+<div class="projects-list">
 {{ range $paginator.Pages }}
-<article class="post-snippet">
+<article class="project-listelement">
   <h3>
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
   </h3> 
   
   {{ $imagelink := print .Site.BaseURL .RelPermalink .Params.coverimage}}
 
-  <a href="{{ .RelPermalink }}"><img src="{{ $imagelink }}" style="width:200px;"></a>
- 
+  <div class="projectimage">
+  <a href="{{ .RelPermalink }}"><img src="{{ $imagelink }}"></a>
+  </div>
   <p>{{.Summary}}</p>
 </article>
 
 
 
 {{ end }}
-
+</div>
 {{ template "_internal/pagination.html" . }}
 
 {{ partial "footer.html" . }}
