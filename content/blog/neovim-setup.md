@@ -12,7 +12,7 @@ My main goals are:
 * Setup an built-in file browser and a nice theme (maybe the palenight theme)
 * Setup code completion for my most used languages, maybe try C# first
 
-# Introduction
+## Introduction
 
 After installing Neovim (on Manjaro Linux: `sudo pacman -S neovim`) I can start it with the command `nvim`. 
 
@@ -24,7 +24,7 @@ ln -s ~/dotfiles/nvim/init.lua ~/.config/nvim/init.lua
 
 This way I should be able to change my config and still be able to have some version control because it is in my dotfiles repository.
 
-# init.lua
+## init.lua
 
 We can configure Neovim using the `init.lua` file. For example, we can enable line numbers by adding this line to the config file:
 
@@ -32,7 +32,7 @@ We can configure Neovim using the `init.lua` file. For example, we can enable li
 vim.wo.number = true
 ```
 
-## Option levels
+### Option levels
 
 There are several option levels:
 
