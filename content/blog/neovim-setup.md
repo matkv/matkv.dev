@@ -62,6 +62,9 @@ By hitting the `i` key, we enter insert mode. Now we can actually add and change
 
 I can split the current window verticall by using the `:vs` command. This opens another vertical window to the right. The `:split` command would open one below. In order to move around between all open windows we can use the `:W w` command (colon W and then w). This cycles through all currently open windows. To close the currently open window I can use the normal `:q` command.
 
+If I have the **mouse enabled in the settings (init.lua)**, I can also just click a specific window to focus it and **resize the windows by dragging with the mouse**. 
+
+
 ## Using a plugin manager - packer
 
 I created a new folder in my nvim folder called "lua" and a "plugins" folder in the new lua folder and a new file called `init.lua`. (I actually created it in my dotfiles repo and symlinked it to the actual config folder again).
@@ -122,4 +125,51 @@ vim.cmd('colorscheme nord')
 
 After saving the file and opening nvim again, we should now **see the new color scheme** :)
 
-Continue with [this](https://www.youtube.com/watch?v=r3NOB8UjIPc) tutorial (stopped at 4:44)
+### Adding better syntax highlighting using treesitter
+
+In the `init.vim` file in the plugins folder we add
+
+```
+    use {
+        'nvim-treesitter/nvim-treesitter',
+        run = ':TSUpdate'
+    }
+```
+
+And then we install the treesitter  plugin using the `PackerSync` command.
+
+### Adding treesitter support for all maintained languages
+
+We add a reference to the treesitter config in the normal `lua.init`:
+
+```
+require('treesitter-config')
+```
+
+This basically means that the `init.lua` file will require any plugins/settings that are in `init.lua` files in the directories that are specified this way.
+
+Then we create this `treesitter-config` folder in the `lua` folder. And in this new folder we create a new `init.lua` file. Now we can basically enable all languages that are "maintained" and supported by treesitter:
+
+```
+require'nvim-treesitter.configs'.setup {
+  ensure_installed = "maintained",
+  highlight = {
+    enable = true,              -- false will disable the whole extension
+    additional_vim_regex_highlighting = false,
+  },
+}
+```
+
+The next time we open nvim, it will automatically download and install all languages that are supported. Now the syntax highlighting should look a lot better when opening code.
+
+## Figuring out which option level a setting belongs to
+
+In order to set settings in the `init.lua` file using lua syntax, we need to specify the option level, for example `vim.wo.number'. In order to figure out which option level a specific setting belongs to, we can use the `help command`.
+
+For exmample, figuring out where the `cursorline` setting belongs to:
+
+```
+:help cursorline
+```
+
+Now the settings page shows that `cursorline` is of type boolean and that it is **local to window**. This means we can set it using `vim.wo.cursorline = true`.
