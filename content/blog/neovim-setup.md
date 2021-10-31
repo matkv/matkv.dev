@@ -122,4 +122,39 @@ vim.cmd('colorscheme nord')
 
 After saving the file and opening nvim again, we should now **see the new color scheme** :)
 
-Continue with [this](https://www.youtube.com/watch?v=r3NOB8UjIPc) tutorial (stopped at 4:44)
+### Adding better syntax highlighting using treesitter
+
+In the `init.vim` file in the plugins folder we add
+
+```
+    use {
+        'nvim-treesitter/nvim-treesitter',
+        run = ':TSUpdate'
+    }
+```
+
+And then we install the treesitter plugin using the `PackerSync` command.
+
+### Adding treesitter support for specific languages
+
+We add a reference to the treesitter config in the normal `lua.init`:
+
+```
+require('treesitter-config')
+```
+
+This basically means that the `init.lua` file will require any plugins/settings that are in `init.lua` files in the directories that are specified this way.
+
+Then we create this `treesitter-config` folder in the `lua` folder. And in this new folder we create a new `init.lua` file. Now we can basically enable all languages that are "maintained" and supported by treesitter:
+
+```
+require'nvim-treesitter.configs'.setup {
+  ensure_installed = "maintained",
+  highlight = {
+    enable = true,              -- false will disable the whole extension
+    additional_vim_regex_highlighting = false,
+  },
+}
+```
+
+The next time we open nvim, it will automatically download and install all languages that are supported. Now the syntax highlighting should look a lot better when opening code.
