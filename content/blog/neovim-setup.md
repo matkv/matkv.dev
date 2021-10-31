@@ -62,6 +62,9 @@ By hitting the `i` key, we enter insert mode. Now we can actually add and change
 
 I can split the current window verticall by using the `:vs` command. This opens another vertical window to the right. The `:split` command would open one below. In order to move around between all open windows we can use the `:W w` command (colon W and then w). This cycles through all currently open windows. To close the currently open window I can use the normal `:q` command.
 
+If I have the **mouse enabled in the settings (init.lua)**, I can also just click a specific window to focus it and **resize the windows by dragging with the mouse**. 
+
+
 ## Using a plugin manager - packer
 
 I created a new folder in my nvim folder called "lua" and a "plugins" folder in the new lua folder and a new file called `init.lua`. (I actually created it in my dotfiles repo and symlinked it to the actual config folder again).
