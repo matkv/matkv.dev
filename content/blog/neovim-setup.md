@@ -133,9 +133,9 @@ In the `init.vim` file in the plugins folder we add
     }
 ```
 
-And then we install the treesitter plugin using the `PackerSync` command.
+And then we install the treesitter  plugin using the `PackerSync` command.
 
-### Adding treesitter support for specific languages
+### Adding treesitter support for all maintained languages
 
 We add a reference to the treesitter config in the normal `lua.init`:
 
@@ -158,3 +158,15 @@ require'nvim-treesitter.configs'.setup {
 ```
 
 The next time we open nvim, it will automatically download and install all languages that are supported. Now the syntax highlighting should look a lot better when opening code.
+
+## Figuring out which option level a setting belongs to
+
+In order to set settings in the `init.lua` file using lua syntax, we need to specify the option level, for example `vim.wo.number'. In order to figure out which option level a specific setting belongs to, we can use the `help command`.
+
+For exmample, figuring out where the `cursorline` setting belongs to:
+
+```
+:help cursorline
+```
+
+Now the settings page shows that `cursorline` is of type boolean and that it is **local to window**. This means we can set it using `vim.wo.cursorline = true`.
