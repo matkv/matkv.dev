@@ -12,6 +12,10 @@ My main goals are:
 * Setup an built-in file browser and a nice theme (maybe the palenight theme)
 * Setup code completion for my most used languages, maybe try C# first
 
+**TO-DO**
+
+* Install some plugin to show a file tree on the left side
+
 ## Introduction
 
 After installing Neovim (on Manjaro Linux: `sudo pacman -S neovim`) I can start it with the command `nvim`. 
@@ -53,6 +57,10 @@ With `shift + w` I can jump to the next word, with a upper case `W` I can jump t
 ### Editing text
 
 By hitting the `i` key, we enter insert mode. Now we can actually add and change text. With the command `:u` we can undo the last change we made.
+
+### Splitting the window
+
+I can split the current window verticall by using the `:vs` command. This opens another vertical window to the right. The `:split` command would open one below. In order to move around between all open windows we can use the `:W w` command (colon W and then w). This cycles through all currently open windows. To close the currently open window I can use the normal `:q` command.
 
 ## Using a plugin manager - packer
 
