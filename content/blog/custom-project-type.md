@@ -1,9 +1,14 @@
 ---
 title: "Custom Project Type"
 date: 2021-10-18T23:15:55+02:00
+type: "blog"
+layout: "blog"
 ---
 
 I just finally finished creating a custom type for projects. I'll quickly document what I did so that I don't forget it again.
+
+<!--more-->
+
 
 Hugo basically looks in the **"theme/matkv/archetypes"** directory to figure out what kind of content types exist for the site.
 
@@ -23,5 +28,7 @@ In the layouts for both the list and the single page view for a project, I also 
 
 Now I can already create two different kinds of content types dynamically on this website.
 
-* blog posts: ```hugo new -k blog blog/custom-project-type```
+* blog posts: ```hugo new -k blog blog/this-is-my-title.md```
 * projects: ```hugo new -k project projects/test-project```
+
+I have to specify the file type for blog posts (.md) because otherwise hugo will create a folder which is not what I want in this case.
