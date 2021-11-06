@@ -6,7 +6,7 @@ pluralizelisttitles = false
 
 [menu]
   [[menu.main]]
-    identifier = "posts"
+    identifier = "blog"
     name = "blog"
     url = "/blog"
     weight = 10
