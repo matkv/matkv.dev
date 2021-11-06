@@ -341,3 +341,12 @@ a {
     padding: 30px 30px 30px 90px;
   }
 } 
+
+.read-more{
+  text-align: end;
+}
+
+.read-more-link {
+  font-weight: bold;
+  font-size: 75%;
+}
