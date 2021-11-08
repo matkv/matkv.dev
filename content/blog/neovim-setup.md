@@ -36,7 +36,7 @@ This way I should be able to change my config and still be able to have some ver
 
 We can configure Neovim using the `init.lua` file. For example, we can enable line numbers by adding this line to the config file:
 
-```
+```lua
 vim.wo.number = true
 ```
 

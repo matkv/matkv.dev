@@ -16,7 +16,7 @@ So I created a new archetype for my projects. I created a subfolder called "proj
 
 By using archetypes, I can set up all the tags and properties that I want my "project" type to have. I just need to do this once in the archetype and everytime I create this type of content dynamically, all the properties will be set by default.
 
-```
+```yaml
 type: "project"
 layout: "project"
 coverimage: image/cover.jpg
