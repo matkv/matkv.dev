@@ -1,7 +1,7 @@
 /* LAYOUT */
 
 body {
-  background-color: #fff;
+  background-color: #e8e8c1;
   color: #000;
   font-size: 100%;
   
@@ -40,7 +40,7 @@ a {
   width: auto;
   margin: 0;
   padding: 0;
-  background-color: #F5F5F5;
+  background-color:  #e8e8e8;
 }
 
 .site-nav {

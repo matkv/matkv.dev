@@ -1,5 +1,5 @@
 html {
-    background-color: #fff !important;
+    background-color: #e8e8e8 !important;
     
 }
 html {
@@ -10,25 +10,25 @@ html {
 
 @-moz-document url-prefix() {
     html {
-        background-color: #000 !important;
+        background-color: #171717 !important;
         
     }
     body {
-        background-color: #000 !important;
+        background-color: #171717 !important;
     }
   }
 
 
 body {
-    background-color: #fff !important;
+    background-color: #e8e8e8 !important;
 }
 
 .content {
-    background-color: #fff !important;
+    background-color: #e8e8e8 !important;
 }
 
 .footer p{
-    color: #000;
+    color: #171717;
 }
 
 img,
