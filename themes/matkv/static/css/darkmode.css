@@ -1,5 +1,5 @@
 html {
-    background-color: #e8e8e8 !important;
+    background-color: #fffaf0 !important;
     
 }
 html {
@@ -10,25 +10,41 @@ html {
 
 @-moz-document url-prefix() {
     html {
-        background-color: #171717 !important;
+        background-color: #1f1e1a !important;
         
     }
     body {
-        background-color: #171717 !important;
+        background-color: #1f1e1a !important;
     }
+
+    .site-nav-banner{
+        background-color: #e2e1dd !important;
+    }
+
+
+    .site-nav a {
+        color: #1f1e1a !important;
+    }
+
+    .timeline-container::after {
+        background-color: #e2e1dd !important;
+    }
+
+    .timeline-container .timeline-icon {
+        background-color: #e2e1dd !important;
   }
 
 
 body {
-    background-color: #e8e8e8 !important;
+    background-color: #e2e1dd !important;
 }
 
 .content {
-    background-color: #e8e8e8 !important;
+    background-color: #e2e1dd !important;
 }
 
 .footer p{
-    color: #171717;
+    color: #1f1e1a;
 }
 
 img,
