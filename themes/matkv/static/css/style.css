@@ -1,10 +1,9 @@
 /* LAYOUT */
 
 body {
-  background-color: #fff;
-  color: #000;
-  font-size: 100%;
-  
+  background-color:  	#fffaf0;
+  color: #1f1e1a;
+  font-size: 100%;  
   line-height: 1.5;
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;  
@@ -23,7 +22,7 @@ body {
 }
 
 a {
-  color: #000;
+  color: #1f1e1a;
 }
 
 .iconlinks {
@@ -40,7 +39,7 @@ a {
   width: auto;
   margin: 0;
   padding: 0;
-  background-color: #F5F5F5;
+  background-color:   	#1f1e1a;
 }
 
 .site-nav {
@@ -55,6 +54,7 @@ a {
   padding: 1rem;
   text-decoration: none;
   text-transform: uppercase;
+  color: #fffaf0;
 }
 
 .site-nav .logo {
@@ -113,7 +113,7 @@ a {
 /* FOOTER */
 
 .footer {
-  background-color: #fff;
+  background-color: #fffaf0;
   position: inherit;
   bottom: 0;
   padding: 0;
@@ -176,7 +176,7 @@ a {
   content: '';
   position: absolute;
   width: 2px;
-  background: #000;
+  background: #1f1e1a;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -205,8 +205,8 @@ a {
   height: 16px;
   top: calc(50% - 8px);
   right: -8px;
-  background: #ffffff;
-  border: 2px solid #000;
+  background: #fffaf0;
+  border: 2px solid #1f1e1a;
   border-radius: 16px;
   z-index: 1;
 }
@@ -222,7 +222,7 @@ a {
   height: 2px;
   top: calc(50% - 1px);
   right: 8px;
-  background: #000;
+  background: #1f1e1a;
   z-index: 1;
 }
 
@@ -239,12 +239,12 @@ a {
   height: 40px;
   padding: 9px 0;
   top: calc(50% - 20px);
-  background: #fff;
-  border: 2px solid #000;
+  background: #fffaf0;
+  border: 2px solid #1f1e1a;
   border-radius: 40px;
   text-align: center;
   font-size: 18px;
-  color: black;
+  color: #1f1e1a;
   z-index: 1;
 }
 
@@ -269,13 +269,13 @@ a {
 .timeline-container .timeline-content h2 {
   margin: 0 0 10px 0;
   font-weight: normal;
-  color: #000;
+  color: #1f1e1a;
 }
 
 .timeline-container .timeline-content p {
   margin: 0;
   line-height: 22px;
-  color: #000000;
+  color: #1f1e1a;
 }
 
 @media (max-width: 767.98px) {
@@ -291,8 +291,8 @@ a {
     height: 16px;
     top: calc(50% - 8px);
     right: -8px;
-    background: #ffffff;
-    border: 2px solid #000;
+    background: #fffaf0;
+    border: 2px solid #1f1e1a;
     border-radius: 16px;
     z-index: 1;
   }
