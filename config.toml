@@ -1,7 +1,7 @@
 baseURL = "https://matkv.github.io"
 title = "matko"
 theme = "matkv"
-paginate = "5"
+paginate = "10"
 pluralizelisttitles = false
 
 [markup]
