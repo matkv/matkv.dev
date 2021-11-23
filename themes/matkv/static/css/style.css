@@ -1,8 +1,13 @@
 /* LAYOUT */
+:root {
+  --light-color:#fff;
+  --dark-color:#000;
+}
+
 
 body {
-  background-color:  	#fffaf0;
-  color: #1f1e1a;
+  background-color:  var(--light-color);
+  color: var(--dark-color);
   font-size: 100%;  
   line-height: 1.5;
   margin: 0 auto;
@@ -22,7 +27,7 @@ body {
 }
 
 a {
-  color: #1f1e1a;
+  color: var(--dark-color);
 }
 
 .iconlinks {
@@ -39,7 +44,7 @@ a {
   width: auto;
   margin: 0;
   padding: 0;
-  background-color:   	#1f1e1a;
+  background-color: var(--dark-color);
 }
 
 .site-nav {
@@ -54,7 +59,7 @@ a {
   padding: 1rem;
   text-decoration: none;
   text-transform: uppercase;
-  color: #fffaf0;
+  color: var(--light-color);
 }
 
 .site-nav .logo {
@@ -113,7 +118,7 @@ a {
 /* FOOTER */
 
 .footer {
-  background-color: #fffaf0;
+  background-color: var(--light-color);
   position: inherit;
   bottom: 0;
   padding: 0;
@@ -176,7 +181,7 @@ a {
   content: '';
   position: absolute;
   width: 2px;
-  background: #1f1e1a;
+  background: var(--dark-color);
   top: 0;
   bottom: 0;
   left: 50%;
@@ -205,8 +210,8 @@ a {
   height: 16px;
   top: calc(50% - 8px);
   right: -8px;
-  background: #fffaf0;
-  border: 2px solid #1f1e1a;
+  background: var(--light-color);
+  border: 2px solid var(--dark-color);
   border-radius: 16px;
   z-index: 1;
 }
@@ -222,7 +227,7 @@ a {
   height: 2px;
   top: calc(50% - 1px);
   right: 8px;
-  background: #1f1e1a;
+  background: var(--dark-color);
   z-index: 1;
 }
 
@@ -239,12 +244,12 @@ a {
   height: 40px;
   padding: 9px 0;
   top: calc(50% - 20px);
-  background: #fffaf0;
-  border: 2px solid #1f1e1a;
+  background: var(--light-color);
+  border: 2px solid var(--dark-color);
   border-radius: 40px;
   text-align: center;
   font-size: 18px;
-  color: #1f1e1a;
+  color: var(--dark-color);
   z-index: 1;
 }
 
@@ -269,13 +274,13 @@ a {
 .timeline-container .timeline-content h2 {
   margin: 0 0 10px 0;
   font-weight: normal;
-  color: #1f1e1a;
+  color: var(--dark-color);
 }
 
 .timeline-container .timeline-content p {
   margin: 0;
   line-height: 22px;
-  color: #1f1e1a;
+  color: var(--dark-color);
 }
 
 @media (max-width: 767.98px) {
@@ -291,8 +296,8 @@ a {
     height: 16px;
     top: calc(50% - 8px);
     right: -8px;
-    background: #fffaf0;
-    border: 2px solid #1f1e1a;
+    background: var(--light-color);
+    border: 2px solid var(--dark-color);
     border-radius: 16px;
     z-index: 1;
   }
