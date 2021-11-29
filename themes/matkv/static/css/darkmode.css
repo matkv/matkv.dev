@@ -1,12 +1,10 @@
 html {
-    background-color: var(--light-color) !important;
-    
-}
-html {
-    filter: invert(100%) hue-rotate(180deg) brightness(100%) contrast(100%);
-    -webkit-filter: invert(100%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    background-color: var(--dark-color);
 }
 
+p, a, h1, h2, h3, h4 , h5, h6, time {
+    color: var(--light-color);
+}
 
 @-moz-document url-prefix() {
     html {
@@ -18,13 +16,8 @@ html {
     }
 }
 
-.site-nav-banner{
-    background-color: var(--light-color) !important;
-}
-
-
-.site-nav a {
-    color: var(--dark-color) !important;
+.content {
+    background-color: var(--dark-color);
 }
 
 .timeline-container::after {
@@ -32,24 +25,40 @@ html {
 }
 
 .timeline-container .timeline-icon {
-    background-color: var(--light-color) !important;
+    background-color: var(--dark-color) !important;
 }
 
-  body {
-    background-color: var(--light-color) !important;
+.timeline::after {
+    background-color: var(--light-color);
 }
 
-.content {
-    background-color: var(--light-color) !important;
+.timeline::container::after {
+    background: var(--dark-color);
+    border: 2px solid var(--light-color);
 }
 
-.footer p{
-    color: var(--dark-color);
+.timeline-container::before {
+    background: var(--light-color);
 }
 
-img,
-video,
-body * [style*="background-image"] {
-    filter: hue-rotate(180deg) contrast(100%) invert(100%) brightness(100%);
-    -webkit-filter: hue-rotate(180deg) contrast(100%) invert(100%) brightness(100%);
+.timeline-container .timeline-icon {
+
+  background: var(--dark-color);
+  border: 2px solid var(--light-color);
+
+  color: var(--light-color);
+}
+
+.timeline-container .timeline-content h2 {
+    color: var(--light-color);
+  }
+  
+  .timeline-container .timeline-content p {
+
+    color: var(--light-color);
+  }
+
+  .timeline-container.right::after {
+    background: var(--dark-color);
+    border: 2px solid var(--light-color);
 }

@@ -1,7 +1,7 @@
 /* LAYOUT */
 :root {
-  --light-color:#fff;
-  --dark-color:#000;
+  --light-color:#f5efeb;
+  --dark-color:#221e1b;
 }
 
 
@@ -27,6 +27,10 @@ body {
 }
 
 a {
+  color: var(--dark-color);
+}
+
+p, h1, h2 {
   color: var(--dark-color);
 }
 
