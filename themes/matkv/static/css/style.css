@@ -1,19 +1,26 @@
 /* LAYOUT */
 :root {
   --light-color:#f5efeb;
-  --dark-color:#221e1b;
+  --dark-color:#070923;
+  --font-color-light-mode:#000;
+  --font-color-dark-mode:#fff
 }
 
 
 body {
   background-color:  var(--light-color);
-  color: var(--dark-color);
+  color: var(--font-color-light-mode);
   font-size: 100%;  
   line-height: 1.5;
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;  
   height: max-content;
 }
+
+p, a, h1, h2, h3, h4 , h5, h6, time {
+    color: var(--font-color-light-mode);
+}
+
 
 .content {
   padding-top: 0;
@@ -64,11 +71,12 @@ p, h1, h2 {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--light-color);
+  font-weight: bold;
 }
 
 .site-nav .logo {
   padding-left: 0;
-  font-weight: 700;
+  font-weight: bolder;
 }
 
 .main-menu {

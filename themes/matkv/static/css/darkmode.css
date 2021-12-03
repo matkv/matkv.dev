@@ -1,4 +1,4 @@
-html {
+html, body {
     background-color: var(--dark-color);
 }
 
@@ -61,4 +61,16 @@ p, a, h1, h2, h3, h4 , h5, h6, time {
   .timeline-container.right::after {
     background: var(--dark-color);
     border: 2px solid var(--light-color);
+}
+
+.site-nav-banner{
+    background-color: var(--light-color);
+}
+
+.site-nav-banner a{
+  color: var(--dark-color);
+}
+
+li{
+  color: var(--light-color);
 }
