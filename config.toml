@@ -1,0 +1,29 @@
+baseURL = "https://matkv.github.io"
+title = "matko"
+pluralizelisttitles = false
+languageCode = 'en-us'
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "/about"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "blog"
+    url = "/blog"
+    weight = 30  
+
+  [[menu.main]]
+    identifier = "project"
+    name = "project"
+    url = "/project"
+    weight = 40
