@@ -1,0 +1,8 @@
+{{ define "main" }}
+<p>This is the project page html</p>
+<p>{{ $imagelink := print .Site.BaseURL .RelPermalink "cover.jpg"}}</p>
+
+<img src="{{ $imagelink }}">
+
+{{ .Content }}
+{{ end }}

@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ $paginator := .Paginate (.Data.Pages) }}
+
+{{ range $paginator.Pages }}
+<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+{{ .Date.Format "January 2, 2006" }}
+
+<p>{{.Summary}}</p>
+
+{{ if .Truncated }}
+<a href="{{ .RelPermalink }}">Read more</a>
+<br>
+{{end}}
+
+
+
+{{ end }}
+
+{{ end }}
