@@ -1,0 +1,33 @@
+/* COLORS */
+
+:root {
+    --light-color: #fff;
+    --dark-color: #171a21;
+    --font-color-light-mode: #000;
+    --font-color-dark-mode: #fff
+}
+
+/* LAYOUT */
+
+body {
+    background-color: var(--light-color);
+    color: var(--font-color-light-mode);
+    font-size: Arial, Helvetica, sans-serif;
+}
+
+/* NAVIGATION */
+
+.navigation {
+    display: flex;
+}
+
+.navigation a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navigation li {
+
+    list-style-type: none;
+}
