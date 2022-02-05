@@ -3,8 +3,11 @@
 :root {
     --light-color: #fff;
     --dark-color: #171a21;
+
     --font-color-light-mode: #000;
-    --font-color-dark-mode: #fff
+    --font-color-dark-mode: #fff;
+
+    --nav-background-color: #F7F8F9;
 }
 
 /* LAYOUT */
@@ -12,22 +15,59 @@
 body {
     background-color: var(--light-color);
     color: var(--font-color-light-mode);
-    font-size: Arial, Helvetica, sans-serif;
+    font-family: system-ui, Helvetica, sans-serif;
+    margin: 0;
 }
 
 /* NAVIGATION */
 
 .navigation {
+    background-color: var(--nav-background-color);
+    padding-left: 2em;
+    padding-top: 2em;
+}
+
+
+.website-title {
+    line-height: 1.5;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+.navigation ul {
+    background-color: aqua;
+    width: max-content;
     display: flex;
+    list-style: none;
+
 }
 
 .navigation a {
+    display: block;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
+    color: var(--dark-color);
+    background-color: red;
 }
 
 .navigation li {
+    tex
+}
 
-    list-style-type: none;
+/* CONTENT */
+
+.content {
+    margin: 2em;
+}
+
+/* FOOTER */
+
+.footer {
+    margin: 1em;
+}
+
+.footer hr {
+    color: var(--nav-background-color);
 }
