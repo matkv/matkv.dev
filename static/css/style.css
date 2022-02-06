@@ -70,6 +70,36 @@ body {
     flex: 1;
 }
 
+.pagetitle {
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+/* BLOG */
+.blogentry {
+    margin-bottom: 1em;
+}
+
+
+
+.blogtitle a,
+a:visited {
+    text-decoration: none;
+    font-size: 1.125em;
+    font-weight: 500;
+}
+
+.blogdate {
+    font-size: 0.8em;
+}
+
+.blog-read-more a {
+    font-size: 0.8em;
+}
+
 /* ICON LINKS */
 
 .iconlinks {
