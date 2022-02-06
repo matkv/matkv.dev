@@ -83,8 +83,6 @@ body {
     margin-bottom: 1em;
 }
 
-
-
 .blogtitle a,
 a:visited {
     text-decoration: none;
@@ -98,6 +96,22 @@ a:visited {
 
 .blog-read-more a {
     font-size: 0.8em;
+}
+
+/* PROJECT */
+.projectimage img {
+    height: 10em;
+}
+
+.projectlistitem {
+    margin-bottom: 1em;
+}
+
+.projecttitle a,
+a:visited {
+    text-decoration: none;
+    font-size: 1.125em;
+    font-weight: 500;
 }
 
 /* ICON LINKS */

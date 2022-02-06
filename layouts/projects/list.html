@@ -2,15 +2,21 @@
 <div class="pagetitle">
     {{ .Title }}
 </div>
+<br>
 {{ $paginator := .Paginate (.Data.Pages) }}
 
 {{ range $paginator.Pages }}
-<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+<div class="projectlistitem">
+    <div class="projecttitle">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </div>
 
-<p>{{.Summary}}</p>
-<p>{{ $imagelink := print .Site.BaseURL .RelPermalink "cover.jpg"}}</p>
+    <p>{{.Summary}}</p>
+    {{ $imagelink := print .Site.BaseURL .RelPermalink "cover.jpg"}}
 
-<img src="{{ $imagelink }}">
+
+    <div class="projectimage"><img src="{{ $imagelink }}"></div>
+</div>
 
 {{ end }}
 

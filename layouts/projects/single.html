@@ -5,7 +5,7 @@
 <p>This is the project page html</p>
 <p>{{ $imagelink := print .Site.BaseURL .RelPermalink "cover.jpg"}}</p>
 
-<img src="{{ $imagelink }}">
+<div class="projectimage"><img src="{{ $imagelink }}"></div>
 
 {{ .Content }}
 {{ end }}
