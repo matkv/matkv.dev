@@ -1,0 +1,27 @@
+/* COLORS */
+
+body {
+    background-color: var(--dark-color);
+    color: var(--font-color-dark-mode);
+}
+
+.iconlinks i {
+    color: var(--font-color-dark-mode);
+}
+
+.content p {
+    color: var(--font-color-dark-mode);
+}
+
+.navigation {
+    background-color: var(--dark-color);
+}
+
+.navigation a {
+    color: var(--font-color-dark-mode);
+}
+
+.blogtitle a,
+a:visited {
+    color: var(--font-color-dark-mode);
+}
