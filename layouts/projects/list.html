@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="pagetitle">
+    {{ .Title }}
+</div>
+<br>
+{{ $paginator := .Paginate (.Data.Pages) }}
+
+{{ range $paginator.Pages }}
+<div class="projectlistitem">
+    <div class="projecttitle">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </div>
+
+    {{ $imagelink := print .Site.BaseURL .RelPermalink "cover.jpg"}}
+    <div class="projectimage"><img src="{{ $imagelink }}"></div>
+
+    <p>{{.Summary}}</p>
+
+</div>
+
+{{ end }}
+
+{{ end }}

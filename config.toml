@@ -1,39 +1,29 @@
 baseURL = "https://matkv.github.io"
 title = "matko"
-theme = "matkv"
-paginate = "10"
 pluralizelisttitles = false
-
-[markup]
-  [markup.highlight]
-    anchorLineNos = false
-    codeFences = true
-    guessSyntax = true
-    hl_Lines = ''
-    lineAnchors = ''
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    style = 'dracula'
-    tabWidth = 4
-    
+languageCode = 'en-us'
 
 [menu]
   [[menu.main]]
-    identifier = "blog"
-    name = "blog"
-    url = "/blog"
+    identifier = "home"
+    name = "home"
+    url = "/"
     weight = 10
 
   [[menu.main]]
     identifier = "about"
     name = "about"
     url = "/about"
-    weight = 10
+    weight = 20
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "blog"
+    url = "/blog"
+    weight = 30  
 
   [[menu.main]]
     identifier = "projects"
     name = "projects"
     url = "/projects"
-    weight = 10
+    weight = 40
