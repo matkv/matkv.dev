@@ -1,5 +1,7 @@
 {{ define "main" }}
-<h2>Projects</h2>
+<div class="pagetitle">
+    {{ .Title }}
+</div>
 {{ $paginator := .Paginate (.Data.Pages) }}
 
 {{ range $paginator.Pages }}
