@@ -20,3 +20,8 @@ body {
 .navigation a {
     color: var(--font-color-dark-mode);
 }
+
+.blogtitle a,
+a:visited {
+    color: var(--font-color-dark-mode);
+}
