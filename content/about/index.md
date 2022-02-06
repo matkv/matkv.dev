@@ -2,4 +2,4 @@
 type: "about"
 ---
 
-This is some content in the about page markdown
+This page will be used to show some basic information about me. I still need to add the content.

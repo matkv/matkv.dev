@@ -6,6 +6,6 @@ layout: "projects"
 repository:
 ---
 
-This is the short description
+A Flutter app which lets the user create habits, tasks and events. 
 <!--more-->
-This is the rest of the project
+This app was created as my final project at LBS Eibiswald and was my first complete Flutter app that I built. It uses an SQLite database to store the habit data.
