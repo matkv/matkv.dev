@@ -1,4 +1,6 @@
 {{ define "main" }}
+<h2>Blog</h2>
+
 {{ $paginator := .Paginate (.Data.Pages) }}
 
 {{ range $paginator.Pages }}
