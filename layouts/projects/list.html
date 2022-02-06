@@ -11,11 +11,11 @@
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </div>
 
-    <p>{{.Summary}}</p>
     {{ $imagelink := print .Site.BaseURL .RelPermalink "cover.jpg"}}
-
-
     <div class="projectimage"><img src="{{ $imagelink }}"></div>
+
+    <p>{{.Summary}}</p>
+
 </div>
 
 {{ end }}
