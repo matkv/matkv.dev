@@ -25,3 +25,7 @@ body {
 a:visited {
     color: var(--font-color-dark-mode);
 }
+
+.footer p {
+    color: var(--font-color-dark-mode);
+}
