@@ -29,6 +29,9 @@ body {
     font-weight: bold;
     font-style: normal;
     font-size: 2.0em;
+
+    /* small fix because font size made it not align */
+    margin-left: -0.045em;
 }
 
 .navigation {
@@ -176,20 +179,24 @@ p {
     }
 
     .navigation {
+        display: inline-flex;
+        flex-direction: column;
         padding-top: 1em;
         padding-left: 1em;
         padding-right: 1em;
+    }
 
+    .website-title a {
+        width: auto;
+        text-align: start;
     }
 
     .navigation ul {
-        display: inline-flex;
-        flex-direction: row;
-        justify-content: flex-end;
+        justify-content: start;
     }
 
     .navigation a {
-        padding-right: 0em;
-        padding-left: 1em;
+        padding-right: 1em;
+        padding-left: 0em;
     }
 }
