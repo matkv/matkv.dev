@@ -2,6 +2,7 @@
 <div class="pagetitle">
     {{ .Title }}
 </div>
+<p style="color: red; ">The layout for this page is still a work in progress.</p>
 <br>
 {{ $paginator := .Paginate (.Data.Pages) }}
 
@@ -10,12 +11,18 @@
     <div class="projecttitle">
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </div>
-
     {{ $imagelink := print .Site.BaseURL .RelPermalink "cover.jpg"}}
-    <div class="projectimage"><img src="{{ $imagelink }}"></div>
 
-    <p>{{.Summary}}</p>
 
+    <div class="projectinfogrid">
+        <div class="projectimagegrid"><img src="{{ $imagelink }}"></div>
+        <div class="projectinfo">
+            <div class="summary">{{.Summary}}</div>
+            <div class="githublink"><a href={{.Params.repository}}>
+                    <i class=" fab fa-github"></i> GitHub repository</a>
+            </div>
+        </div>
+    </div>
 </div>
 
 {{ end }}

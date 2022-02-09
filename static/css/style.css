@@ -102,8 +102,10 @@ a:visited {
 }
 
 /* PROJECT */
+
 .projectimage img {
-    height: 10em;
+    height: auto;
+    max-width: 75%;
 }
 
 .projectlistitem {
@@ -116,6 +118,52 @@ a:visited {
     font-size: 1.125em;
     font-weight: 500;
 }
+
+.project-githublink {
+    display: flex;
+    justify-self: flex-end;
+}
+
+.projectinfogrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "projectimagegrid projectinfo";
+}
+
+.projectimagegrid {
+    justify-self: center;
+    grid-area: projectimagegrid;
+    width: 50%;
+}
+
+.projectimagegrid img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.projectinfo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "summary"
+        "githublink";
+    grid-area: projectinfo;
+}
+
+.summary {
+    grid-area: summary;
+}
+
+.githublink {
+    grid-area: githublink;
+}
+
 
 /* ICON LINKS */
 
@@ -198,5 +246,25 @@ p {
     .navigation a {
         padding-right: 1em;
         padding-left: 0em;
+    }
+
+    .projectinfogrid {
+        display: block;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+            "projectimagegrid projectinfo";
+    }
+
+    .projectinfo {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+            "summary"
+            "githublink";
+        grid-area: projectinfo;
     }
 }
