@@ -3,7 +3,7 @@ title: "Habit Tracker"
 type: "projects"
 layout: "projects"
 
-repository:
+repository: "https://github.com/matkv/HabitTracker"
 ---
 
 A Flutter app which lets the user create habits, tasks and events. 
