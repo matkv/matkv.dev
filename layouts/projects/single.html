@@ -7,4 +7,10 @@
 <div class="projectimage"><img src="{{ $imagelink }}"></div>
 
 {{ .Content }}
+<div class="project-githublink">
+    <span>
+        <a href={{.Params.repository}}>
+            <i class="fab fa-github"></i> GitHub repository</a>
+    </span>
+</div>
 {{ end }}
