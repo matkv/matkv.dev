@@ -4,7 +4,4 @@
 <link disabled id="dark-mode-theme" rel="stylesheet" href="/css/darkmode.css">
 
 <script src="https://kit.fontawesome.com/aa8e5d8b31.js" crossorigin="anonymous"></script>
-
-<title>
-    {{ .Site.Title }}
-</title>
+<title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
