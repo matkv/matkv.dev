@@ -1,7 +1,10 @@
 {{ define "main" }}
+
 <div class="pagetitle">
     {{ .Title }}
 </div>
+<p style="color: red; ">The layout for this page is still a work in progress.</p>
+
 <p>{{ $imagelink := print .Site.BaseURL .RelPermalink "cover.jpg"}}</p>
 
 <div class="projectimage"><img src="{{ $imagelink }}"></div>
@@ -10,7 +13,7 @@
 <div class="project-githublink">
     <span>
         <a href={{.Params.repository}}>
-            <i class="fab fa-github"></i> GitHub repository</a>
+            <i class="fab fa-github"></i> GitHub</a>
     </span>
 </div>
 {{ end }}

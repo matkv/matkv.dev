@@ -22,6 +22,11 @@ body {
     flex-direction: column;
 }
 
+body a,
+a:visited {
+    color: var(--dark-color);
+}
+
 /* NAVIGATION */
 
 .website-title {
@@ -103,67 +108,62 @@ a:visited {
 
 /* PROJECT */
 
+.projectgrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.project-grid-item {
+    height: min-content;
+    flex: 1 45%;
+
+}
+
+.project-grid-title {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.project-grid-content {
+    display: flex;
+}
+
+.project-grid-image {
+    max-height: 10em;
+    width: 10em;
+    display: flex;
+    background-color: blue;
+}
+
+.project-grid-image img {
+    width: inherit;
+    max-height: 10em;
+}
+
+.project-grid-description {
+    float: left;
+}
+
+.project-grid-description p {
+    font-size: 0.85em;
+    vertical-align: middle;
+}
+
+.project-grid-github a {
+    text-decoration: none;
+}
+
 .projectimage img {
     height: auto;
     max-width: 75%;
-}
-
-.projectlistitem {
-    margin-bottom: 1em;
-}
-
-.projecttitle a,
-a:visited {
-    text-decoration: none;
-    font-size: 1.125em;
-    font-weight: 500;
 }
 
 .project-githublink {
     display: flex;
     justify-self: flex-end;
 }
-
-.projectinfogrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-        "projectimagegrid projectinfo";
-}
-
-.projectimagegrid {
-    justify-self: center;
-    grid-area: projectimagegrid;
-    width: 50%;
-}
-
-.projectimagegrid img {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.projectinfo {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-        "summary"
-        "githublink";
-    grid-area: projectinfo;
-}
-
-.summary {
-    grid-area: summary;
-}
-
-.githublink {
-    grid-area: githublink;
-}
-
 
 /* ICON LINKS */
 
@@ -266,5 +266,10 @@ p {
             "summary"
             "githublink";
         grid-area: projectinfo;
+    }
+
+    .projectimagegrid {
+        justify-self: center;
+        max-width: 50%;
     }
 }
