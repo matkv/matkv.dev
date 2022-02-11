@@ -6,25 +6,25 @@
 <br>
 {{ $paginator := .Paginate (.Data.Pages) }}
 
-{{ range $paginator.Pages }}
-<div class="projectlistitem">
-    <div class="projecttitle">
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </div>
+
+<div class="projectgrid">
+    {{ range $paginator.Pages }}
     {{ $imagelink := print .Site.BaseURL .RelPermalink "cover.jpg"}}
-
-
-    <div class="projectinfogrid">
-        <div class="projectimagegrid"><img src="{{ $imagelink }}"></div>
-        <div class="projectinfo">
-            <div class="summary">{{.Summary}}</div>
-            <div class="githublink"><a href={{.Params.repository}}>
-                    <i class=" fab fa-github"></i> GitHub repository</a>
+    <div class="project-grid-item">
+        <div class="project-grid-title"><a href="{{ .RelPermalink }}">{{ .Title}}</a></div>
+        <div class="project-grid-content">
+            <div class="project-grid-image">
+                <img src="{{ $imagelink }}">
+            </div>
+            <div class="project-grid-description">
+                <p>{{ .Summary }}</p>
             </div>
         </div>
+        <div class="project-grid-github"><a href={{.Params.repository}}>
+                <i class=" fab fa-github"></i> GitHub</a>
+        </div>
     </div>
+
+    {{ end }}
 </div>
-
-{{ end }}
-
-{{ end }}
+{{end}}
