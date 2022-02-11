@@ -22,6 +22,11 @@ body {
     flex-direction: column;
 }
 
+body a,
+a:visited {
+    color: var(--dark-color);
+}
+
 /* NAVIGATION */
 
 .website-title {
