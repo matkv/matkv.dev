@@ -134,7 +134,6 @@ a:visited {
     max-height: 10em;
     width: 10em;
     display: flex;
-    background-color: blue;
 }
 
 .project-grid-image img {
