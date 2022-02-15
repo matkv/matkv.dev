@@ -103,7 +103,11 @@ a:visited {
 }
 
 .blog-read-more a {
-    font-size: 0.8em;
+    font-size: 0.85em;
+}
+
+.blogbacktolist a {
+    font-size: 0.85em;
 }
 
 /* PROJECT */
