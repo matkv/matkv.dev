@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Harry Potter and the Half-Blood Prince (Harry Potter, #6)"
 author: J.K. Rowling
-year: 2020/12/08
+date: 2020-12-08T12:12:00+00:00
 publicationyear: 2005
 rating:  ★★★★☆
 ---

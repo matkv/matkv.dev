@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle:
 author:
-year:
+date:
 publicationyear:
 rating:
 ---

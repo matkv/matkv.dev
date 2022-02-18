@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Hello World: Being Human in the Age of Algorithms"
 author: Hannah Fry
-year: 2020/06/18
+date: 2020-06-18T12:06:00+00:00
 publicationyear: 2018
 rating:  ★★★★☆
 ---

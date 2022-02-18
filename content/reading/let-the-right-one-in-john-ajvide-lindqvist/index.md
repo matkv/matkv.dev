@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Let the Right One In"
 author: John Ajvide Lindqvist
-year: 2020/09/29
+date: 2020-09-29T12:09:00+00:00
 publicationyear: 2004
 rating:  ★★★☆☆
 ---

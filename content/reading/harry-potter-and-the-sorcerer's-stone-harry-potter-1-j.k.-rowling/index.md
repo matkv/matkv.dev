@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Harry Potter and the Sorcerer's Stone (Harry Potter, #1)"
 author: J.K. Rowling
-year: 2020/10/10
+date: 2020-10-10T12:10:00+00:00
 publicationyear: 1997
 rating:  ★★★★☆
 ---

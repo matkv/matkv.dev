@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)"
 author: J.K. Rowling
-year: 2020/10/29
+date: 2020-10-29T12:10:00+00:00
 publicationyear: 1999
 rating:  ★★★★☆
 ---

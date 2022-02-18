@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "The Book Thief"
 author: Markus Zusak
-year: 2019/06/14
+date: 2019-06-14T12:06:00+00:00
 publicationyear: 2005
 rating:  ★★★★☆
 ---

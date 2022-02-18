@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "The Ocean at the End of the Lane"
 author: Neil Gaiman
-year: 2020/07/21
+date: 2020-07-21T12:07:00+00:00
 publicationyear: 2013
 rating:  ★★★☆☆
 ---

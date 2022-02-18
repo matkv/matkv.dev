@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "East of Eden"
 author: John Steinbeck
-year: 2019/08/18
+date: 2019-08-18T12:08:00+00:00
 publicationyear: 1952
 rating:  ★★★★☆
 ---

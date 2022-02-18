@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Words of Radiance (The Stormlight Archive, #2)"
 author: Brandon Sanderson
-year: 2020/03/14
+date: 2020-03-14T12:03:00+00:00
 publicationyear: 2014
 rating:  ★★★★★
 ---

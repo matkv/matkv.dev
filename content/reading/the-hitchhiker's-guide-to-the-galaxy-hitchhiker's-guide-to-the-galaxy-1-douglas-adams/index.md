@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)"
 author: Douglas Adams
-year: 2020/04/22
+date: 2020-04-22T12:04:00+00:00
 publicationyear: 1979
 rating:  ★★★☆☆
 ---

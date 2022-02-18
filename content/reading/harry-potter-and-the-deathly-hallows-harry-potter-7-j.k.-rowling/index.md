@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Harry Potter and the Deathly Hallows (Harry Potter, #7)"
 author: J.K. Rowling
-year: 2020/12/19
+date: 2020-12-19T12:12:00+00:00
 publicationyear: 2007
 rating:  ★★★★☆
 ---

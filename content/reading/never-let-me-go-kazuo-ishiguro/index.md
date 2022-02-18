@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Never Let Me Go"
 author: Kazuo Ishiguro
-year: 2019/05/26
+date: 2019-05-26T12:05:00+00:00
 publicationyear: 2005
 rating:  ★★★☆☆
 ---

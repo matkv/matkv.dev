@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Permanent Record"
 author: Edward Snowden
-year: 2019/10/04
+date: 2019-10-04T12:10:00+00:00
 publicationyear: 2019
 rating:  ★★★★★
 ---

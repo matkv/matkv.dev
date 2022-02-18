@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "A Monster Calls"
 author: Patrick Ness
-year: 2019/07/06
+date: 2019-07-06T12:07:00+00:00
 publicationyear: 2011
 rating:  ★★★★☆
 ---

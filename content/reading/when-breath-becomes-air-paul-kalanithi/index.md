@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "When Breath Becomes Air"
 author: Paul Kalanithi
-year: 2021/10/24
+date: 2021-10-24T12:10:00+00:00
 publicationyear: 2016
 rating:  ★★★★★
 ---

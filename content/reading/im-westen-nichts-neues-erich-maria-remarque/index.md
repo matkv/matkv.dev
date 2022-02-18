@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Im Westen nichts Neues"
 author: Erich Maria Remarque
-year: 2019/10/22
+date: 2019-10-22T12:10:00+00:00
 publicationyear: 1929
 rating:  ★★★★☆
 ---

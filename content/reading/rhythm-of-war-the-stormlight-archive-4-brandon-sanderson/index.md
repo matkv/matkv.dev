@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Rhythm of War (The Stormlight Archive, #4)"
 author: Brandon Sanderson
-year: 2021/03/24
+date: 2021-03-24T12:03:00+00:00
 publicationyear: 2020
 rating:  ★★★★★
 ---

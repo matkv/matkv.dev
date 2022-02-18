@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Play Winning Chess"
 author: Yasser Seirawan
-year: 2021/08/29
+date: 2021-08-29T12:08:00+00:00
 publicationyear: 1992
 rating:  ★★★★☆
 ---

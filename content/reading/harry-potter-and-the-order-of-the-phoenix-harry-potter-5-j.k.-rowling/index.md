@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Harry Potter and the Order of the Phoenix (Harry Potter, #5)"
 author: J.K. Rowling
-year: 2020/11/29
+date: 2020-11-29T12:11:00+00:00
 publicationyear: 2003
 rating:  ★★★★☆
 ---

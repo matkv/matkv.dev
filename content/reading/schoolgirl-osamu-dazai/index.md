@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Schoolgirl"
 author: Osamu Dazai
-year: 
+date: 2022-01-29T12:01:00+00:00
 publicationyear: 1939
 rating:  ★★★☆☆
 ---

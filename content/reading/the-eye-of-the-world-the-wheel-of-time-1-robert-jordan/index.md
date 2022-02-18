@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "The Eye of the World (The Wheel of Time, #1)"
 author: Robert Jordan
-year: 2021/08/18
+date: 2021-08-18T12:08:00+00:00
 publicationyear: 1990
 rating:  ★★★★☆
 ---

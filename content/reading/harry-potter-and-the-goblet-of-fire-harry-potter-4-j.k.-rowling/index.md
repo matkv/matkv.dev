@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Harry Potter and the Goblet of Fire (Harry Potter, #4)"
 author: J.K. Rowling
-year: 2020/11/15
+date: 2020-11-15T12:11:00+00:00
 publicationyear: 2000
 rating:  ★★★★☆
 ---

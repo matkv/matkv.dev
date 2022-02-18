@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Norwegian Wood"
 author: Haruki Murakami
-year: 2019/06/30
+date: 2019-06-30T12:06:00+00:00
 publicationyear: 1987
 rating:  ★★★★☆
 ---

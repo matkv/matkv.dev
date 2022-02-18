@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "What If? Serious Scientific Answers to Absurd Hypothetical Questions (What If?, #1)"
 author: Randall Munroe
-year: 2019/10/10
+date: 2019-10-10T12:10:00+00:00
 publicationyear: 2014
 rating:  ★★★★☆
 ---

@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "The Last Question"
 author: Isaac Asimov
-year: 2021/05/14
+date: 2021-05-14T12:05:00+00:00
 publicationyear: 1956
 rating:  ★★★★☆
 ---

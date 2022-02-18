@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "The Whisperer in Darkness"
 author: H.P. Lovecraft
-year: 2019/10/20
+date: 2019-10-20T12:10:00+00:00
 publicationyear: 1931
 rating:  ★★★☆☆
 ---

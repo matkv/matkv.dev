@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Schachnovelle"
 author: Stefan Zweig
-year: 2021/12/14
+date: 2021-12-14T12:12:00+00:00
 publicationyear: 1942
 rating:  ★★★☆☆
 ---

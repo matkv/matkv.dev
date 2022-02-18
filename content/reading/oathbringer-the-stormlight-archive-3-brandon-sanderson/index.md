@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Oathbringer (The Stormlight Archive, #3)"
 author: Brandon Sanderson
-year: 2020/04/16
+date: 2020-04-16T12:04:00+00:00
 publicationyear: 2017
 rating:  ★★★★★
 ---

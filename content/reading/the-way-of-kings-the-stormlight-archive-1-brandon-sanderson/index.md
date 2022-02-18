@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "The Way of Kings (The Stormlight Archive, #1)"
 author: Brandon Sanderson
-year: 2019/11/10
+date: 2019-11-10T12:11:00+00:00
 publicationyear: 2010
 rating:  ★★★★★
 ---

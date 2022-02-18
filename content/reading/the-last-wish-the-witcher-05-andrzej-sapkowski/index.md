@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "The Last Wish (The Witcher, #0.5)"
 author: Andrzej Sapkowski
-year: 2020/08/16
+date: 2020-08-16T12:08:00+00:00
 publicationyear: 1993
 rating:  ★★★★☆
 ---

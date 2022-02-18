@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "The Great Hunt (The Wheel of Time, #2)"
 author: Robert Jordan
-year: 2021/11/07
+date: 2021-11-07T12:11:00+00:00
 publicationyear: 1990
 rating:  ★★★★☆
 ---

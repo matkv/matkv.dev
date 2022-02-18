@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Man's Search for Meaning"
 author: Viktor E. Frankl
-year: 2021/09/21
+date: 2021-09-21T12:09:00+00:00
 publicationyear: 1946
 rating:  ★★★★★
 ---

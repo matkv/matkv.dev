@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Dawnshard (The Stormlight Archive, #3.5)"
 author: Brandon Sanderson
-year: 2021/01/21
+date: 2021-01-21T12:01:00+00:00
 publicationyear: 2020
 rating:  ★★★★☆
 ---

@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Bad Blood: Secrets and Lies in a Silicon Valley Startup"
 author: John Carreyrou
-year: 2020/08/06
+date: 2020-08-06T12:08:00+00:00
 publicationyear: 2018
 rating:  ★★★★☆
 ---

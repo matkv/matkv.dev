@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Night  (The Night Trilogy, #1)"
 author: Elie Wiesel
-year: 2019/08/24
+date: 2019-08-24T12:08:00+00:00
 publicationyear: 1956
 rating:  ★★★☆☆
 ---

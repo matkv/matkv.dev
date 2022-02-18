@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "To Be Taught, If Fortunate"
 author: Becky Chambers
-year: 2021/04/01
+date: 2021-04-01T12:04:00+00:00
 publicationyear: 2019
 rating:  ★★★★☆
 ---

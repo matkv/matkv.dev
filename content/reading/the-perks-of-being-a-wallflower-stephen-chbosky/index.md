@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "The Perks of Being a Wallflower"
 author: Stephen Chbosky
-year: 2020/04/25
+date: 2020-04-25T12:04:00+00:00
 publicationyear: 1999
 rating:  ★★★☆☆
 ---

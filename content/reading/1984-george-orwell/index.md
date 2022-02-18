@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "1984"
 author: George Orwell
-year: 2021/01/14
+date: 2021-01-14T12:01:00+00:00
 publicationyear: 1949
 rating:  ★★★★☆
 ---

@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "All the Light We Cannot See"
 author: Anthony Doerr
-year: 2019/05/05
+date: 2019-05-05T12:05:00+00:00
 publicationyear: 2014
 rating:  ★★★★☆
 ---

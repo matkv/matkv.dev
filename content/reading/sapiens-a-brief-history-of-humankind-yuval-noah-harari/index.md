@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Sapiens: A Brief History of Humankind"
 author: Yuval Noah Harari
-year: 2019/09/10
+date: 2019-09-10T12:09:00+00:00
 publicationyear: 2011
 rating:  ★★★☆☆
 ---

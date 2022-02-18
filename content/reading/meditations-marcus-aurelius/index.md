@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Meditations"
 author: Marcus Aurelius
-year: 2021/09/09
+date: 2021-09-09T12:09:00+00:00
 publicationyear: 180
 rating:  ★★★☆☆
 ---

@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Lolita"
 author: Vladimir Nabokov
-year: 2021/10/01
+date: 2021-10-01T12:10:00+00:00
 publicationyear: 1955
 rating:  ★★★☆☆
 ---

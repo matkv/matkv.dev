@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Edgedancer (The Stormlight Archive, #2.5)"
 author: Brandon Sanderson
-year: 2020/03/17
+date: 2020-03-17T12:03:00+00:00
 publicationyear: 2017
 rating:  ★★★★☆
 ---

@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "The Institute"
 author: Stephen King
-year: 2020/07/15
+date: 2020-07-15T12:07:00+00:00
 publicationyear: 2019
 rating:  ★★★★☆
 ---

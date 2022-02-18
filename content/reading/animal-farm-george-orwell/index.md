@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Animal Farm"
 author: George Orwell
-year: 2020/04/18
+date: 2020-04-18T12:04:00+00:00
 publicationyear: 1945
 rating:  ★★☆☆☆
 ---

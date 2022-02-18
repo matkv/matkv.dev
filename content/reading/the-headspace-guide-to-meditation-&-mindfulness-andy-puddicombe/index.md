@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "The Headspace Guide to Meditation & Mindfulness"
 author: Andy Puddicombe
-year: 2021/04/01
+date: 2021-04-01T12:04:00+00:00
 publicationyear: 2011
 rating:  ★★★★☆
 ---

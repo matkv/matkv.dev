@@ -5,7 +5,7 @@ layout: "reading"
 
 booktitle: "Flowers for Algernon"
 author: Daniel Keyes
-year: 2019/05/15
+date: 2019-05-15T12:05:00+00:00
 publicationyear: 1959
 rating:  ★★★★☆
 ---
