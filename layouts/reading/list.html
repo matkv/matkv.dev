@@ -2,7 +2,14 @@
 <div class="pagetitle">
     Reading
 </div>
+
+<p>These are all the book that I have read since March of 2018. I will be
+    using this page as some kind of backup/replacement of my Goodreads profile.
+    The list is ordered by the date I finished reading the book,
+    so the books that I've read most recently are the first ones on here.
+</p>
 <br>
+
 
 {{ $paginator := .Paginate (.Data.Pages) }}
 {{ range $paginator.Pages.ByDate.Reverse }}
@@ -16,7 +23,7 @@
 <div class="book-dateread">Finished on {{ .Date.Format "2 January 2006" }}</div>
 
 <br>
-<div class="book-separator">
+<div class="separator">
     <hr>
 </div>
 <br>
