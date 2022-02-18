@@ -5,13 +5,20 @@
 <br>
 
 {{ $paginator := .Paginate (.Data.Pages) }}
-{{ range $paginator.Pages }}
-<p>{{ .Title }}</p>
+{{ range $paginator.Pages.ByDate.Reverse }}
 
-<p>{{ .Content }}</p>
-<p>{{.Params.rating }}</p>
-<p>{{.Params.year}}</p>
-<p>{{.Params.author}}</p>
+<div class="book-title">{{ .Params.booktitle }}</div>
+<div class="book-author">{{ .Params.author }}</div>
 
+<div class="book-publicationyear">{{ .Params.publicationyear }}</div>
+<div class="book-rating">{{ .Params.rating }}</div>
+<div class="book-review">{{ .Content }}</div>
+<div class="book-dateread">Finished on {{ .Date.Format "2 January 2006" }}</div>
+
+<br>
+<div class="book-separator">
+    <hr>
+</div>
+<br>
 {{ end }}
 {{ end }}
