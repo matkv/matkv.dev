@@ -168,6 +168,27 @@ a:visited {
     justify-self: flex-end;
 }
 
+/* BOOKS */
+.book-title {
+    font-size: 1.125em;
+    font-weight: 500;
+}
+
+.book-rating {}
+
+.book-author {}
+
+.book-review {}
+
+.book-dateread {}
+
+.book-publicationyear {}
+
+.book-separator hr {
+
+    border: 1px solid #F7F8F9;
+}
+
 /* ICON LINKS */
 
 .iconlinks {
