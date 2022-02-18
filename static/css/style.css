@@ -27,6 +27,11 @@ a:visited {
     color: var(--dark-color);
 }
 
+.separator hr {
+    border: solid #F7F8F9;
+    border-width: thin;
+}
+
 /* NAVIGATION */
 
 .website-title {
@@ -184,10 +189,6 @@ a:visited {
 
 .book-publicationyear {}
 
-.book-separator hr {
-
-    border: 1px solid #F7F8F9;
-}
 
 /* ICON LINKS */
 
