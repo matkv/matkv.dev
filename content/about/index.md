@@ -6,7 +6,7 @@ I'm Matko, a 27 year old software developer from Austria. I work with **C#/.NET*
 
 In my free time my biggest hobbies are music - I play piano & guitar, exercising (mostly running and some strength training) and reading.
 
-I just created a page for my **book reviews** - [here](https://matkobusljeta.com/reading) are all the books I have read since I got a Kindle (back in 2018).
+I just created a page for my **book reviews** - [here](https://matkobusljeta.com/reading) are all the books I have read since I got a Kindle (back in 2019).
 
 Some ideas for content that I want to put on this website:
 
