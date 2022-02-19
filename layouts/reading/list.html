@@ -3,24 +3,118 @@
     Reading
 </div>
 
-<p>These are all the book that I have read since March of 2018. I will be
+<p>These are all the books that I have read since March of 2019. I will be
     using this page as some kind of backup/replacement of my Goodreads profile.
     The list is ordered by the date I finished reading the book,
     so the books that I've read most recently are the first ones on here.
 </p>
-<br>
 
+<div class="reading-stats">
+    <h3>Reading stats</h3>
+
+    {{ $books := .Page.Pages}}
+    {{ $bookCount := len $books }}
+    <p><b>Total books:</b> {{ $bookCount }}</p>
+
+    <table class="reading-stats-table">
+        <tr>
+            <td>2022:</td>
+            <td>
+                <div class="reading-progressbar">
+                    {{ $books2022 := where .Page.Pages ".Date.Year" "==" 2022 }}
+                    {{ $value2022 := len $books2022}}
+
+                    {{ $graph2022 := ""}}
+                    {{ range $index, $num := (seq $value2022) }}
+                    {{ (printf "%s%s" $graph2022 "●") }}
+                    {{ end }}
+
+                    {{$remainder2022 := sub 20 $value2022}}
+                    {{ range $index, $num := (seq $remainder2022) }}
+                    {{ (printf "%s%s" $graph2022 "○") }}
+                    {{ end }}
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>2021:</td>
+            <td>
+                <div class="reading-progressbar">
+                    {{ $books2021 := where .Page.Pages ".Date.Year" "==" 2021 }}
+                    {{ $value2021 := len $books2021}}
+
+                    {{ $graph2021 := ""}}
+                    {{ range $index, $num := (seq $value2021) }}
+                    {{ (printf "%s%s" $graph2021 "●") }}
+                    {{ end }}
+
+                    {{$remainder2021 := sub 20 $value2021}}
+                    {{ range $index, $num := (seq $remainder2021) }}
+                    {{ (printf "%s%s" $graph2021 "○") }}
+                    {{ end }}
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>2020:</td>
+            <td>
+                <div class="reading-progressbar">
+                    {{ $books2020 := where .Page.Pages ".Date.Year" "==" 2020 }}
+                    {{ $value2020 := len $books2020}}
+
+                    {{ $graph2020 := ""}}
+                    {{ range $index, $num := (seq $value2020) }}
+                    {{ (printf "%s%s" $graph2020 "●") }}
+                    {{ end }}
+
+                    {{$remainder2020 := sub 20 $value2020}}
+                    {{ range $index, $num := (seq $remainder2020) }}
+                    {{ (printf "%s%s" $graph2020 "○") }}
+                    {{ end }}
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>2019:</td>
+            <td>
+                <div class="reading-progressbar">
+                    {{ $books2019 := where .Page.Pages ".Date.Year" "==" 2019 }}
+                    {{ $value2019 := len $books2019}}
+
+                    {{ $graph2019 := ""}}
+                    {{ range $index, $num := (seq $value2019) }}
+                    {{ (printf "%s%s" $graph2019 "●") }}
+                    {{ end }}
+
+                    {{$remainder2019 := sub 20 $value2019}}
+                    {{ range $index, $num := (seq $remainder2019) }}
+                    {{ (printf "%s%s" $graph2019 "○") }}
+                    {{ end }}
+                </div>
+            </td>
+        </tr>
+    </table>
+    <br>
+
+
+</div>
+<div class="separator">
+    <hr>
+</div>
+<br>
 
 {{ $paginator := .Paginate (.Data.Pages) }}
 {{ range $paginator.Pages.ByDate.Reverse }}
 
 <div class="book-title">{{ .Params.booktitle }}</div>
-<div class="book-author">{{ .Params.author }}</div>
+<div class="book-details">
+    {{ .Params.author }} ({{ .Params.publicationyear }})
+</div>
 
-<div class="book-publicationyear">{{ .Params.publicationyear }}</div>
+
 <div class="book-rating">{{ .Params.rating }}</div>
 <div class="book-review">{{ .Content }}</div>
-<div class="book-dateread">Finished on {{ .Date.Format "2 January 2006" }}</div>
+<div class="book-dateread">Finished: {{ .Date.Format "2 January 2006" }}</div>
 
 <br>
 <div class="separator">
