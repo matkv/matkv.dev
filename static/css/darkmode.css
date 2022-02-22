@@ -5,6 +5,11 @@ body {
     color: var(--font-color-dark-mode);
 }
 
+body a,
+a:visited {
+    color: var(--font-color-dark-mode);
+}
+
 .iconlinks i {
     color: var(--font-color-dark-mode);
 }
