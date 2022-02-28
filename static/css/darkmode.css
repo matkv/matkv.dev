@@ -40,3 +40,22 @@ a:visited {
     border: solid #303030;
     border-width: thin;
 }
+
+.reading-stats-circle-black {
+
+    height: 0.3em;
+    width: 0.3em;
+    background-color: var(--light-color);
+    border: 0.12em solid var(--light-color);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.reading-stats-circle-white {
+    height: 0.3em;
+    width: 0.3em;
+    background-color: var(--dark-color);
+    border: 0.12em solid var(--light-color);
+    border-radius: 50%;
+    display: inline-block;
+}
