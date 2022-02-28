@@ -24,14 +24,13 @@
                     {{ $books2022 := where .Page.Pages ".Date.Year" "==" 2022 }}
                     {{ $value2022 := len $books2022}}
 
-                    {{ $graph2022 := ""}}
                     {{ range $index, $num := (seq $value2022) }}
-                    {{ (printf "%s%s" $graph2022 "●") }}
+                    <span class="reading-stats-circle-black"></span>
                     {{ end }}
 
                     {{$remainder2022 := sub 20 $value2022}}
                     {{ range $index, $num := (seq $remainder2022) }}
-                    {{ (printf "%s%s" $graph2022 "○") }}
+                    <span class="reading-stats-circle-white"></span>
                     {{ end }}
                 </div>
             </td>
@@ -45,12 +44,12 @@
 
                     {{ $graph2021 := ""}}
                     {{ range $index, $num := (seq $value2021) }}
-                    {{ (printf "%s%s" $graph2021 "●") }}
+                    <span class="reading-stats-circle-black"></span>
                     {{ end }}
 
                     {{$remainder2021 := sub 20 $value2021}}
                     {{ range $index, $num := (seq $remainder2021) }}
-                    {{ (printf "%s%s" $graph2021 "○") }}
+                    <span class="reading-stats-circle-white"></span>
                     {{ end }}
                 </div>
             </td>
@@ -64,12 +63,12 @@
 
                     {{ $graph2020 := ""}}
                     {{ range $index, $num := (seq $value2020) }}
-                    {{ (printf "%s%s" $graph2020 "●") }}
+                    <span class="reading-stats-circle-black"></span>
                     {{ end }}
 
                     {{$remainder2020 := sub 20 $value2020}}
                     {{ range $index, $num := (seq $remainder2020) }}
-                    {{ (printf "%s%s" $graph2020 "○") }}
+                    <span class="reading-stats-circle-white"></span>
                     {{ end }}
                 </div>
             </td>
@@ -83,12 +82,12 @@
 
                     {{ $graph2019 := ""}}
                     {{ range $index, $num := (seq $value2019) }}
-                    {{ (printf "%s%s" $graph2019 "●") }}
+                    <span class="reading-stats-circle-black"></span>
                     {{ end }}
 
                     {{$remainder2019 := sub 20 $value2019}}
                     {{ range $index, $num := (seq $remainder2019) }}
-                    {{ (printf "%s%s" $graph2019 "○") }}
+                    <span class="reading-stats-circle-white"></span>
                     {{ end }}
                 </div>
             </td>
