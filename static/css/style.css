@@ -204,19 +204,19 @@ a:visited {
 }
 
 .reading-stats-circle-black {
-    height: 0.4em;
-    width: 0.4em;
+    height: 0.3em;
+    width: 0.3em;
     background-color: var(--dark-color);
-    border: 0.125em solid var(--dark-color);
+    border: 0.12em solid var(--dark-color);
     border-radius: 50%;
     display: inline-block;
 }
 
 .reading-stats-circle-white {
-    height: 0.4em;
-    width: 0.4em;
+    height: 0.3em;
+    width: 0.3em;
     background-color: var(--light-color);
-    border: 0.125em solid var(--dark-color);
+    border: 0.12em solid var(--dark-color);
     border-radius: 50%;
     display: inline-block;
 }
