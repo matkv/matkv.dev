@@ -2,7 +2,8 @@
 <html>
 
 <head>
-    <title>matko@home > newtab</title>
+    <script src="https://kit.fontawesome.com/aa8e5d8b31.js" crossorigin="anonymous"></script>
+    <title>matko@home > start</title>
 
     <style>
         html {
@@ -10,7 +11,7 @@
             background-color: #7c6f64;
             color: #c5c8c6;
             display: flex;
-            font: 22px/1 "Inconsolata", monospace;
+            font: 19px/1 "Inconsolata", monospace;
             height: 100%;
             justify-content: center;
         }
@@ -22,8 +23,8 @@
             color: #c5c8c6;
             display: flex;
             flex-direction: column;
-            min-height: 30ch;
-            min-width: 50vw;
+            min-height: 40ch;
+            min-width: 55vw;
             padding: 2em;
         }
 
@@ -58,6 +59,10 @@
             padding: 1em 0;
         }
 
+        li {
+            text-align: center;
+        }
+
         li:first-child {
             color: #d65d0e;
             font-weight: bold;
@@ -71,6 +76,13 @@
         p #cursor {
             background-color: #b5bd68;
             animation: blink 2s infinite;
+        }
+
+        .icons {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 2em;
         }
 
         @keyframes blink {
@@ -90,7 +102,23 @@
 </head>
 
 <body>
-    <p><span>matko@home > </span>links</p>
+    <div class="icons">
+        <span>
+            <a href="https://google.com"><i class="fab fa-google"></i></a>
+        </span>
+        <span>
+            <a href="https://youtube.com/feed/subscriptions"><i class="fab fa-youtube"></i></a>
+        </span>
+        <span>
+            <a href="https://www.reddit.com"><i class="fab fa-reddit-alien"></i></a>
+        </span>
+        <span>
+            <a href="https://github.com/matkv"><i class="fab fa-github"></i></a>
+        </span>
+
+    </div>
+    <p><span>matko@home > </span>start</p>
+
 
     <nav>
         <ul>
@@ -103,17 +131,44 @@
         <ul>
             <li>dev</li>
             <li><a href="https://stackoverflow.com/">stackoverflow</a></li>
-            <li><a href="https://github.com/matkv">github</a></li>
+            <li><a href="https://news.ycombinator.com/">hackernews</a></li>
             <li><a href="https://boards.4channel.org/g/catalog">/g/</a></li>
         </ul>
         <ul>
             <li>fun</li>
             <li><a href="https://www.twitch.tv/directory/following/live">twitch</a></li>
-            <li><a href="http://www.reddit.com/">reddit</a></li>
-            <li><a href="https://www.youtube.com/feed/subscriptions">youtube</a></li>
             <li><a href="https://lichess.org/@/matkv">lichess</a></li>
+            <li><a href="https://boards.4channel.org/wsg/catalog"></a>/wsg/</li>
         </ul>
-
+        <ul>
+            <li>books</li>
+            <li><a href="https://www.goodreads.com">goodreads</a></li>
+            <li><a href="https://www.reddit.com/user/matkv/m/books/">/r/books</a></li>
+            <li><a href="https://boards.4channel.org/lit/catalog"></a>/lit/</li>
+            <li><a href="https://1lib.at/">z-library</a></li>
+        </ul>
+        <ul>
+            <li>movies</li>
+            <li><a href="https://www.imdb.com">imdb</a></li>
+            <li><a href="http://10.0.0.3:8112/">deluge</a></li>
+            <li><a href="https://boards.4channel.org/tv/catalog"></a>/tv/</li>
+        </ul>
+        <ul>
+            <li>music</li>
+            <li><a href="https://open.spotify.com/">spotify</a></li>
+            <li><a href="https://www.ultimate-guitar.com/">ultimate guitar</a></li>
+        </ul>
+        <ul>
+            <li>fitness</li>
+            <li><a href="https://www.reddit.com/r/fitness">/r/fitness</a></li>
+            <li><a href="https://boards.4channel.org/fit/catalog"></a>/fit/</li>
+        </ul>
+        <ul>
+            <li>random</li>
+            <li><a href="https://vault.bitwarden.com/#/">bitwarden</a></li>
+            <li><a href="https://www.wikipedia.org">wikipedia</a></li>
+            <li><a href="https://www.amazon.de/">amazon</a></li>
+        </ul>
 
     </nav>
 
