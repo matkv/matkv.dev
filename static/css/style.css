@@ -2,9 +2,9 @@
 
 :root {
     --light-color: #fff;
-    --dark-color: #171a21;
+    --dark-color: #191919;
 
-    --font-color-light-mode: #000;
+    --font-color-light-mode: #191919;
     --font-color-dark-mode: #fff;
 
     --nav-background-color: #F7F8F9;

@@ -1,5 +1,9 @@
 /* COLORS */
 
+:root {
+    --nav-background-color: #191919;
+}
+
 body {
     background-color: var(--dark-color);
     color: var(--font-color-dark-mode);
@@ -19,7 +23,7 @@ a:visited {
 }
 
 .navigation {
-    background-color: var(--dark-color);
+    background-color: var(--nav-background-color);
 }
 
 .navigation a {
