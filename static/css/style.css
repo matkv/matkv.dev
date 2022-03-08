@@ -100,7 +100,7 @@ a:visited {
 a:visited {
     text-decoration: none;
     font-size: 1.125em;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .blogdate {
@@ -238,6 +238,25 @@ p {
 
 .iconlinks span {
     font-size: 2.0em;
+}
+
+/* PAGINATION */
+.paginationicons {
+    width: 100%;
+    margin-top: 1.0em;
+    margin-bottom: 1.0em;
+    display: flex;
+    justify-content: center;
+}
+
+.paginationicons a,
+p {
+    color: var(--dark-color);
+}
+
+.paginationicons span {
+    padding-inline: 1em;
+    font-size: 1.15em;
 }
 
 /* FOOTER */

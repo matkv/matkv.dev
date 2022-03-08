@@ -121,4 +121,17 @@
 </div>
 <br>
 {{ end }}
+<div class="paginationicons">
+    {{ if $paginator.HasPrev }}
+    <span>
+        <a href="{{ $paginator.Prev.URL }}"><i class="fa fa-less-than"></i></a>
+    </span>
+    {{ end }}
+
+    {{ if $paginator.HasNext }}
+    <span>
+        <a href="{{ $paginator.Next.URL }}"><i class="fa fa-greater-than"></i></a>
+    </span>
+    {{ end }}
+</div>
 {{ end }}
