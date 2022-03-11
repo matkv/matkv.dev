@@ -91,6 +91,12 @@ a:visited {
     font-weight: bold;
 }
 
+/* TEMP */
+.temp-construction-note {
+    font-size: 0.75em;
+    color: grey;
+}
+
 /* BLOG */
 .blogentry {
     margin-bottom: 1.75em;
