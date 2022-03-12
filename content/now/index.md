@@ -2,7 +2,7 @@
 type: "now"
 ---
 
-Here' what I'm currently up to.
+Here's what I'm currently up to.
 
 ### Programming
 
