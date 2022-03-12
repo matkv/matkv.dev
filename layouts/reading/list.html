@@ -23,6 +23,8 @@
                 <div class="reading-progressbar">
                     {{ $books2022 := where .Page.Pages ".Date.Year" "==" 2022 }}
                     {{ $value2022 := len $books2022}}
+                    <!--add one book without review -->
+                    {{ $value2022 := add $value2022 1}}
 
                     {{ range $index, $num := (seq $value2022) }}
                     <span class="reading-stats-circle-black"></span>
