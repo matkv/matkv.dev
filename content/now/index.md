@@ -11,6 +11,7 @@ Here's what I'm currently up to.
 
 ### Reading
 
-* The Dragon Reborn (Wheel Of Time, Book 3) - Robert Jordan
+* The Dragon Reborn (Wheel Of Time, Book 4) - Robert Jordan
+* The Old Man and the Sea - Ernest Hemingway
 
 All my finished books & reviews for them are on my [book reviews](/reading) page.
