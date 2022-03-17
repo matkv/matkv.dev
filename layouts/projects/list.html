@@ -9,7 +9,7 @@
 
 <div class="projectgrid">
     {{ range $paginator.Pages }}
-    {{ $imagelink := print .Site.BaseURL .RelPermalink "cover.jpg"}}
+    {{ $imagelink := print .Site.BaseURL .RelPermalink "cover.png"}}
     <div class="project-grid-item">
         <div class="project-grid-title"><a href="{{ .RelPermalink }}">{{ .Title}}</a></div>
         <div class="project-grid-content">
