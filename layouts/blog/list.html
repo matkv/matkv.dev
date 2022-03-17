@@ -5,8 +5,8 @@
 <br>
 
 {{ $paginator := .Paginate (.Data.Pages) }}
-
 {{ range $paginator.Pages }}
+
 <div class="blogentry">
     <div class="blogtitle">
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
@@ -22,8 +22,14 @@
     <div class="blog-read-more">
         <a href="{{ .RelPermalink }}">Read more</a>
     </div>
+    {{end}}
 </div>
-{{end}}
+
+<div class="separator">
+    <hr>
+</div>
+<br>
+
 {{ end }}
 
 <div class="paginationicons">
