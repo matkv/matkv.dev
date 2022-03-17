@@ -1,5 +1,5 @@
 ---
-title: "Website Redesign"
+title: "Website redesign"
 type: "blog"
 date: 2022-02-06T21:12:26+02:00
 ---
