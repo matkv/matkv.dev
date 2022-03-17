@@ -63,3 +63,9 @@ a:visited {
     border-radius: 50%;
     display: inline-block;
 }
+
+.paginationicons a,
+p,
+i {
+    color: var(--light-color);
+}

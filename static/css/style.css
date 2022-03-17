@@ -261,7 +261,8 @@ p {
 }
 
 .paginationicons a,
-p {
+p,
+i {
     color: var(--dark-color);
 }
 
