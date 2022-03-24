@@ -3,11 +3,18 @@
         <a href="/">Matko</a>
     </div>
     <ul>
+        {{ $current := . }}
         {{ range .Site.Menus.main }}
-        <li>
-            <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ $active := false}}
+        {{ $trimmedperma := trim $current.RelPermalink "/"}}
+        {{ $trimmedurl := trim .URL "/"}}
+        {{ $active := or $active (eq $trimmedperma $trimmedurl) }}
+        {{ $active := or $active (and (eq $trimmedurl "blog") (eq $current.Section "blog")) }}
+        {{ $active := or $active (and (eq $trimmedurl "projects") (eq $current.Section "projects")) }}
 
-        </li>
+
+        <li><a href="{{ .URL }}" class="{{ if $active }}navigation-active{{ end }}">{{ .Name }}</a></li>
+
         {{ end }}
         <li>
             <a><i id="dark-mode-toggle" class="far fa-moon"></i></a>
