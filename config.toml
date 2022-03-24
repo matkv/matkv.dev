@@ -3,6 +3,9 @@ title = 'matko'
 pluralizelisttitles = false
 languageCode = 'en-us'
 paginate = 5
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+
 
 [menu]
   [[menu.main]]
@@ -29,16 +32,3 @@ paginate = 5
     url = "/projects"
     weight = 40
 
-  [markup]
-  [markup.highlight]
-    anchorLineNos = false
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ''
-    lineAnchors = ''
-    lineNoStart = 1
-    lineNos = true
-    lineNumbersInTable = true
-    noClasses = true
-    style = 'github'
-    tabWidth = 4

@@ -236,6 +236,13 @@ a:visited {
     display: inline-block;
 }
 
+/* SYNTAX HIGHLIGHTING */
+.highlight div,
+.highlight pre {
+    overflow-x: auto;
+}
+
+
 /* ICON LINKS */
 
 .iconlinks {
