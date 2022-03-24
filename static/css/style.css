@@ -74,6 +74,10 @@ a:visited {
     width: max-content;
 }
 
+.navigation-active {
+    font-weight: bold;
+}
+
 /* CONTENT */
 
 .content {
