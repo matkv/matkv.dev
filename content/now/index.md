@@ -13,5 +13,6 @@ Here's what I'm currently up to.
 
 * The Dragon Reborn (Wheel Of Time, Book 4) - Robert Jordan
 * Will My Cat Eat My Eyeballs? Big Questions from Tiny Mortals About Death - Caitlin Doughty
+* Lessons in Stoicism - John Sellars
 
 All my finished books & reviews for them are on my [book reviews](/reading) page.
