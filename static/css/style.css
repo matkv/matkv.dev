@@ -16,6 +16,7 @@ body {
     background-color: var(--light-color);
     color: var(--font-color-light-mode);
     font-family: system-ui, Helvetica, sans-serif;
+    font-size: 0.95em;
     margin: 0;
     display: flex;
     min-height: 100vh;
@@ -136,7 +137,6 @@ a:visited {
 .project-grid-item {
     height: min-content;
     flex: 1 45%;
-
 }
 
 .project-grid-title {

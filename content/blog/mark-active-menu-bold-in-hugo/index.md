@@ -40,7 +40,7 @@ In my ```navigation.html``` I already had my range function that goes through al
 
 What's new now is that I added a check to see if the ```URL``` property of the current menu item is the same as ```RelPermalink``` property of the current page. I've found several other ways to do this online but haven't managed to get them to work.
 
-```go
+```golang
 {{ $current := . }}
 {{ range .Site.Menus.main }}
 {{ $active := false}}
