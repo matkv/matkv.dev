@@ -12,19 +12,53 @@
 <div class="reading-stats">
     <h3>Reading stats</h3>
 
-    {{ $books := .Page.Pages}}
-    {{ $bookCount := len $books }}
-    <p><b>Total books:</b> {{ $bookCount }}</p>
+    <!--2022-->
+    {{ $books2022 := where .Page.Pages ".Date.Year" "==" 2022 }}
+    {{ $value2022 := len $books2022}}
+    <!--add one book without review -->
+    {{ $value2022 := add $value2022 1}}
+
+    <!--2021-->
+    {{ $books2021 := where .Page.Pages ".Date.Year" "==" 2021 }}
+    {{ $value2021 := len $books2021}}
+
+    <!--2020-->
+    {{ $books2020 := where .Page.Pages ".Date.Year" "==" 2020 }}
+    {{ $value2020 := len $books2020}}
+
+    <!--2019-->
+    {{ $books2019 := where .Page.Pages ".Date.Year" "==" 2019 }}
+    {{ $value2019 := len $books2019}}
+
+    {{ $totalBooks := add $value2019 0}}
+    {{ $totalBooks := add $totalBooks $value2020}}
+    {{ $totalBooks := add $totalBooks $value2021}}
+    {{ $totalBooks := add $totalBooks $value2022}}
+
+    <!--Average rating-->
+    {{ $ratingsum := 0}}
+    {{ range .Page.Pages}}
+    {{ $lengthcurrentrating := countrunes (trim .Params.rating "☆" )}}
+    {{ $ratingsum = add $ratingsum $lengthcurrentrating}}
+    {{end}}
+
+    <!-- add rating for the one book without review-->
+    {{$ratingsum := add $ratingsum 4}}
+
+
+    {{ $averagerating := (div  (float $ratingsum) (float $totalBooks)) | lang.FormatNumber 2}}
+
+    <b>Total books:</b> {{ $totalBooks }}
+    <br>
+    <b>Average rating:</b> {{ $averagerating }}
+    <br>
+    <br>
 
     <table class="reading-stats-table">
         <tr>
             <td>2022:</td>
             <td>
                 <div class="reading-progressbar">
-                    {{ $books2022 := where .Page.Pages ".Date.Year" "==" 2022 }}
-                    {{ $value2022 := len $books2022}}
-                    <!--add one book without review -->
-                    {{ $value2022 := add $value2022 1}}
 
                     {{ range $index, $num := (seq $value2022) }}
                     <span class="reading-stats-circle-black"></span>
@@ -41,10 +75,6 @@
             <td>2021:</td>
             <td>
                 <div class="reading-progressbar">
-                    {{ $books2021 := where .Page.Pages ".Date.Year" "==" 2021 }}
-                    {{ $value2021 := len $books2021}}
-
-                    {{ $graph2021 := ""}}
                     {{ range $index, $num := (seq $value2021) }}
                     <span class="reading-stats-circle-black"></span>
                     {{ end }}
@@ -60,10 +90,6 @@
             <td>2020:</td>
             <td>
                 <div class="reading-progressbar">
-                    {{ $books2020 := where .Page.Pages ".Date.Year" "==" 2020 }}
-                    {{ $value2020 := len $books2020}}
-
-                    {{ $graph2020 := ""}}
                     {{ range $index, $num := (seq $value2020) }}
                     <span class="reading-stats-circle-black"></span>
                     {{ end }}
@@ -79,10 +105,6 @@
             <td>2019:</td>
             <td>
                 <div class="reading-progressbar">
-                    {{ $books2019 := where .Page.Pages ".Date.Year" "==" 2019 }}
-                    {{ $value2019 := len $books2019}}
-
-                    {{ $graph2019 := ""}}
                     {{ range $index, $num := (seq $value2019) }}
                     <span class="reading-stats-circle-black"></span>
                     {{ end }}
