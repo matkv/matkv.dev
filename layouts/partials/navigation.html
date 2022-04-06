@@ -1,72 +1,74 @@
-<div class="navigation">
-    <div class="website-title">
-        <a href="/">matko</a>
+<div class="navigation-background">
+    <div class="navigation">
+        <div class="website-title">
+            <a href="/">matko</a>
+        </div>
+        <ul>
+            {{ $current := . }}
+            {{ range .Site.Menus.main }}
+            {{ $active := false}}
+            {{ $trimmedperma := trim $current.RelPermalink "/"}}
+            {{ $trimmedurl := trim .URL "/"}}
+            {{ $active := or $active (eq $trimmedperma $trimmedurl) }}
+            {{ $active := or $active (and (eq $trimmedurl "blog") (eq $current.Section "blog")) }}
+            {{ $active := or $active (and (eq $trimmedurl "projects") (eq $current.Section "projects")) }}
+
+
+            <li><a href="{{ .URL }}" class="{{ if $active }}navigation-active{{ end }}">{{ .Name }}</a></li>
+
+            {{ end }}
+            <li>
+                <a><i id="dark-mode-toggle" class="far fa-moon"></i></a>
+            </li>
+            <script>
+                var toggle = document.getElementById("dark-mode-toggle");
+                var darkTheme = document.getElementById("dark-mode-theme");
+                var syntaxlight = document.getElementById("syntax-light");
+                var syntaxdark = document.getElementById("syntax-dark");
+
+                toggle.addEventListener("click", () => {
+                    if (toggle.className === "fas fa-moon") {
+                        setTheme("dark");
+                        setSyntax("dark-syntax");
+                    } else if (toggle.className === "fas fa-sun") {
+                        setTheme("light")
+                        setSyntax("light-syntax");
+                    }
+                })
+
+                //use local storage to save theme
+                var savedTheme = localStorage.getItem("dark-mode-storage") || "light";
+                var savedSyntax = localStorage.getItem("syntax-storage") || "light-syntax";
+                setTheme(savedTheme);
+                setSyntax(savedSyntax);
+
+                function setTheme(mode) {
+                    localStorage.setItem("dark-mode-storage", mode);
+
+                    if (mode === "dark") {
+                        darkTheme.disabled = false;
+
+                        toggle.className = "fas fa-sun";
+                    } else if (mode === "light") {
+                        darkTheme.disabled = true;
+                        toggle.className = "fas fa-moon"
+                    }
+                }
+
+                function setSyntax(theme) {
+                    localStorage.setItem("syntax-storage", theme);
+
+
+
+                    if (theme === "dark-syntax") {
+                        syntaxdark.disabled = false;
+                        syntaxlight.disabled = true;
+                    } else if (theme === "light-syntax") {
+                        syntaxdark.disabled = true;
+                        syntaxlight.disabled = false;
+                    }
+                }
+            </script>
+        </ul>
     </div>
-    <ul>
-        {{ $current := . }}
-        {{ range .Site.Menus.main }}
-        {{ $active := false}}
-        {{ $trimmedperma := trim $current.RelPermalink "/"}}
-        {{ $trimmedurl := trim .URL "/"}}
-        {{ $active := or $active (eq $trimmedperma $trimmedurl) }}
-        {{ $active := or $active (and (eq $trimmedurl "blog") (eq $current.Section "blog")) }}
-        {{ $active := or $active (and (eq $trimmedurl "projects") (eq $current.Section "projects")) }}
-
-
-        <li><a href="{{ .URL }}" class="{{ if $active }}navigation-active{{ end }}">{{ .Name }}</a></li>
-
-        {{ end }}
-        <li>
-            <a><i id="dark-mode-toggle" class="far fa-moon"></i></a>
-        </li>
-        <script>
-            var toggle = document.getElementById("dark-mode-toggle");
-            var darkTheme = document.getElementById("dark-mode-theme");
-            var syntaxlight = document.getElementById("syntax-light");
-            var syntaxdark = document.getElementById("syntax-dark");
-
-            toggle.addEventListener("click", () => {
-                if (toggle.className === "fas fa-moon") {
-                    setTheme("dark");
-                    setSyntax("dark-syntax");
-                } else if (toggle.className === "fas fa-sun") {
-                    setTheme("light")
-                    setSyntax("light-syntax");
-                }
-            })
-
-            //use local storage to save theme
-            var savedTheme = localStorage.getItem("dark-mode-storage") || "light";
-            var savedSyntax = localStorage.getItem("syntax-storage") || "light-syntax";
-            setTheme(savedTheme);
-            setSyntax(savedSyntax);
-
-            function setTheme(mode) {
-                localStorage.setItem("dark-mode-storage", mode);
-
-                if (mode === "dark") {
-                    darkTheme.disabled = false;
-
-                    toggle.className = "fas fa-sun";
-                } else if (mode === "light") {
-                    darkTheme.disabled = true;
-                    toggle.className = "fas fa-moon"
-                }
-            }
-
-            function setSyntax(theme) {
-                localStorage.setItem("syntax-storage", theme);
-
-
-
-                if (theme === "dark-syntax") {
-                    syntaxdark.disabled = false;
-                    syntaxlight.disabled = true;
-                } else if (theme === "light-syntax") {
-                    syntaxdark.disabled = true;
-                    syntaxlight.disabled = false;
-                }
-            }
-        </script>
-    </ul>
 </div>
