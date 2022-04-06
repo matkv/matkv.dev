@@ -17,10 +17,11 @@ body {
     color: var(--font-color-light-mode);
     font-family: system-ui, Helvetica, sans-serif;
     font-size: 0.95em;
-    margin: 0;
     display: flex;
-    min-height: 100vh;
     flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 body a,
@@ -45,22 +46,24 @@ a:visited {
     margin-left: -0.045em;
 }
 
-.navigation {
+
+.navigation-background {
     background-color: var(--nav-background-color);
-    padding-left: 32em;
-    padding-right: 32em;
+}
+
+.navigation {
+    margin: auto;
+    max-width: 45em;
+    align-self: center;
     padding-top: 2em;
     padding-bottom: 1em;
-
 }
 
 .navigation ul {
-    width: 100%;
     display: flex;
     list-style: none;
     padding-left: 0;
     margin: 0;
-
 }
 
 .navigation li {
@@ -82,10 +85,10 @@ a:visited {
 /* CONTENT */
 
 .content {
-    width: auto;
-    margin-left: 32em;
-    margin-right: 32em;
     flex: 1;
+    max-width: 45em;
+    margin: auto;
+    align-content: center;
 }
 
 .pagetitle {
@@ -285,8 +288,6 @@ i {
 /* FOOTER */
 
 .footer {
-    margin-left: 32em;
-    margin-right: 32em;
     width: auto;
     font-weight: lighter;
 }
@@ -298,19 +299,30 @@ i {
 }
 
 
-/* MOBILE LAYOUT */
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 45em) {
 
     .content,
-    .footer {
-
-        margin-left: 8em;
-        margin-right: 8em;
+    .footer,
+    .navigation {
+        margin-left: 0.7em;
+        margin-right: 0.7em;
     }
 
+
     .navigation {
-        padding-left: 8em;
-        padding-right: 8em;
+        flex-direction: column;
+        padding-top: 1em;
+    }
+
+    .website-title a {
+        width: auto;
+        text-align: start;
+    }
+
+
+    .navigation a {
+        padding-right: 1em;
+        padding-left: 0em;
     }
 
     .projectinfogrid {
@@ -336,38 +348,5 @@ i {
     .projectimagegrid {
         justify-self: center;
         max-width: 50%;
-    }
-}
-
-
-@media screen and (max-width: 950px) {
-
-    .content,
-    .footer {
-
-        margin-left: 1em;
-        margin-right: 1em;
-    }
-
-    .navigation {
-        display: inline-flex;
-        flex-direction: column;
-        padding-top: 1em;
-        padding-left: 1em;
-        padding-right: 1em;
-    }
-
-    .website-title a {
-        width: auto;
-        text-align: start;
-    }
-
-    .navigation ul {
-        justify-content: start;
-    }
-
-    .navigation a {
-        padding-right: 1em;
-        padding-left: 0em;
     }
 }
