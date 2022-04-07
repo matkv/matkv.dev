@@ -3,9 +3,8 @@
 <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
 <link disabled id="dark-mode-theme" rel="stylesheet" href="/css/darkmode.css">
 
-
 <link id="syntax-light" rel="stylesheet" href="/css/syntaxlight.css">
 <link disabled id="syntax-dark" rel="stylesheet" href="/css/syntaxdark.css">
 
 <script src="https://kit.fontawesome.com/aa8e5d8b31.js" crossorigin="anonymous"></script>
-<title>matko</title>
+<title>{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
