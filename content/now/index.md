@@ -1,5 +1,6 @@
 ---
 type: "now"
+title: "now"
 ---
 
 Here's what I'm currently up to.

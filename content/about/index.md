@@ -1,5 +1,6 @@
 ---
 type: "about"
+title: "about"
 ---
 
 I'm Matko, a 27 year old software developer from Austria. I work with **C#/.NET** professionally at [Intact](https://intact-systems.com/), and for some personal projects I have been using **Flutter/Dart**, a little bit of **Python** & **Go**, and I am currently learning **Rust**!
