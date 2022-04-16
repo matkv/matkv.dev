@@ -12,7 +12,7 @@
             {{ $active := or $active (eq $trimmedperma $trimmedurl) }}
             {{ $active := or $active (and (eq $trimmedurl "blog") (eq $current.Section "blog")) }}
             {{ $active := or $active (and (eq $trimmedurl "projects") (eq $current.Section "projects")) }}
-
+            {{ $active := or $active (and (eq $trimmedurl "notes") (eq $current.Section "notes"))}}
 
             <li><a href="{{ .URL }}" class="{{ if $active }}navigation-active{{ end }}">{{ .Name }}</a></li>
 
