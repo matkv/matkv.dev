@@ -14,7 +14,7 @@
         <div class="project-grid-title"><a href="{{ .RelPermalink }}">{{ .Title}}</a></div>
         <div class="project-grid-content">
             <div class="project-grid-image">
-                <img src="{{ $imagelink }}">
+                <a href="{{ .RelPermalink }}"><img src="{{ $imagelink }}"></a>
             </div>
             <div class="project-grid-description">
                 <p>{{ .Summary }}</p>
