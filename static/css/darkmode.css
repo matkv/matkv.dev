@@ -69,3 +69,7 @@ p,
 i {
     color: var(--light-color);
 }
+
+.notes-entry {
+    border: solid white 0.1em;
+}

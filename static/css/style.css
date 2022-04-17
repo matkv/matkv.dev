@@ -301,6 +301,7 @@ i {
     padding: 0.4em;
     height: min-content;
     width: min-content;
+    justify-self: flex-end;
 }
 
 .notes-title a {
@@ -322,7 +323,6 @@ i {
 .footer p {
     font-size: 0.80em;
     text-align: center;
-
 }
 
 
