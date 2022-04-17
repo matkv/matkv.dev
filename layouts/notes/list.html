@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="pagetitle">
+    Notes
+</div>
+<br>
+
+<div class="notes-description">
+    This page is for content that doesn't really fit on any of
+    the other categories. Mostly just random posts & ideas, not in any particular order.
+</div>
+<br>
+
+<div class="notes-content">
+
+    {{ range .Data.Pages }}
+
+    <div class="notes-entry">
+        <div class="notes-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+
+        <div class="notes-entry-description">
+            <p>{{.Description}}</p>
+        </div>
+    </div>
+    {{ end }}
+</div>
+
+
+
+{{ end }}
