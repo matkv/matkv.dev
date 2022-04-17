@@ -2,7 +2,6 @@
 <div class="pagetitle">
     {{ .Title }}
 </div>
-<p style="color: red; ">The layout for this page is still a work in progress.</p>
 <br>
 {{ $paginator := .Paginate (.Data.Pages) }}
 
@@ -14,7 +13,7 @@
         <div class="project-grid-title"><a href="{{ .RelPermalink }}">{{ .Title}}</a></div>
         <div class="project-grid-content">
             <div class="project-grid-image">
-                <img src="{{ $imagelink }}">
+                <a href="{{ .RelPermalink }}"><img src="{{ $imagelink }}"></a>
             </div>
             <div class="project-grid-description">
                 <p>{{ .Summary }}</p>

@@ -7,7 +7,7 @@ date: 2022-02-18T12:00:00+00:00
 I'm exhausted but I managed to set up a page for my **book reviews / reading list**! I actually wrote a little C# program to automatically convert the exported csv from Goodreads into Markdown files that have the exact format that I need for this website.
 <!--more-->
 
-The finished result can be seen [here](https://matkobusljeta.com/reading)!
+The finished result can be seen [here](/reading)!
 
 This was actually the first *useful* program that I wrote with .NET core, haha. I used the [CsvHelper](https://joshclose.github.io/CsvHelper/) library to read the exported csv. Overall the code is definitely not very clean because this whole project was just meant to be a quick one-time way to convert my Goodreads list into the markdown files. Initially I thought about keeping that project public & open source but considering I used that library I just don't wanna deal with looking up all the license stuff to be honest.
 
