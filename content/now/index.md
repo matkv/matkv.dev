@@ -7,6 +7,8 @@ Here's what I'm currently up to.
 
 ### Programming
 
+* Started working on a small cli program that is supposed to return nicely formatted data
+about any player on [Lichess](https://www.lichess.org). The repository can be found [here](https://github.com/matkv/lichess-stats).
 * Learning [Rust](https://www.rust-lang.org/) using the official [Rust book](https://doc.rust-lang.org/book/) and [rustlings](https://github.com/rust-lang/rustlings).
 * Working on this website. The GitHub repository can be found [here](https://github.com/matkv/hugo-website).
 
