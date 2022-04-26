@@ -8,6 +8,8 @@ description: "My notes while studying some chess openings"
 
 [Link](https://docs.google.com/presentation/d/e/2PACX-1vScs84UlQpEP-dsde2HeSmDgDTTgK9LLQW9N1aNbE05jhjPskyEbiHSk_CTgIcbIShV7qywws8Vy_7H/pub?start=false&loop=false&delayms=3000#slide=id.ged614816f3_1_168) to the Google Presentation for an overview of chess openings that I found on Reddit.
 
+**To-Do**: look up if I can embed lichess games directly here on the site using [this](https://lichess.org/developers).
+
 ### Tactical opening
 
 * Usually sharp & typically open position
