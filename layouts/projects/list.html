@@ -3,7 +3,7 @@
     {{ .Title }}
 </div>
 <br>
-{{ $paginator := .Paginate (.Data.Pages) }}
+{{ $paginator := .Paginate (.Data.Pages.ByTitle.Reverse) }}
 
 
 <div class="projectgrid">
