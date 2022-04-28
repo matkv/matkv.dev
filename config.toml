@@ -1,5 +1,5 @@
 baseURL = "https://matkv.github.io"
-title = 'matko'
+title = 'matkv'
 pluralizelisttitles = false
 languageCode = 'en-us'
 paginate = 5
