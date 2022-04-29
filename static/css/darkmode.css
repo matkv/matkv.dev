@@ -2,6 +2,8 @@
 
 :root {
     --nav-background-color: #191919;
+    --link-color-dark-mode: #dadadb;
+    --font-color-dark-mode: #adadae;
 }
 
 body {
@@ -9,48 +11,36 @@ body {
     color: var(--font-color-dark-mode);
 }
 
-body a,
-a:visited {
+a,
+a:visited,
+i,
+.blogtitle a,
+hgroup,
+.pagetitle,
+.content p,
+.footer p {
     color: var(--font-color-dark-mode);
 }
 
-.iconlinks i {
-    color: var(--font-color-dark-mode);
-}
-
-.content p {
-    color: var(--font-color-dark-mode);
+i:hover,
+a:hover {
+    color: var(--link-color-dark-mode);
 }
 
 .navigation {
     background-color: var(--nav-background-color);
 }
 
-.navigation a {
-    color: var(--font-color-dark-mode);
-}
-
-.blogtitle a,
-a:visited {
-    color: var(--font-color-dark-mode);
-}
-
-.footer p {
-    color: var(--font-color-dark-mode);
-}
-
 .separator hr {
-
     border: solid #303030;
     border-width: thin;
 }
 
 .reading-stats-circle-black {
-
     height: 0.3em;
     width: 0.3em;
-    background-color: var(--light-color);
-    border: 0.12em solid var(--light-color);
+    background-color: var(--font-color-dark-mode);
+    border: 0.12em solid var(--font-color-dark-mode);
     border-radius: 50%;
     display: inline-block;
 }
@@ -59,17 +49,11 @@ a:visited {
     height: 0.3em;
     width: 0.3em;
     background-color: var(--dark-color);
-    border: 0.12em solid var(--light-color);
+    border: 0.12em solid var(--font-color-dark-mode);
     border-radius: 50%;
     display: inline-block;
 }
 
-.paginationicons a,
-p,
-i {
-    color: var(--light-color);
-}
-
 .notes-entry {
-    border: solid white 0.1em;
+    border: solid var(--font-color-dark-mode) 0.1em;
 }
