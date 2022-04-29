@@ -11,6 +11,7 @@ body {
     color: var(--font-color-dark-mode);
 }
 
+body a,
 a,
 a:visited,
 i,
@@ -18,7 +19,10 @@ i,
 hgroup,
 .pagetitle,
 .content p,
-.footer p {
+.footer p,
+content a,
+content p,
+.navigation a {
     color: var(--font-color-dark-mode);
 }
 
