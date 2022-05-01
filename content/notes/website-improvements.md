@@ -19,6 +19,7 @@ Some ideas for content that I want to put on this website:
 - [ ] try grouping the books on the reading page by year, with a little header for each year
 - [ ] find a way to add tags to blog posts & notes and make them searchable
 - [ ] add reading time to blog posts
+- [ ] add all bigger changes to this website to the [changelog](/changelog) page and delete the unnecessary blog posts
 
 ### Done 
 
