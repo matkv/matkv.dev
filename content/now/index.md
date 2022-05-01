@@ -20,6 +20,10 @@ about any player on [Lichess](https://www.lichess.org). The repository can be fo
 
 All my finished books & reviews for them are on my [book reviews](/reading) page.
 
+### Chess
+
+Currently going through a general opening course and trying to find one opening for white & one for black that I can really focus on.
+
 ### Movies
 
 I'm trying to not rely on streaming services so I'm currently working on building my personal offline movie collection of all the movies on my watchlist and the ones that I have already seen & rated. 
