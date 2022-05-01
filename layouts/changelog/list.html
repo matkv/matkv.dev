@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="pagetitle">
+    Changelog
+</div>
+<div class="changelogentry">
+    <ul>
+        {{ range .Data.Pages}}
+
+        <li>
+            <b>{{ .Date | time.Format "02.01.06"}}</b> - {{ .Summary }}
+        </li>
+
+        {{ end}}
+    </ul>
+</div>
+{{ end }}
