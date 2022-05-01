@@ -313,14 +313,12 @@ i {
 }
 
 .notes-entry {
-
-    background-color: var(--nav-background-color);
     flex: 1 1 33%;
-    border-radius: 0.5em;
     padding: 0.4em;
     height: min-content;
     width: min-content;
     justify-self: flex-end;
+    background: linear-gradient(315deg, transparent 1.5em, var(--nav-background-color) 1.5em);
 }
 
 .notes-title a {
