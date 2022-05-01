@@ -35,8 +35,47 @@ description: "My notes while studying some chess openings"
     - Less chance of committing a serious blunder in the opening
 - Often leads to more passive and defensive positions
 - May lead to playing "mindless" chess
+- You can learn the same position over and over
+    - Well suited for beginners, for **long-term development** it might be a bad idea though
 
 ### Theory based
 
 - Usually requires players to memorize some concrete lines
+- Most tactical openings are theory-based
+- Useful for people with good memory, especially tactical openings with many traps
 
+## Classical vs. Hypermodern openings
+
+### Classical
+
+- Physically occupying the center with pawns
+- Use center pawns to maintain a space advantage
+
+### Hypermodern
+
+- Not necessary to directly occupy the center
+- Instead controlling the center from a distance using pieces
+- Trying to lure the opponent to over-extend their center pawns
+- Often uses **fianchetto**, bishop controls the central squares at a safe distance
+- More cramped positions, trickier and less intuitive to play well - however the positional challenge can be a natural step in chess development
+
+---
+
+## Openings with 1.e4 - King's Pawn Game
+
+Why? 
+
+* Occupies center with a pawn
+* Controls the center - d5 and f5
+* Opens diagonal for queen and light-square bishop
+* Typically leads to more **agressive** and **tactical** games
+
+### Open Game - Openings with 1.e4 e5
+
+#### Italian Game
+
+* one of the oldest classical openings for white
+
+**TO-DO** FIX STYLING FOR SHORTCODE 
+
+{{< italian-game >}}
