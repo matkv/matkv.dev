@@ -59,5 +59,13 @@ a:hover {
 }
 
 .notes-entry {
-    border: solid var(--font-color-dark-mode) 0.1em;
+    background: linear-gradient(315deg, transparent 1.5em, var(--font-color-dark-mode) 1.5em);
+}
+
+.notes-title a {
+    color: var(--nav-background-color);
+}
+
+.notes-entry-description p {
+    color: var(--nav-background-color);
 }
