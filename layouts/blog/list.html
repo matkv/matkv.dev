@@ -12,8 +12,8 @@
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </div>
 
-    <div class="blogdate">
-        {{ .Date.Format "2 January 2006" }}
+    <div class="blogdetails">
+        {{ .Date.Format "2 January 2006" }} <b>&nbsp;•&nbsp;</b> {{ .ReadingTime }} min to read
     </div>
 
     <p>{{.Summary}}</p>

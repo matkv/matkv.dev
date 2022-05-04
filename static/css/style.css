@@ -116,8 +116,9 @@ a:visited {
     font-weight: bold;
 }
 
-.blogdate {
+.blogdetails {
     font-size: 0.8em;
+    display: inline;
 }
 
 .blog-read-more {
