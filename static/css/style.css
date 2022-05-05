@@ -352,6 +352,20 @@ i {
     text-align: center;
 }
 
+/* LICHESS EMBED */
+
+.lichess-embed {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.lichess-embed iframe {
+    width: 27em;
+    height: 40em;
+
+}
+
 
 @media screen and (max-width: 45em) {
 

@@ -76,6 +76,4 @@ Why?
 
 * one of the oldest classical openings for white
 
-**TO-DO** FIX STYLING FOR SHORTCODE 
-
-{{< italian-game >}}
+{{< default-lichess-game >}}
