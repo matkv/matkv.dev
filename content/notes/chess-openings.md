@@ -76,4 +76,4 @@ Why?
 
 * one of the oldest classical openings for white
 
-{{< default-lichess-game >}}
+{{< italian-game >}}
