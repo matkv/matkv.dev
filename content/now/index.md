@@ -15,7 +15,6 @@ about any player on [Lichess](https://www.lichess.org). The repository can be fo
 ### Reading
 
 * The Shadow Rising (Wheel Of Time, Book 4) - Robert Jordan
-* All Systems Red (The Murderbot Diaries #1) - Martha Wells
 * Clean Code: A Handbook of Agile Software Craftmanship - Robert C. Martin
 
 All my finished books & reviews for them are on my [book reviews](/reading) page.
