@@ -126,8 +126,13 @@
 </div>
 <br>
 
+
 {{ $paginator := .Paginate (.Data.Pages) }}
-{{ range $paginator.Pages.ByDate.Reverse }}
+{{ range $paginator.Pages.GroupByDate "2006"}}
+
+<h2>{{ .Key }}</h2>
+
+{{ range .Pages }}
 
 <div class="book-title">{{ .Params.booktitle }}</div>
 <div class="book-details">
@@ -144,6 +149,7 @@
     <hr>
 </div>
 <br>
+{{ end }}
 {{ end }}
 <div class="paginationicons">
     {{ if $paginator.HasPrev }}
