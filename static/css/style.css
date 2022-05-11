@@ -14,8 +14,9 @@ body {
     background-color: var(--light-color);
     color: var(--font-color-light-mode);
     font-family: system-ui, Helvetica, sans-serif;
-    font-size: 0.95em;
-    line-height: 1.5em;
+    text-rendering: optimizeLegibility;
+    font-size: 1em;
+    line-height: 1.6em;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -52,7 +53,7 @@ a:visited {
 
 .navigation {
     margin: auto;
-    max-width: 45em;
+    max-width: 40em;
     align-self: center;
     padding-top: 2em;
     padding-bottom: 1em;
@@ -85,7 +86,7 @@ a:visited {
 
 .content {
     flex: 1;
-    max-width: 45em;
+    max-width: 40em;
     margin: auto;
     align-content: center;
     width: 100%;
@@ -368,7 +369,7 @@ i {
 }
 
 
-@media screen and (max-width: 45em) {
+@media screen and (max-width: 40em) {
 
     .content,
     .footer,
