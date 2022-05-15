@@ -12,6 +12,10 @@ about any player on [Lichess](https://www.lichess.org). The repository can be fo
 * Learning [Rust](https://www.rust-lang.org/) using the official [Rust book](https://doc.rust-lang.org/book/) and [rustlings](https://github.com/rust-lang/rustlings).
 * Working on this website. The GitHub repository can be found [here](https://github.com/matkv/hugo-website).
 
+### Obsidian
+
+* Setting up my [Obsidian](https://www.obsidian.md) vault & learning how I can get most out of this tool.
+
 ### Reading
 
 * The Shadow Rising (Wheel Of Time, Book 4) - Robert Jordan
