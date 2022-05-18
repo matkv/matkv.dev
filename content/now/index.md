@@ -20,6 +20,7 @@ about any player on [Lichess](https://www.lichess.org). The repository can be fo
 
 * The Shadow Rising (Wheel Of Time, Book 4) - Robert Jordan
 * Clean Code: A Handbook of Agile Software Craftmanship - Robert C. Martin
+* The Midnight Library - Matt Haig
 
 All my finished books & reviews for them are on my [book reviews](/reading) page.
 
