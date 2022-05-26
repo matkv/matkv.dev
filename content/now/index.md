@@ -28,6 +28,11 @@ All my finished books & reviews for them are on my [book reviews](/reading) page
 
 Currently going through a general opening course and trying to find one opening for white & one for black that I can really focus on.
 
+### Doom Emacs
+
+I've decided to give Doom Emacs another try, currently I'm just setting everything up again after a fresh install & I'm planning to probably look at some
+YouTube tutorials to really learn Emacs from the ground up. I really like the idea of it but the last time I tried it I just got frustrated trying to get used to it.
+
 ### Movies
 
 I'm trying to not rely on streaming services so I'm currently working on building my personal offline movie collection of all the movies on my watchlist and the ones that I have already seen & rated. 
