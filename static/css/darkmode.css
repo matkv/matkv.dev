@@ -1,13 +1,13 @@
 /* COLORS */
 
 :root {
-    --nav-background-color: #191919;
+    --nav-background-color: #252627;
     --link-color-dark-mode: #dadadb;
-    --font-color-dark-mode: #adadae;
+    --font-color-dark-mode: #b1b1b1;
 }
 
 body {
-    background-color: var(--dark-color);
+    background-color: #292a2d;
     color: var(--font-color-dark-mode);
 }
 
@@ -59,13 +59,13 @@ a:hover {
 }
 
 .notes-entry {
-    background: linear-gradient(315deg, transparent 1.5em, var(--font-color-dark-mode) 1.5em);
+    background: linear-gradient(315deg, transparent 1.5em, var(--nav-background-color) 1.5em);
 }
 
 .notes-title a {
-    color: var(--nav-background-color);
+    color: var(--font-color-dark-mode);
 }
 
 .notes-entry-description p {
-    color: var(--nav-background-color);
+    color: var(--font-color-dark-mode);
 }
