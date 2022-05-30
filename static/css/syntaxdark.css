@@ -1,13 +1,13 @@
 /* Background */
 .bg {
     color: var(#adadae);
-    background-color: var(--dark-color);
+    background-color: #292a2d;
 }
 
 /* PreWrapper */
 .chroma {
     color: var(#adadae);
-    background-color: var(--dark-color);
+    background-color: #292a2d;
 }
 
 /* Other */
