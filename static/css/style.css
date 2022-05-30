@@ -267,6 +267,10 @@ a:visited {
     overflow-x: auto;
 }
 
+.highlight {
+    font-size: 1.125em;
+    font-family: monospace;
+}
 
 /* ICON LINKS */
 
