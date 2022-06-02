@@ -372,6 +372,46 @@ i {
 
 }
 
+/* HOMEPAGE */
+
+.indexlinksgrid {
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.9em;
+    flex-direction: column;
+}
+
+.indexlinksrow {
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    display: flex;
+    height: 2em;
+}
+
+.indexlinksrow hr {
+    height: 50%;
+}
+
+.indexlinkscontent {
+    width: 80%;
+    align-self: center;
+}
+
+.indexlinksgrid a {
+    text-decoration: none;
+}
+
+.indexlinkstitle {
+    align-self: center;
+    font-weight: bold;
+    width: 10%;
+    padding-left: 1em;
+}
+
+
+
+
 
 @media screen and (max-width: 44em) {
 
@@ -427,5 +467,21 @@ i {
 
     .notes-entry {
         flex: 1 1 50%;
+    }
+
+    .indexlinkstitle {
+        align-self: center;
+        font-weight: bold;
+        width: 15%;
+        padding-right: 0.5em;
+    }
+
+    .indexlinksrow {
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+
+    .indexlinkscontent {
+        padding-left: 1em;
     }
 }
