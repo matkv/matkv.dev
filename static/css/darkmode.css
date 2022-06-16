@@ -52,7 +52,7 @@ a:hover {
 .reading-stats-circle-white {
     height: 0.3em;
     width: 0.3em;
-    background-color: var(--dark-color);
+    background-color: #292a2d;
     border: 0.12em solid var(--font-color-dark-mode);
     border-radius: 50%;
     display: inline-block;

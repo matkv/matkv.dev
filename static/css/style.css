@@ -394,8 +394,9 @@ i {
 }
 
 .indexlinkscontent {
-    width: 80%;
+    width: 85%;
     align-self: center;
+    padding-left: 5%;
 }
 
 .indexlinksgrid a {
@@ -405,12 +406,8 @@ i {
 .indexlinkstitle {
     align-self: center;
     font-weight: bold;
-    width: 10%;
-    padding-left: 1em;
+    width: 13%;
 }
-
-
-
 
 
 @media screen and (max-width: 44em) {
@@ -472,8 +469,7 @@ i {
     .indexlinkstitle {
         align-self: center;
         font-weight: bold;
-        width: 15%;
-        padding-right: 0.5em;
+        min-width: 17%;
     }
 
     .indexlinksrow {
@@ -481,7 +477,15 @@ i {
         padding-right: 0em;
     }
 
-    .indexlinkscontent {
-        padding-left: 1em;
+
+    .indexlinksrow hr {}
+
+    .indexlinksgrid {
+        margin-top: 2em;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 0.9em;
+        flex-direction: column;
     }
+
 }
