@@ -3,10 +3,11 @@ type: "about"
 title: "about"
 ---
 
-I'm Matko, a 27 year old software developer from Austria. I work with **C#/.NET** professionally at [Intact](https://intact-systems.com/), and for some personal projects I have been using **Flutter/Dart**, a little bit of **Python** & **Go**, and I am currently learning **Rust**!
+I'm Matko, a 27 year old software developer from Austria. My main interests are programming, music (guitar & piano), exercising - mainly strength training and cycling, reading and playing chess. 
 
-### Interests & hobbies
+You can find me here:
+* [GitHub](https://github.com/matkv)
+* [Lichess](https://lichess.org/@/matkv)
+* [StackOverflow](https://stackoverflow.com/users/9710458/matkv)
 
-In my free time my biggest hobbies are music - I play piano & guitar, exercising (these days mostly strength training, cycling and some running), reading, playing [chess](https://lichess.org/@/matkv) and recently I've been getting into watching movies again.
-
-I created a page for my **book reviews** - [here](/reading) are all the books I have read since I got a Kindle (back in 2019).
+If you want to contact me directly, you can send me an email at [mail@matkv.dev](mailto:mail@matkv.dev) !

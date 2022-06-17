@@ -13,7 +13,7 @@
 body {
     background-color: var(--light-color);
     color: var(--font-color-light-mode);
-    font-family: system-ui, Helvetica, sans-serif;
+    font-family: apple-system, system-ui, Helvetica, sans-serif;
     text-rendering: optimizeLegibility;
     font-size: 1em;
     line-height: 1.54em;
