@@ -8,7 +8,7 @@ title: "now"
   - The Fires of Heaven (The Wheel of Time #5) - Robert Jordan
   - Clean Code: A Handbook of Agile Software Craftsmanship - Robert C.Martin
 - Movies & TV:
-  - Watching Better Call Saul
+  - Watching House of the Dragon
   - Still finishing up organising my offline movie collection so I don't need to rely on streaming services
 - Building a personal knowledge base using [Obsidian](https://www.obsidian.md)
 - Chess:
