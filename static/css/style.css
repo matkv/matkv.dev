@@ -342,6 +342,20 @@ i {
     font-size: 0.85em;
 }
 
+/* ARCHIVE */
+.archive-list {
+}
+
+.archive-list ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.archive-list li {
+
+    margin-bottom: 0.3em;
+}
+
 /* CHANGELOG */
 .changelogentry ul {
     padding: 0;
