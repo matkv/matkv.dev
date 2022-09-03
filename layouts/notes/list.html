@@ -2,33 +2,28 @@
 <div class="pagetitle">
     Notes
 </div>
-<br>
 
-<div class="notes-description">
-    I'm not really using this page actively anymore because I've decided to build a
-    personal knowledge base using <a href="https://obsidian.md">Obsidian</a> & I'm not
-    planning to make it public.
-    <br><br>
-    However, I think it can still be useful to have a place to put any random content that
-    I want/don't mind to be public so I guess that's why I'll keep this notes page visible
-    for now.
-</div>
-<br>
+
+<p>I'm not really using this page actively anymore because I've decided to build a
+personal knowledge base using <a href="https://obsidian.md">Obsidian</a> & I'm
+not planning to make it public. <br /><br />
+However, I think it can still be useful to have a place to put any random
+content that I want/don't mind to be public so I guess that's why I'll keep this
+notes page visible for now.</p>
 
 <div class="notes-content">
+  {{ range .Data.Pages }}
 
-    {{ range .Data.Pages }}
-
-    <div class="notes-entry">
-        <div class="notes-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
-
-        <div class="notes-entry-description">
-            <p>{{.Description}}</p>
-        </div>
+  <div class="notes-entry">
+    <div class="notes-title">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </div>
-    {{ end }}
+
+    <div class="notes-entry-description">
+      <p>{{.Description}}</p>
+    </div>
+  </div>
+  {{ end }}
 </div>
-
-
 
 {{ end }}
