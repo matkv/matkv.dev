@@ -13,7 +13,7 @@
 body {
     background-color: var(--light-color);
     color: var(--font-color-light-mode);
-    font-family: system-ui, Helvetica, sans-serif;
+    font-family: sans-serif, system-ui;
     text-rendering: optimizeLegibility;
     font-size: 1em;
     line-height: 1.5em;
