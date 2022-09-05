@@ -2,6 +2,7 @@
 type: "notes"
 title: "Bookmarks"
 description: "A collection of links that I want easy access to"
+draft: "true"
 ---
 
 This note is just a collection of useful links that I want easy access to. It's still a work in progress and not complete yet.

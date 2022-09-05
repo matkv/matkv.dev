@@ -2,6 +2,7 @@
 type: "notes"
 title: "Chess openings"
 description: "My notes while studying some chess openings"
+draft: "true"
 ---
 
 ## Tactical vs. Positional openings
@@ -12,31 +13,31 @@ description: "My notes while studying some chess openings"
 
 ### Tactical opening
 
-* Usually sharp & typically open position
-* Often many pawns have been traded off
-* Gambit openings (willingly sacrificing material to gain lead in development)
-* Tends to require more theory
-* Gambits are good for players that love to sacrifice material & work well against unprepared players, especially in speed chess (blitz, bullet)
+- Usually sharp & typically open position
+- Often many pawns have been traded off
+- Gambit openings (willingly sacrificing material to gain lead in development)
+- Tends to require more theory
+- Gambits are good for players that love to sacrifice material & work well against unprepared players, especially in speed chess (blitz, bullet)
 
 ### Positional opening
 
-* Often closed position
-* Pawns blocking each other in the center
-* Gradual improvement by maneuvering
-* Depriving opponents pieces of active squares, preparing pawn breaks
-* Play tends to be slow paced, knowledge of general strategy is more important than memorizing theory
+- Often closed position
+- Pawns blocking each other in the center
+- Gradual improvement by maneuvering
+- Depriving opponents pieces of active squares, preparing pawn breaks
+- Play tends to be slow paced, knowledge of general strategy is more important than memorizing theory
 
 ## System based vs. Theory based openings
 
 ### System based
 
-- The same piece setup -  regardless what the opponent plays (more or less)
-    - Flexible move order
-    - Less chance of committing a serious blunder in the opening
+- The same piece setup - regardless what the opponent plays (more or less)
+  - Flexible move order
+  - Less chance of committing a serious blunder in the opening
 - Often leads to more passive and defensive positions
 - May lead to playing "mindless" chess
 - You can learn the same position over and over
-    - Well suited for beginners, for **long-term development** it might be a bad idea though
+  - Well suited for beginners, for **long-term development** it might be a bad idea though
 
 ### Theory based
 
@@ -59,40 +60,38 @@ description: "My notes while studying some chess openings"
 - Often uses **fianchetto**, bishop controls the central squares at a safe distance
 - More cramped positions, trickier and less intuitive to play well - however the positional challenge can be a natural step in chess development
 
-
 ## Openings with 1.e4 - King's Pawn Game
 
-Why? 
+Why?
 
-* Occupies center with a pawn
-* Controls the center - d5 and f5
-* Opens diagonal for queen and light-square bishop
-* Typically leads to more **agressive** and **tactical** games
+- Occupies center with a pawn
+- Controls the center - d5 and f5
+- Opens diagonal for queen and light-square bishop
+- Typically leads to more **agressive** and **tactical** games
 
 ### Open Game - Openings with 1.e4 e5
 
 #### Italian Game
 
-* one of the oldest classical openings for white
-* flexible - can be sharp, slow and positional
-* theoretical - requires preparation
-* opponents will have experience with it
+- one of the oldest classical openings for white
+- flexible - can be sharp, slow and positional
+- theoretical - requires preparation
+- opponents will have experience with it
 
 Some ideas in the Italian Game:
 
-* White wants to play the d4 pawn break to open the position
-* White preserves the light square bishop by playing a3 (making space for it on a2)
-* The knight on b1 can be re-routed to the kingside by playing Nbd2 to f1 to g3 and later to f5
-* Black has attacking chances on the kingside involving their dark-square bishop on the a7-g1 diagonal
+- White wants to play the d4 pawn break to open the position
+- White preserves the light square bishop by playing a3 (making space for it on a2)
+- The knight on b1 can be re-routed to the kingside by playing Nbd2 to f1 to g3 and later to f5
+- Black has attacking chances on the kingside involving their dark-square bishop on the a7-g1 diagonal
 
 Commong lines:
 
-* 3..Bc5 - **Giuoco Piano**
-    * 4.c3 - **Classical Variation**
-    * 4.d3 - **Guoco Pianissimo**
-    * 4.b4 - **Evans Gambit**
-* 3..Nf6 - **Two Knights Defense**
-    * 4.Ng5 d5 5.exd5 Nxd5 6.Nxf7! - **Fried Liver Attack**
-
+- 3..Bc5 - **Giuoco Piano**
+  - 4.c3 - **Classical Variation**
+  - 4.d3 - **Guoco Pianissimo**
+  - 4.b4 - **Evans Gambit**
+- 3..Nf6 - **Two Knights Defense**
+  - 4.Ng5 d5 5.exd5 Nxd5 6.Nxf7! - **Fried Liver Attack**
 
 {{< italian-game >}}

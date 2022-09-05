@@ -3,7 +3,12 @@ type: "notes"
 title: "Website improvements"
 description: "Ideas & plans for content and that I want to add to this 
 website"
+draft: "true"
 ---
+
+TO-DO
+-> github issues for purely code related things and bugs
+this page here for more general content I want to add
 
 Some ideas for content that I want to put on this website:
 
@@ -21,12 +26,12 @@ Some ideas for content that I want to put on this website:
 - [ ] add reading time to blog posts
 - [ ] add all bigger changes to this website to the [changelog](/changelog) page and delete the unnecessary blog posts
 
-### Done 
+### Done
 
 - [x] a personal blog
 - [x] page with information about myself
 - [x] a reading list & place to review books I've read, basically an online library / bookshelf,
-maybe a way to replace my Goodreads account
+      maybe a way to replace my Goodreads account
 - [x] programming side projects
 - [x] a custom bookmarks page for websites and links I commonly use (maybe just one big html table)
 - [x] page for random notes
