@@ -12,5 +12,5 @@ title: "now"
   - Going through my movie watchlist (164 movies)
 - Building a personal knowledge base using [Obsidian](https://www.obsidian.md)
 - Chess
-  - Playing blitz & rapid chess daily on Lichess
+  - Focusing on Rapid and trying to play slower games in general
   - Trying to find some openings to learn
