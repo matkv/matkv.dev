@@ -2,6 +2,7 @@
 title: "Lichess stats"
 type: "projects"
 layout: "projects"
+draft: true
 
 repository: "https://github.com/matkv/lichess-stats"
 ---
