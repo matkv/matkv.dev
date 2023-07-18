@@ -1,14 +1,15 @@
 /* Background */
 .bg {
     color: var(#adadae);
-    background-color: #292a2d;
+    background-color: #111111;
 }
 
 /* PreWrapper */
 .chroma {
     color: var(#adadae);
-    background-color: #292a2d;
-}
+    background-color: #111111;
+  }
+
 
 /* Other */
 .chroma .x {}
