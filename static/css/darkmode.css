@@ -1,13 +1,13 @@
 /* COLORS */
 
 :root {
-    --nav-background-color: #181818;
+    --nav-background-color: #131313;
     --link-color-dark-mode: #dadadb;
     --font-color-dark-mode: #b1b1b1;
 }
 
 body {
-    background-color: #1a1a1a;
+    background-color: #111111;
     color: var(--font-color-dark-mode);
 }
 
