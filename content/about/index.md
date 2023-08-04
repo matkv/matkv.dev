@@ -3,7 +3,7 @@ type: "about"
 title: "about"
 ---
 
-I'm Matko, a 28 year old software developer from Austria. My main interests are programming, music (guitar & piano), exercising - mainly strength training and running, reading and playing chess.
+I'm Matko, a 29 year old software developer from Austria. My main interests are programming, music (guitar & piano), exercising - mainly strength training and running, reading and playing chess.
 
 You can find me here:
 
