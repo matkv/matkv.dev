@@ -113,7 +113,7 @@ a:visited {
 
 /* BLOG */
 .blogentry {
-    margin-bottom: 1.25em;
+    margin-bottom: 1.0em;
 }
 
 .blogtitle a,
@@ -123,9 +123,18 @@ a:visited {
     font-weight: bold;
 }
 
+.blogtitlecontainer {
+    display: flex;
+}
+
+.blogtitleinlist a, a:visited {
+    text-decoration: none;
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
 .blogdetails {
     font-size: 0.8em;
-    display: inline;
 }
 
 .blog-read-more {
