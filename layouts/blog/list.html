@@ -7,31 +7,31 @@
 <a href="/archive">Archive</a>
 <br><br>
 
-{{ $paginator := .Paginate (.Data.Pages) }}
+{{ $paginator := .Paginate (.Data.Pages) 10 }}
 {{ range $paginator.Pages }}
 
 <div class="blogentry">
-    <div class="blogtitle">
+    <div class="blogtitlecontainer">
+    <div class="blogtitleinlist">
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </div>
-
     <div class="blogdetails">
         {{ .Date.Format "2 January 2006" }} <b>&nbsp;•&nbsp;</b> {{ .ReadingTime }} min to read
+    </div></div>
     </div>
 
-    <p>{{.Summary}}</p>
+
+    <!-- <p>{{.Summary}}</p>
 
     {{ if .Truncated }}
     <div class="blog-read-more">
         <a href="{{ .RelPermalink }}">Read more »</a>
     </div>
-    {{end}}
+    {{end}} -->
 </div>
 
-<div class="separator">
+<!-- <div class="separator">
     <hr>
-</div>
-<br>
+</div> -->
 
 {{ end }}
 
