@@ -15,8 +15,6 @@ In part, this is due to the fact that over the summer I'm generally spending les
 
 Especially the latter has been a pain to set up and at some point I noticed that I'm spending more time messing with my editor than actually writing code and improving my programming skills - so I just grew tired of it and stopped working on anything at all for several weeks.
 
-So I've made the decision to give up on trying to use Neovim as my main IDE - I'll be going back to VSCode - but instead I'm going to set it up to be just a fast & comfortable to use text editor, not specifically for writing code.
-
 LazyVim has been pretty great and while I was able to get most of the stuff that I needed to work up to like 80% or so, there were little things here and there that I couldn't make work the way I wanted to. While I enjoy tinkering to a certain extent, at some point it just started to feel like I was spending too much time to achieve things in Neovim that I would get out of the box with other editors (Debugging being one of the bigger examples). I understand that other's might have other usecases and needs and that Neovim might be a perfect fit for them, but I can now say that I've given Neovim (and Emacs previously) an honest shot, but for an actual IDE, it is just not for me.
 
 So I've made the decision to give up on trying to use Neovim as my main IDE - I'll be going back to VSCode - but instead I'm going to set it up to be just a fast & comfortable to use text editor, not specifically for writing code.
