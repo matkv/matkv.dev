@@ -12,6 +12,10 @@
 <div class="reading-stats">
     <h3>Reading stats</h3>
 
+    <!--2023-->
+    {{ $books2023 := where .Page.Pages ".Date.Year" "==" 2023 }}
+    {{ $value2023 := len $books2023}}
+
     <!--2022-->
     {{ $books2022 := where .Page.Pages ".Date.Year" "==" 2022 }}
     {{ $value2022 := len $books2022}}
@@ -46,7 +50,7 @@
     {{$ratingsum := add $ratingsum 4}}
 
 
-    {{ $averagerating := (div  (float $ratingsum) (float $totalBooks)) | lang.FormatNumber 2}}
+    {{ $averagerating := (div (float $ratingsum) (float $totalBooks)) | lang.FormatNumber 2}}
 
     <b>Total books:</b> {{ $totalBooks }}
     <br>
@@ -55,6 +59,22 @@
     <br>
 
     <table class="reading-stats-table">
+        <tr>
+            <td>2023:</td>
+            <td>
+                <div class="reading-progressbar">
+
+                    {{ range $index, $num := (seq $value2023) }}
+                    <span class="reading-stats-circle-black"></span>
+                    {{ end }}
+
+                    {{$remainder2023 := sub 20 $value2023}}
+                    {{ range $index, $num := (seq $remainder2023) }}
+                    <span class="reading-stats-circle-white"></span>
+                    {{ end }}
+                </div>
+            </td>
+        </tr>
         <tr>
             <td>2022:</td>
             <td>
@@ -142,7 +162,7 @@
 
 <div class="book-rating">{{ .Params.rating }}</div>
 <div class="book-review">{{ .Content }}</div>
-<div class="book-dateread">Finished: {{ .Date.Format "2 January 2006" }}</div>
+<div class="book-dateread">Finished: {{ .Date.Format "January 2006" }}</div>
 
 <br>
 <div class="separator">
