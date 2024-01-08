@@ -15,6 +15,7 @@ This is a collection of interesting/fun/useful websites I found over time. I'm j
 
 - [https://jvns.ca](https://jvns.ca) - software dev related blog
 - [https://taylor.town](https://taylor.town) - random posts but interesting
+- [https://blogs.hn/](https://blogs.hn/) - collection of blogs
 
 ### Tools
 

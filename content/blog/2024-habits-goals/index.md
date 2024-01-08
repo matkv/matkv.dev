@@ -11,7 +11,7 @@ It is officially 2024, so I want to summarise my plans, goals and habits I want 
 ### Short term
 
 - Get back into a consistent workout routine
-- Completely give up energy drinks and coffe-to-go, cut down on softdrinks
+- Completely give up energy drinks and coffee-to-go, cut down on softdrinks
 - Continue reading daily
 - Build up a daily meditation habit
 - Use my phone a lot less, have a more minimal setup on it
