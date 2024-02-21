@@ -19,7 +19,7 @@ rebuild this site from the ground up.
 - Make tags work and have some sort of search on the site
 
 Overall I'm pretty motivated because this time around I'm not rushing to get a basic working version of the site out as 
-quickly as possible - instead I'm going to working on a separate branch and only switch to the new version of the site 
+quickly as possible - instead I'm going to be working on a separate branch and only switch to the new version of the site 
 once it really is finished. I'll try to really take my time and set up this site as something I can build upon for years.
 
 And from a dev perspective - I'll try to work with WSL since I'm now using windows on my main computer again. So this can 
