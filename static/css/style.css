@@ -1,0 +1,65 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: red;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #50b3a2;
+    padding: 10px;
+    color: white;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul li {
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: #50b3a2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,5 +1,3 @@
 # matkv.dev
 
-Repository for my personal website built with Hugo. This project uses a GitHub action to automatically build and deploy this site to my GitHub Pages site.
-
-The actual website can be reached at [matkv.dev](https://matkv.dev) and its GitHub repository is [here](https://github.com/matkv/matkv.github.io).
+Currently rebuilding this whole website. The old version can still be reached under [matkv.dev](https://matkv.dev) until this new version is ready to be published.
