@@ -9,7 +9,7 @@ Last week at work every developer got access to a **GiHub Copilot** Enterprise l
 
 My initial impressions have been quite positive. While it isn't some mind-blowing game changer, so far it has been basically a really nice, more powerful autocomplete in the editor. Overall it felt more useful in my small pet projects than our huge project at work because there are fewer details to consider.
 
-## Update - 28.03
+### Update - 28.03
 
 Having used Copilot for now a good two weeks in total, both at work and also in some pet projects at home, I think that I've decided that it's worth the 100€ per year for me.
 
