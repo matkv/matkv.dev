@@ -8,6 +8,11 @@ title = 'My New Hugo Site'
     weight = 1
 
 [[menu.main]]
-    name = "Posts"
-    url = "/posts"
+    name = "About"
+    url = "/about"
     weight = 2
+
+[[menu.main]]
+    name = "Books"
+    url = "/books"
+    weight = 3
