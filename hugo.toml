@@ -16,3 +16,8 @@ title = 'My New Hugo Site'
     name = "Books"
     url = "/books"
     weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 4
