@@ -8,6 +8,9 @@ copyright = 'test'
     github = "matkv"
     email = "mail@matkv.dev"
 
+[taxonomies]
+    tag = "tags"
+
 [[menu.main]]
     name = "Home"
     url = "/"
