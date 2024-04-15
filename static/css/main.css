@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 1em;
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    list-style-type: none;
+    padding: 0;
+    gap: 1em;
+    font-weight: bold;
+}
