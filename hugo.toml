@@ -1,6 +1,12 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://matkv.dev/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'matkv.dev'
+copyright = 'test'
+
+[params]
+ [params.social]
+    github = "matkv"
+    email = "mail@matkv.dev"
 
 [[menu.main]]
     name = "Home"
