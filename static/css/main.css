@@ -14,3 +14,15 @@ nav ul {
     gap: 1em;
     font-weight: bold;
 }
+
+.tags ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tags ul li {
+    margin-right: 1em;
+    margin-left: 1em;
+}
