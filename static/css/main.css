@@ -20,9 +20,26 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+
+    li {
+        margin-right: 1em;
+        margin-left: 1em;
+    }
 }
 
-.tags ul li {
-    margin-right: 1em;
-    margin-left: 1em;
+.micro-blog {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+
+    .post {
+        display: flex;
+        margin-bottom: 0.7em;
+    }
+
+    .date {
+        min-width: 7em;
+        padding-right: 0.2em;
+        color: #999;
+    }
 }
