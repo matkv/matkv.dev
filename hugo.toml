@@ -4,7 +4,7 @@ title = 'matkv.dev'
 copyright = 'test'
 
 [params]
-    exclude_from_home = true
+    exclude_from_home = false
  [params.social]
     github = "matkv"
     email = "mail@matkv.dev"

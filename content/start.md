@@ -2,7 +2,7 @@
 title = "Start"
 layout = "start"
 [params]
-    exclude_from_home = false
+    exclude_from_home = true
 +++
 
 - Item 1
