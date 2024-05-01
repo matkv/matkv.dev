@@ -37,3 +37,8 @@ copyright = 'test'
     name = "Tags"
     url = "/tags"
     weight = 5
+
+[[menu.main]]
+    name = "Start"
+    url = "/start"
+    weight = 6
