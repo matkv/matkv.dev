@@ -4,9 +4,11 @@ title = 'matkv.dev'
 copyright = 'test'
 
 [params]
+    exclude_from_home = true
  [params.social]
     github = "matkv"
     email = "mail@matkv.dev"
+    
 
 [taxonomies]
     tag = "tags"

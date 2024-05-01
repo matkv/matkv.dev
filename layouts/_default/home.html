@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ .Content }}
-{{ range where site.RegularPages "Type" "!=" "micro-blog" }}
+{{ range where site.RegularPages "Params.exclude_from_home" "!=" "true" }}
 <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
 {{ .Summary }}
 {{ end}}
