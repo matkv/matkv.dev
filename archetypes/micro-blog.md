@@ -1,3 +1,3 @@
----
-date: YYYY-MM-DD HH:mm:ss
----
++++
+date = {{ .Date }}
++++
