@@ -1,19 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>My Website</title>
+    {{ partial "head.html" . }}
 </head>
 
 <body>
-    <h1>Welcome to My Website</h1>
-
-    <p>This is a basic HTML structure.</p>
-
-    <footer>
-        <p>&copy; 2022 My Website. All rights reserved.</p>
-    </footer>
+    <div class="start">
+        {{ .Content }}
+    </div>
 </body>
-{{ .Content }}
 
 </html>
