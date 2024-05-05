@@ -1,0 +1,5 @@
++++
+title = ''
+bookauthor = ''
+date = {{ .Date }}
++++

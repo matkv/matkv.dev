@@ -1,0 +1,12 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+<div class="micro-blog">
+    {{ range .Pages }}
+    <div class="post">
+        <div class="date">{{ time.Format "2 Jan 2006" .Date }}</div>
+        <div class="content"><b>{{ .Params.Title }}</b> - {{ .Params.bookauthor }}</div>
+    </div>
+    {{ end }}
+</div>
+{{ end }}
