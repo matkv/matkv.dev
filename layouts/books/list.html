@@ -6,7 +6,7 @@
     <div class="header">
         <div class="date">{{ time.Format "2 Jan 2006" .Date }}</div>
         <div class="title"><b>{{ .Params.Title }}</b> - {{ .Params.bookauthor }}</div>
-        <div class="expand" data-content-id="content">[+]</div>
+        <div class="expand" data-content-id="content">⮟</div>
     </div>
     <div class="content" data-content-id="content">{{ .Content }}</div>
     {{ end }}

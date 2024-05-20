@@ -52,7 +52,6 @@ nav ul {
     flex-direction: column;
     font-size: 0.95em;
 
-    color: green;
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -70,13 +69,11 @@ nav ul {
     }
 
     .content {
-        color: blue;
         display: none;
         flex-direction: column;
     }
 
     .expand {
-        color: red;
         font-style: bold;
         cursor: pointer;
         margin-left: 1em;
