@@ -6,15 +6,15 @@
         {{ $emptyStars := sub 5 $fullStars $halfStar }}
         {{ range $i, $ := seq 5 }}
         {{ if lt $i $fullStars }}
-        <span>●</span>
+        <span class="circle"></span>
         {{ else if eq $i $fullStars }}
         {{ if gt $halfStar 0 }}
-        <span>◐</span>
+        <span class="half-circle"></span>
         {{ else }}
-        <span>◐</span>
+        <span class="half-circle"></span>
         {{ end }}
         {{ else }}
-        <span>○</span>
+        <span class="circle-empty"></span>
         {{ end }}
         {{ end }}
     </span>

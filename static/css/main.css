@@ -78,6 +78,39 @@ nav ul {
         cursor: pointer;
         margin-left: 1em;
     }
+
+    .rating-stars {
+        display: inline-flex;
+        flex-direction: row;
+        gap: 0.2em;
+    }
+
+    .circle {
+        background-color: black;
+        width: 0.8em;
+        height: 0.8em;
+        border-radius: 50%;
+        border: .05em solid black;
+        overflow: hidden;
+    }
+
+    .half-circle {
+        background-color: black;
+        width: 0.8em;
+        height: 0.8em;
+        border-radius: 50%;
+        border: .05em solid black;
+        overflow: hidden;
+        clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+    }
+
+    .circle-empty {
+        background-color: red;
+        width: 0.8em;
+        height: 0.8em;
+        border-radius: 50%;
+        border: .05em solid black;
+    }
 }
 
 .start {
@@ -92,8 +125,6 @@ nav ul {
         list-style-type: none;
         gap: 1em;
         text-align: center;
-
-
 
         li {
             padding: 1em;
