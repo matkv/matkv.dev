@@ -82,7 +82,10 @@ nav ul {
     .rating-stars {
         display: inline-flex;
         flex-direction: row;
-        gap: 0.2em;
+        gap: 0.5em;
+        font-size: 0.7em;
+        padding-right: 1em;
+        margin-bottom: 1em;
     }
 
     .circle {
