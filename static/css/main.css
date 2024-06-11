@@ -100,12 +100,11 @@ nav ul {
         height: 0.8em;
         border-radius: 50%;
         border: .05em solid black;
-        overflow: hidden;
         clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
     }
 
     .circle-empty {
-        background-color: red;
+        background-color: white;
         width: 0.8em;
         height: 0.8em;
         border-radius: 50%;
@@ -145,4 +144,18 @@ nav ul {
             }
         }
     }
+}
+
+.footnotes {
+    hr {
+        border: solid #F7F8F9;
+        border-width: thin;
+    }
+
+    font-size: 0.8em;
+
+    ol {
+        padding-left: 1em;
+    }
+
 }
