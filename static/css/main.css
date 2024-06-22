@@ -1,8 +1,20 @@
+:root {
+    --font-dark: #191919;
+}
+
 body {
     font-family: Arial, sans-serif;
-    padding: 1em;
+    color: var(--font-dark);
+    padding: 1.5em;
     max-width: 50em;
     margin: 0 auto;
+    line-height: 1.25em;
+    font-size: 0.95em;
+
+    a,
+    a:visited {
+        color: var(--font-dark);
+    }
 }
 
 nav ul {
@@ -49,10 +61,7 @@ nav ul {
 
 .book-review {
     display: flex;
-    flex-direction: column;
     font-size: 0.95em;
-
-    display: flex;
     flex-direction: column;
     align-items: baseline;
 
@@ -159,6 +168,16 @@ nav ul {
 
     ol {
         padding-left: 1em;
+    }
+}
+
+.footer {
+    width: auto;
+    font-weight: 300;
+
+    p {
+        font-size: 0.80em;
+        text-align: center;
     }
 
 }
