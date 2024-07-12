@@ -2,14 +2,127 @@
     --font-dark: #191919;
 }
 
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-BlackItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-Heavy.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-HeavyItalic.woff2') format('woff2');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-MediumItalic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-RegularItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-SemiBoldItalic.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-ThinItalic.woff2') format('woff2');
+    font-weight: 100;
+    font-style: italic;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: SNPro, Arial, sans-serif;
     color: var(--font-dark);
     padding: 1.5em;
     max-width: 50em;
     margin: 0 auto;
     line-height: 1.25em;
-    font-size: 0.95em;
+    font-size: 1em;
 
     a,
     a:visited {
