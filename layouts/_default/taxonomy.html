@@ -1,0 +1,10 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+<div class="tagslist">
+    {{ range .Pages.ByLength }}
+    <h2><a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a>{{ if gt .Pages.Len 0 }} ({{.Pages.Len}}){{ end }}
+    </h2>
+    {{ end }}
+</div>
+{{ end }}

@@ -303,3 +303,28 @@ blockquote {
     margin-left: 0;
     font-size: 0.9em;
 }
+
+.tagslist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.tagslist h2 {
+    margin: 0;
+}
+
+.tagslist a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: lightgray;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5em;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+}
+
+.tagslist a:hover {
+    background-color: grey;
+}
