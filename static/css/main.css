@@ -130,6 +130,12 @@ body {
     }
 }
 
+header {
+    h1 a {
+        text-decoration: none;
+    }
+}
+
 nav ul {
     display: flex;
     flex-direction: row;
