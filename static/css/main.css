@@ -172,6 +172,39 @@ nav ul {
     .content {}
 }
 
+.book-favorites {
+    margin-bottom: 1em;
+
+    .heading {
+        font-size: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    .list {
+        display: flex;
+        gap: 1em;
+
+        .item {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 0.5em;
+            padding: 1em;
+
+            .title {
+                font-size: 1em;
+                margin-bottom: 10px;
+                color: #333;
+            }
+
+            .author {
+                font-size: 0.9em;
+                margin-bottom: 5px;
+                color: #666;
+            }
+        }
+    }
+}
+
 .book-review {
     display: flex;
     font-size: 0.95em;

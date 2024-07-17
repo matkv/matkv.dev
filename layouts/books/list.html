@@ -1,6 +1,23 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ .Content }}
+
+<div class="book-favorites">
+    <h2 class="heading">Favorite Books</h2>
+    <div class="list">
+        {{ range .Pages }}
+        {{ if .Params.favorite }}
+        <div class="item">
+            <div class="title">{{ .Params.Title }}</div>
+            <div class="author">{{ .Params.bookauthor }}</div>
+            <div class="book-review rating-stars">{{ partial "rating.html" .}}</div>
+
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+</div>
+
 <div class="book-review">
     {{ range .Pages }}
     <div class="header">
