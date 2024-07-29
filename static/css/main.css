@@ -151,6 +151,8 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    font-size: 0.9em;
+    font-weight: 300;
 
     li {
         margin-right: 1em;
@@ -347,6 +349,11 @@ blockquote {
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
+
+    .excerpt {
+        margin-top: 1em;
+        font-size: 0.6em;
+    }
 }
 
 .tagslist h2 {
