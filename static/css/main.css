@@ -354,23 +354,23 @@ blockquote {
         margin-top: 1em;
         font-size: 0.6em;
     }
-}
 
-.tagslist h2 {
-    margin: 0;
-}
+    h2 {
+        margin: 0;
+    }
 
-.tagslist a {
-    display: inline-block;
-    padding: 8px 16px;
-    background-color: lightgray;
-    color: white;
-    text-decoration: none;
-    border-radius: 0.5em;
-    transition: background-color 0.3s;
-    white-space: nowrap;
-}
+    a {
+        display: inline-block;
+        padding: 8px 16px;
+        background-color: lightgray;
+        color: white;
+        text-decoration: none;
+        border-radius: 0.5em;
+        transition: background-color 0.3s;
+        white-space: nowrap;
 
-.tagslist a:hover {
-    background-color: grey;
+        &:hover {
+            background-color: grey;
+        }
+    }
 }
