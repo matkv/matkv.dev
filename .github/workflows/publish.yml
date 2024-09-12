@@ -40,7 +40,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with: 
-          github_token: ${{ secrets.GITHUBPAGESTOKEN }}
+          personal_token: ${{ secrets.GITHUBPAGESTOKEN }}
           external_repository: matkv/matkv.github.io
           publish_dir: ./public
           user_name: matkv
