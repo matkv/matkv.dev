@@ -38,7 +38,7 @@ copyright = 'test'
     url = "/tags"
     weight = 5
 
-[[menu.main]]
-    name = "Start"
-    url = "/start"
-    weight = 6
+# [[menu.main]]
+#     name = "Start"
+#     url = "/start"
+#     weight = 6

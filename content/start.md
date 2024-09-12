@@ -1,6 +1,7 @@
 +++
 title = "Start"
 layout = "start"
+draft = true
 [params]
     exclude_from_home = true
 +++
