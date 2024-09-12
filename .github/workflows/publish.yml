@@ -1,9 +1,6 @@
-# This workflow builds the hugo site and publishes it
-name: CI
+name: Build Hugo site to GitHub pages
 
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [ main ]
 
@@ -12,31 +9,31 @@ on:
 
 jobs:
   deploy:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    runs-on: ubuntu-22.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-    
-      - name: Git checkout
-        uses: actions/checkout@v2
-        
-      - name: Update theme
-        run: git submodule update --init --recursive
-    
-      - name: Hugo setup
-        uses: peaceiris/actions-hugo@v2.4.13
-          
+      - uses: actions/checkout@v4
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.119.0'
+          # extended: true
+
       - name: Build
         run: hugo --minify
-        
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
         with: 
-          personal_token: ${{ secrets.GITHUBPAGESTOKEN }}
+          github_token: ${{ secrets.GITHUBPAGESTOKEN }}
           external_repository: matkv/matkv.github.io
           publish_dir: ./public
           user_name: matkv
           user_email: matkobusljeta@gmail.com
           publish_branch: master
-        
