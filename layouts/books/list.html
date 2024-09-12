@@ -1,0 +1,50 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+
+<div class="book-favorites">
+    <h2 class="heading">Favorite Books</h2>
+    <div class="list">
+        {{ range .Pages }}
+        {{ if .Params.favorite }}
+        <div class="item">
+            <div class="title">{{ .Params.Title }}</div>
+            <div class="author">{{ .Params.bookauthor }}</div>
+            <div class="book-review rating-stars">{{ partial "rating.html" .}}</div>
+
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+</div>
+
+<div class="book-review">
+    {{ range .Pages }}
+    <div class="header">
+        <div class="date">{{ time.Format "2 Jan 2006" .Date }}</div>
+        {{ partial "rating.html" . }}
+        <div class="title"><b>{{ .Params.Title }}</b> - {{ .Params.bookauthor }}</div>
+        <div class="expand" data-content-id="content">⮟</div>
+    </div>
+    <div class="content" data-content-id="content">{{ .Content }}</div>
+    {{ end }}
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var titles = document.querySelectorAll('.expand');
+        titles.forEach(function (title) {
+            title.addEventListener('click', function () {
+                var header = this.closest('.header');
+                var content = header.nextElementSibling;
+                if (content && content.classList.contains('content')) {
+                    if (content.style.display === 'none' || content.style.display === '') {
+                        content.style.display = 'flex';
+                    } else {
+                        content.style.display = 'none';
+                    }
+                }
+            });
+        });
+    });
+</script>
+{{ end }}

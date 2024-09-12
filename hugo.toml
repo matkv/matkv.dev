@@ -1,0 +1,44 @@
+baseURL = 'https://matkv.dev/'
+languageCode = 'en-us'
+title = 'matkv.dev'
+copyright = 'test'
+
+[params]
+    exclude_from_home = false
+ [params.social]
+    github = "matkv"
+    email = "mail@matkv.dev"
+    
+
+[taxonomies]
+    tag = "tags"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
+
+[[menu.main]]
+    name = "Books"
+    url = "/books"
+    weight = 3
+
+[[menu.main]]
+    name = "Micro blog"
+    url = "/micro-blog"
+    weight = 4
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 5
+
+# [[menu.main]]
+#     name = "Start"
+#     url = "/start"
+#     weight = 6

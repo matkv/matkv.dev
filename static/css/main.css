@@ -1,0 +1,381 @@
+:root {
+    --font-dark: #191919;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-BlackItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-Heavy.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-HeavyItalic.woff2') format('woff2');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-MediumItalic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-RegularItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-SemiBoldItalic.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SNPro';
+    src: url('/fonts/SNPro-ThinItalic.woff2') format('woff2');
+    font-weight: 100;
+    font-style: italic;
+}
+
+body {
+    font-family: SNPro, Arial, sans-serif;
+    color: var(--font-dark);
+    padding: 1.5em;
+    max-width: 50em;
+    margin: 0 auto;
+    line-height: 1.25em;
+    font-size: 1em;
+
+    a,
+    a:visited {
+        color: var(--font-dark);
+    }
+}
+
+header {
+    h1 a {
+        text-decoration: none;
+    }
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    list-style-type: none;
+    padding: 0;
+    gap: 1em;
+    font-weight: bold;
+}
+
+.tags ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+    font-weight: 300;
+
+    li {
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+}
+
+.micro-blog {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.95em;
+
+    .post {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .date {
+        font-weight: bold;
+        min-width: 7em;
+
+    }
+
+    .content {}
+}
+
+.book-favorites {
+    margin-bottom: 1em;
+
+    .heading {
+        font-size: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    .list {
+        display: flex;
+        gap: 1em;
+
+        .item {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 0.5em;
+            padding: 1em;
+
+            .title {
+                font-size: 1em;
+                margin-bottom: 10px;
+                color: #333;
+            }
+
+            .author {
+                font-size: 0.9em;
+                margin-bottom: 5px;
+                color: #666;
+            }
+        }
+    }
+}
+
+.book-review {
+    display: flex;
+    font-size: 0.95em;
+    flex-direction: column;
+    align-items: baseline;
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .date {
+        font-weight: bold;
+        min-width: 7em;
+
+    }
+
+    .content {
+        display: none;
+        flex-direction: column;
+    }
+
+    .expand {
+        font-style: bold;
+        cursor: pointer;
+        margin-left: 1em;
+    }
+
+    .rating-stars {
+        display: inline-flex;
+        flex-direction: row;
+        gap: 0.5em;
+        font-size: 0.7em;
+        padding-right: 1em;
+        margin-bottom: 1em;
+    }
+
+    .circle {
+        background-color: black;
+        width: 0.8em;
+        height: 0.8em;
+        border-radius: 50%;
+        border: .05em solid black;
+        overflow: hidden;
+    }
+
+    .half-circle {
+        background-color: black;
+        width: 0.8em;
+        height: 0.8em;
+        border-radius: 50%;
+        border: .05em solid black;
+        clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+    }
+
+    .circle-empty {
+        background-color: white;
+        width: 0.8em;
+        height: 0.8em;
+        border-radius: 50%;
+        border: .05em solid black;
+    }
+}
+
+.start {
+    background-color: black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        gap: 1em;
+        text-align: center;
+
+        li {
+            padding: 1em;
+            background-color: red;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: lightcyan;
+            padding: 0;
+
+            li {
+
+                background-color: beige;
+                color: blue;
+            }
+        }
+    }
+}
+
+.footnotes {
+    hr {
+        border: solid #F7F8F9;
+        border-width: thin;
+    }
+
+    font-size: 0.8em;
+
+    ol {
+        padding-left: 1em;
+    }
+}
+
+.footer {
+    width: auto;
+    font-weight: 300;
+
+    p {
+        font-size: 0.80em;
+        text-align: center;
+    }
+
+}
+
+blockquote {
+    font-style: italic;
+    font-weight: 300;
+    border-left: 0.5em solid lightgray;
+    padding-left: 1em;
+    margin-left: 0;
+    font-size: 0.9em;
+}
+
+.tagslist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+
+    .excerpt {
+        margin-top: 1em;
+        font-size: 0.6em;
+    }
+
+    h2 {
+        margin: 0;
+    }
+
+    a {
+        display: inline-block;
+        padding: 8px 16px;
+        background-color: lightgray;
+        color: white;
+        text-decoration: none;
+        border-radius: 0.5em;
+        transition: background-color 0.3s;
+        white-space: nowrap;
+
+        &:hover {
+            background-color: grey;
+        }
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

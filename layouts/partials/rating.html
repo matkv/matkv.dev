@@ -1,0 +1,21 @@
+<div class="rating">
+    <span class="rating-stars">
+        {{ $rating := .Params.Rating }}
+        {{ $fullStars := div $rating 1 }}
+        {{ $halfStar := mod $rating 1 }}
+        {{ $emptyStars := sub 5 $fullStars $halfStar }}
+        {{ range $i, $ := seq 5 }}
+        {{ if lt $i $fullStars }}
+        <span class="circle"></span>
+        {{ else if eq $i $fullStars }}
+        {{ if gt $halfStar 0 }}
+        <span class="half-circle"></span>
+        {{ else }}
+        <span class="half-circle"></span>
+        {{ end }}
+        {{ else }}
+        <span class="circle-empty"></span>
+        {{ end }}
+        {{ end }}
+    </span>
+</div>
