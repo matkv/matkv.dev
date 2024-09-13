@@ -118,11 +118,17 @@
 body {
     font-family: SNPro, Arial, sans-serif;
     color: var(--font-dark);
-    padding: 1.5em;
-    max-width: 50em;
+    max-width: 45em;
     margin: 0 auto;
     line-height: 1.25em;
     font-size: 1em;
+
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 
     a,
     a:visited {
@@ -160,6 +166,26 @@ nav ul {
     }
 }
 
+.websitetitle {
+    margin-top: 2.0em;
+}
+
+main {
+    flex-grow: 1;
+
+    margin-top: 0em;
+
+    h1 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}
+
+
 .micro-blog {
     display: flex;
     flex-direction: column;
@@ -180,13 +206,9 @@ nav ul {
     .content {}
 }
 
+
 .book-favorites {
     margin-bottom: 1em;
-
-    .heading {
-        font-size: 1.5em;
-        margin-bottom: 1em;
-    }
 
     .list {
         display: flex;
@@ -278,6 +300,24 @@ nav ul {
     }
 }
 
+.home {
+
+    .post {
+        margin-bottom: 1em;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .title {
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+
+    .description {}
+}
+
 .start {
     background-color: black;
     align-items: center;
@@ -328,6 +368,7 @@ nav ul {
 .footer {
     width: auto;
     font-weight: 300;
+    margin-bottom: 1em;
 
     p {
         font-size: 0.80em;
