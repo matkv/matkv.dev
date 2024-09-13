@@ -140,7 +140,14 @@ header {
     h1 a {
         text-decoration: none;
     }
+
+    hr {
+        border: solid #cecece 0.11em;
+        opacity: 0.4;
+
+    }
 }
+
 
 nav ul {
     display: flex;
@@ -150,6 +157,10 @@ nav ul {
     padding: 0;
     gap: 1em;
     font-weight: bold;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 .tags ul {
