@@ -294,13 +294,28 @@ main {
     }
 
     .half-circle {
-        background-color: black;
+        position: relative;
         width: 0.8em;
         height: 0.8em;
         border-radius: 50%;
         border: .05em solid black;
-        clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+        background-color: transparent;
+        /* No background color for the full circle */
     }
+
+    .half-circle::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        /* Fill color for the half-circle */
+        clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+        /* Clips to the left half */
+        border-radius: 50%;
+        /* Keeps the clip rounded */
+    }
+
 
     .circle-empty {
         background-color: white;
@@ -309,6 +324,30 @@ main {
         border-radius: 50%;
         border: .05em solid black;
     }
+
+    .expandable-indicator {
+        width: 0;
+        height: 0;
+        border-left: 0.5em solid transparent;
+        border-right: 0.5em solid transparent;
+        border-top: 0.5em solid black;
+        position: relative;
+    }
+
+    .expandable-indicator::before {
+        content: '';
+        position: absolute;
+        left: -0.5em;
+        top: 0;
+        width: 0;
+        height: 0;
+        border-left: 0.5em solid transparent;
+        border-right: 0.5em solid transparent;
+        border-top: 0.5em solid transparent;
+        border-bottom: 0.5em solid white;
+        z-index: 1;
+    }
+
 }
 
 .home {
