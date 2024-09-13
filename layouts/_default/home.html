@@ -1,7 +1,16 @@
 {{ define "main" }}
-{{ .Content }}
-{{ range where site.RegularPages "Params.exclude_from_home" "!=" "true" }}
-<h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-{{ .Summary }}
-{{ end}}
+<div class="home">
+    {{ .Content }}
+    <br>
+    {{ range where site.RegularPages "Params.exclude_from_home" "!=" "true" }}
+    <div class="post">
+        <div class="title">
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        </div>
+        <!-- <div class="description">
+            {{ .Summary }}
+        </div> -->
+    </div>
+    {{ end}}
+</div>
 {{ end }}
