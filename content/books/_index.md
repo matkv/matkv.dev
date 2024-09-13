@@ -9,4 +9,6 @@ cascade:
     render: never
 ---
 
-This is the index page for my book reviews.
+My book reviews. Currently most of my old reviews are still missing but I will be adding them hopefully soon.
+
+**Currently reading:** The Fellowship of the Ring - J.R.R Tolkien
