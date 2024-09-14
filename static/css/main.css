@@ -169,11 +169,10 @@ nav ul {
     padding: 0;
     margin: 0;
     font-size: 0.9em;
-    font-weight: 300;
 
     li {
-        margin-right: 1em;
-        margin-left: 1em;
+        margin-right: 0.5em;
+        margin-left: 0.5em;
     }
 }
 
@@ -469,4 +468,9 @@ blockquote {
 img {
     max-width: 100%;
     height: auto;
+}
+
+.date {
+    margin-bottom: 0.3em;
+    font-size: 0.9em;
 }

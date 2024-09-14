@@ -1,5 +1,10 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
+{{ if and .Params.date .Params.show_date }}
+<div class="date">
+    <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "2 January, 2006" }}</time>
+</div>
+{{ end}}
 {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
 {{ .Content }}
 {{ end }}
