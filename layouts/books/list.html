@@ -24,9 +24,11 @@
         <div class="date">{{ time.Format "Jan 2006" .Date }}</div>
         {{ partial "rating.html" . }}
         <div class="title"><b>{{ .Params.Title }}</b> - {{ .Params.bookauthor }}</div>
+        {{ if ne .Content "" }}
         <div class="expand" data-content-id="content">
             <div class="expandable-indicator"></div>
         </div>
+        {{ end }}
     </div>
     <div class="content" data-content-id="content">{{ .Content }}</div>
     {{ end }}
