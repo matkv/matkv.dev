@@ -18,7 +18,10 @@
     </div>
 </div>
 
+{{ range .Data.Pages.GroupByDate "2006" }}
+
 <div class="book-review">
+    <div class="yearheader">{{ .Key }}</div>
     {{ range .Pages }}
     <div class="header">
         <div class="date">{{ time.Format "Jan 2006" .Date }}</div>
@@ -51,4 +54,5 @@
         });
     });
 </script>
+{{ end }}
 {{ end }}
