@@ -18,20 +18,23 @@
 </div>
 
 {{ range .Data.Pages.GroupByDate "2006" }}
-<div class="book-review">
+<div class="book-reviews">
     <div class="yearheader">{{ .Key }}</div>
     {{ range $page := .Pages }}
-    <div class="header">
-        <div class="date">{{ time.Format "Jan 2006" .Date }}</div>
-        {{ partial "rating.html" . }}
-        <div class="title"><b>{{ .Params.Title }}</b> - {{ .Params.bookauthor }}</div>
-        {{ if ne .Content "" }}
-        <div class="expand" data-content-id="content-{{ $page.File.Path | urlize }}">
-            <div class="expandable-indicator"></div>
+    <div class="book-review">
+        <div class="header">
+            <div class="date">{{ time.Format "Jan 2006" .Date }}</div>
+            {{ partial "rating.html" . }}
+            <div class="title"><b>{{ .Params.Title }}</b> - {{ .Params.bookauthor }}</div>
+            {{ if ne .Content "" }}
+            <div class="expand" data-content-id="content-{{ $page.File.Path | urlize }}">
+                <div class="expandable-indicator"></div>
+            </div>
+            {{ end }}
         </div>
-        {{ end }}
-    </div>
-    <div class="content" data-content-id="content-{{ $page.File.Path | urlize }}" style="display:none;">{{ .Content }}
+        <div class="content" data-content-id="content-{{ $page.File.Path | urlize }}" style="display:none;">{{ .Content
+            }}
+        </div>
     </div>
     {{ end }}
 </div>
