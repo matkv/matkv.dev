@@ -3,7 +3,7 @@ title = "The Way of Kings (The Stormlight Archive, #1)"
 bookauthor = "Brandon Sanderson"
 date = 2019-11-10T12:11:00+00:00
 rating = 5
-favorite = false
+favorite = true
 publicationyear = 2010
 +++
 

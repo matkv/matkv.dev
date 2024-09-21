@@ -3,7 +3,7 @@ title = "When Breath Becomes Air"
 bookauthor = "Paul Kalanithi"
 date = 2021-10-24T12:10:00+00:00
 rating = 5
-favorite = false
+favorite = true
 publicationyear = 2016
 +++
 

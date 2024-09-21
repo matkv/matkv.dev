@@ -3,7 +3,7 @@ title = "Rhythm of War (The Stormlight Archive, #4)"
 bookauthor = "Brandon Sanderson"
 date = 2021-03-24T12:03:00+00:00
 rating = 5
-favorite = false
+favorite = true
 publicationyear = 2020
 +++
 

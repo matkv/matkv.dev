@@ -3,7 +3,7 @@ title = "Permanent Record"
 bookauthor = "Edward Snowden"
 date = 2019-10-04T12:10:00+00:00
 rating = 5
-favorite = false
+favorite = true
 publicationyear = 2019
 +++
 

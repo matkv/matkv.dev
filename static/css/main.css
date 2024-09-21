@@ -223,22 +223,28 @@ main {
     .list {
         display: flex;
         gap: 1em;
+        overflow-x: auto;
+        max-width: 100%;
+        white-space: nowrap;
 
         .item {
             background-color: #f9f9f9;
             border: 1px solid #ddd;
             border-radius: 0.5em;
-            padding: 1em;
+            padding: 0.6em;
+            min-width: 11em;
+            display: flex;
+            flex-direction: column;
 
             .title {
-                font-size: 1em;
+                font-size: 0.9em;
                 margin-bottom: 10px;
-                color: #333;
+                text-wrap: wrap;
+                font-weight: 600;
             }
 
             .author {
-                font-size: 0.9em;
-                margin-bottom: 5px;
+                font-size: 0.8em;
                 color: #666;
             }
         }

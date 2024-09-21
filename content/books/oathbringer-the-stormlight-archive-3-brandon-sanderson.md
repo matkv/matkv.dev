@@ -3,7 +3,7 @@ title = "Oathbringer (The Stormlight Archive, #3)"
 bookauthor = "Brandon Sanderson"
 date = 2020-04-16T12:04:00+00:00
 rating = 5
-favorite = false
+favorite = true
 publicationyear = 2017
 +++
 
