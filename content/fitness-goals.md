@@ -7,7 +7,7 @@ tags = ['fitness', 'blog']
 +++
 I feel like I haven't been taking my fitness seriously enough recently so I'm writing down my goals and habits I want to build again to remind myself what I want to focus on.
 
-I'd rather focus on few goals that I take very seriously than trying to completely through my routine and life around and then fail to stick to it in the end.
+I'd rather focus on few goals that I take very seriously than trying to completely throw my routine and life around and then fail to stick to it in the end.
 
 ## Goals September 2024
 
