@@ -491,3 +491,11 @@ img {
     margin-bottom: 0.3em;
     font-size: 0.9em;
 }
+
+.construction {
+    color: #888;
+    font-size: 0.75em;
+    font-style: italic;
+    margin: 1em 0;
+    text-align: center;
+}
