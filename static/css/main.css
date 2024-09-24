@@ -169,10 +169,24 @@ nav ul {
     padding: 0;
     margin: 0;
     font-size: 0.9em;
+}
 
-    li {
-        margin-right: 0.5em;
-        margin-left: 0.5em;
+.tags ul li {
+    margin: 0 0.5em;
+    /* Combined margin properties for clarity */
+    padding: 0em 0.7em;
+    /* Add padding for a pill shape */
+    background-color: #d3d3d3;
+    /* Background color */
+    color: white;
+    /* Text color */
+    border-radius: 0.5em;
+    /* Make the corners fully rounded */
+    display: inline-block;
+    /* Ensure the li behaves like a block */
+
+    a {
+        text-decoration: none;
     }
 }
 
@@ -465,11 +479,6 @@ blockquote {
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
-
-    .excerpt {
-        margin-top: 1em;
-        font-size: 0.6em;
-    }
 
     h2 {
         margin: 0;
