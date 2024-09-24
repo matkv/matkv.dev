@@ -28,7 +28,7 @@
             <div class="title"><b>{{ .Params.Title }}</b> - {{ .Params.bookauthor }}</div>
             {{ if ne .Content "" }}
             <div class="expand" data-content-id="content-{{ $page.File.Path | urlize }}">
-                <div class="expandable-indicator"></div>
+                <i class="iconoir-fast-arrow-down"></i>
             </div>
             {{ end }}
         </div>

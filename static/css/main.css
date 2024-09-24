@@ -304,7 +304,6 @@ p {
     }
 
     .expand {
-        font-style: bold;
         cursor: pointer;
         margin-left: 1em;
     }
@@ -356,15 +355,6 @@ p {
         height: 0.8em;
         border-radius: 50%;
         border: .05em solid var(--dark-color);
-    }
-
-    .expandable-indicator {
-        width: 0;
-        height: 0;
-        border-left: 0.5em solid transparent;
-        border-right: 0.5em solid transparent;
-        border-top: 0.5em solid var(--dark-color);
-        position: relative;
     }
 }
 
