@@ -1,3 +1,5 @@
 # matkv.dev
 
-Currently rebuilding this whole website. The old version can still be reached under [matkv.dev](https://matkv.dev) until this new version is ready to be published.
+My personal website that I use to share my interests, hobbies and thoughts.
+
+Built from scratch using Hugo. Icons from [Iconoir](https://iconoir.com/).
