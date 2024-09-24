@@ -1,0 +1,31 @@
+<i id="darkmodeswitch" class="iconoir-half-moon"></i>
+
+<script>
+    var toggle = document.getElementById("darkmodeswitch");
+    var darkTheme = document.getElementById("dark-css");
+
+    toggle.addEventListener("click", () => {
+        if (toggle.className === "iconoir-half-moon") {
+            setTheme("dark");
+        } else if (toggle.className === "iconoir-sun-light") {
+            setTheme("light")
+        }
+    })
+
+    //use local storage to save theme
+    var savedTheme = localStorage.getItem("dark-mode-storage") || "light";
+    setTheme(savedTheme);
+
+    function setTheme(mode) {
+        localStorage.setItem("dark-mode-storage", mode);
+
+        if (mode === "dark") {
+            darkTheme.disabled = false;
+
+            toggle.className = "iconoir-sun-light";
+        } else if (mode === "light") {
+            darkTheme.disabled = true;
+            toggle.className = "iconoir-half-moon";
+        }
+    }
+</script>

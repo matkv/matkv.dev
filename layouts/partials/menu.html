@@ -14,6 +14,9 @@ Renders a menu for the given menu ID.
 <nav>
   <ul>
     {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
+    <div class="darkmodemenutoggle">
+      <li>{{ partial "darkmode.html" . }}</li>
+    </div>
   </ul>
 </nav>
 <hr>
