@@ -381,7 +381,16 @@ main {
         font-weight: bold;
     }
 
-    .description {}
+    .iconslist {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 0.5em;
+        font-size: 1.75em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
 }
 
 .start {

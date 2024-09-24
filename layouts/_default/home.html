@@ -1,15 +1,25 @@
 {{ define "main" }}
 <div class="home">
     {{ .Content }}
-    <br>
+    <div class="iconslist">
+        <a href="https://github.com/matkv" target="_blank" rel="noopener noreferrer">
+            <i class="iconoir-github"></i>
+        </a>
+        <a href="https://stackoverflow.com/users/9710458/matkv" target="_blank" rel="noopener noreferrer">
+            <i class="iconoir-stackoverflow"></i>
+        </a>
+        <a href="mailto:mail@matkv.dev" target="_blank" rel="noopener noreferrer">
+            <i class="iconoir-mail"></i>
+        </a>
+        <a href="https://lichess.org/@/matkv" target="_blank" rel="noopener noreferrer">
+            <i class="iconoir-bishop"></i>
+        </a>
+    </div>
     {{ range where site.RegularPages "Params.exclude_from_home" "!=" "true" }}
     <div class="post">
         <div class="title">
             <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
         </div>
-        <!-- <div class="description">
-            {{ .Summary }}
-        </div> -->
     </div>
     {{ end}}
 </div>
