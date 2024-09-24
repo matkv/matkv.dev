@@ -1,5 +1,10 @@
 :root {
-    --font-dark: #191919;
+    --light-color: #f0ffff;
+    --dark-color: #0d1117;
+    --light-grey: #cecece;
+    --background-color: var(--light-color);
+    --font-color: var(--dark-color);
+    --constructiontext: #888;
 }
 
 @font-face {
@@ -116,23 +121,22 @@
 }
 
 body {
+    background-color: var(--background-color);
     font-family: SNPro, Arial, sans-serif;
-    color: var(--font-dark);
+    color: var(--font-color);
     max-width: 45em;
     margin: 0 auto;
     line-height: 1.25em;
     font-size: 1em;
-
     padding-left: 1.5em;
     padding-right: 1.5em;
-
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 
     a,
     a:visited {
-        color: var(--font-dark);
+        color: var(--font-color);
     }
 }
 
@@ -142,12 +146,10 @@ header {
     }
 
     hr {
-        border: solid #cecece 0.11em;
+        border: solid var(--light-grey 0.11em);
         opacity: 0.4;
-
     }
 }
-
 
 nav ul {
     display: flex;
@@ -161,6 +163,10 @@ nav ul {
     a {
         text-decoration: none;
     }
+
+    .darkmodemenutoggle {
+        margin-left: auto;
+    }
 }
 
 .tags ul {
@@ -173,19 +179,13 @@ nav ul {
 
 .tags ul li {
     margin: 0 0.5em;
-    /* Combined margin properties for clarity */
     padding: 0em 0.7em;
-    /* Add padding for a pill shape */
-    background-color: #d3d3d3;
-    /* Background color */
-    color: white;
-    /* Text color */
+    background-color: var(--light-grey);
     border-radius: 0.5em;
-    /* Make the corners fully rounded */
     display: inline-block;
-    /* Ensure the li behaves like a block */
 
     a {
+        color: var(--light-color);
         text-decoration: none;
     }
 }
@@ -196,7 +196,6 @@ nav ul {
 
 main {
     flex-grow: 1;
-
     margin-top: 0em;
 
     h1 {
@@ -209,6 +208,16 @@ main {
     }
 }
 
+p {
+    sup {
+        font-size: 0.7em;
+        margin-left: 0.2em;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
 
 .micro-blog {
     display: flex;
@@ -224,12 +233,8 @@ main {
     .date {
         font-weight: bold;
         min-width: 7em;
-
     }
-
-    .content {}
 }
-
 
 .book-favorites {
     margin-bottom: 1em;
@@ -242,8 +247,7 @@ main {
         white-space: nowrap;
 
         .item {
-            background-color: #f9f9f9;
-            border: 1px solid #ddd;
+            border: 1px solid var(--dark-color);
             border-radius: 0.5em;
             padding: 0.6em;
             min-width: 11em;
@@ -251,6 +255,7 @@ main {
             flex-direction: column;
 
             .title {
+                color: var(--font-color);
                 font-size: 0.9em;
                 margin-bottom: 10px;
                 text-wrap: wrap;
@@ -259,7 +264,7 @@ main {
 
             .author {
                 font-size: 0.8em;
-                color: #666;
+                color: var(--font-color);
             }
         }
     }
@@ -291,7 +296,6 @@ main {
     .date {
         font-weight: bold;
         min-width: 6em;
-
     }
 
     .content {
@@ -315,11 +319,11 @@ main {
     }
 
     .circle {
-        background-color: black;
+        background-color: var(--dark-color);
         width: 0.8em;
         height: 0.8em;
         border-radius: 50%;
-        border: .05em solid black;
+        border: .05em solid var(--dark-color);
         overflow: hidden;
     }
 
@@ -328,9 +332,8 @@ main {
         width: 0.8em;
         height: 0.8em;
         border-radius: 50%;
-        border: .05em solid black;
+        border: .05em solid var(--dark-color);
         background-color: transparent;
-        /* No background color for the full circle */
     }
 
     .half-circle::before {
@@ -338,7 +341,7 @@ main {
         position: absolute;
         width: 100%;
         height: 100%;
-        background-color: black;
+        background-color: var(--dark-color);
         /* Fill color for the half-circle */
         clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
         /* Clips to the left half */
@@ -348,11 +351,11 @@ main {
 
 
     .circle-empty {
-        background-color: white;
+        background-color: var(--light-color);
         width: 0.8em;
         height: 0.8em;
         border-radius: 50%;
-        border: .05em solid black;
+        border: .05em solid var(--dark-color);
     }
 
     .expandable-indicator {
@@ -360,24 +363,9 @@ main {
         height: 0;
         border-left: 0.5em solid transparent;
         border-right: 0.5em solid transparent;
-        border-top: 0.5em solid black;
+        border-top: 0.5em solid var(--dark-color);
         position: relative;
     }
-
-    .expandable-indicator::before {
-        content: '';
-        position: absolute;
-        left: -0.5em;
-        top: 0;
-        width: 0;
-        height: 0;
-        border-left: 0.5em solid transparent;
-        border-right: 0.5em solid transparent;
-        border-top: 0.5em solid transparent;
-        border-bottom: 0.5em solid white;
-        z-index: 1;
-    }
-
 }
 
 .home {
@@ -443,8 +431,8 @@ main {
 
 .footnotes {
     hr {
-        border: solid #F7F8F9;
-        border-width: thin;
+        border: solid var(--light-grey 0.11em);
+        opacity: 0.4;
     }
 
     font-size: 0.8em;
@@ -469,7 +457,7 @@ main {
 blockquote {
     font-style: italic;
     font-weight: 300;
-    border-left: 0.5em solid lightgray;
+    border-left: 0.5em solid var(--light-grey);
     padding-left: 1em;
     margin-left: 0;
     font-size: 0.9em;
@@ -487,8 +475,8 @@ blockquote {
     a {
         display: inline-block;
         padding: 8px 16px;
-        background-color: lightgray;
-        color: white;
+        background-color: var(--light-grey);
+        color: var(--font-color);
         text-decoration: none;
         border-radius: 0.5em;
         transition: background-color 0.3s;
@@ -511,7 +499,7 @@ img {
 }
 
 .construction {
-    color: #888;
+    color: var(--constructiontext);
     font-size: 0.75em;
     font-style: italic;
     margin: 1em 0;

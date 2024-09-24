@@ -1,0 +1,46 @@
+:root {
+    --background-color: var(--dark-color);
+    --font-color: var(--light-color);
+    --constructiontext: var(--light-grey);
+}
+
+.tags ul li {
+    background-color: var(--light-grey);
+
+    a {
+        color: var(--dark-color);
+    }
+}
+
+.book-favorites {
+    .list {
+        .item {
+            border: 1px solid var(--light-color);
+        }
+    }
+}
+
+.book-reviews {
+    .circle {
+        background-color: var(--light-color);
+        border: .05em solid var(--light-color);
+    }
+
+    .half-circle {
+        background-color: var(--light-color);
+        border: .05em solid var(--light-color);
+    }
+
+    .half-circle::before {
+        background-color: var(--light-color);
+    }
+
+    .circle-empty {
+        background-color: var(--dark-color);
+        border: .05em solid var(--light-color);
+    }
+
+    .expandable-indicator {
+        border-top: 0.5em solid var(--light-color);
+    }
+}
