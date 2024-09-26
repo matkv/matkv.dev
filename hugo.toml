@@ -13,6 +13,9 @@ copyright = 'test'
   startLevel = 2
   endLevel = 4  
 
+[markup.goldmark.parser.attribute]
+block = true
+
 [taxonomies]
     tag = "tags"
 

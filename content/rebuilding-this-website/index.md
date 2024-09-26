@@ -4,12 +4,15 @@ date = 2024-09-12T18:00:00+01:00
 draft = false
 tags = ['blog', 'website']
 toc = true
+markup = 'goldmark'
 +++
+
+THIS PAGE IS A TEMPORARY PLAYGROUND FOR TRYING OUT STYLING CHANGES.
+{style="color: red; font-weight: bold"}
 
 I'm currently rebuilding this whole website.
 
 <!--more-->
-
 Some sample text to show off formatting.
 
 > This is a block quote.
