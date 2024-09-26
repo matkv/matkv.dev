@@ -8,7 +8,10 @@ copyright = 'test'
  [params.social]
     github = "matkv"
     email = "mail@matkv.dev"
-    
+
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 4  
 
 [taxonomies]
     tag = "tags"

@@ -6,5 +6,13 @@
 </div>
 {{ end}}
 {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+{{ if .Params.toc }}
+<div class="toc">
+    <hr>
+    <h2>Table of Contents</h2>
+    {{ .TableOfContents }}
+    <hr>
+</div>
+{{ end }}
 {{ .Content }}
 {{ end }}

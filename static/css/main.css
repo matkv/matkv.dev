@@ -207,6 +207,10 @@ main {
     h2 {
         font-size: 1.2em;
     }
+
+    h3 {
+        font-size: 1.0em;
+    }
 }
 
 p {
@@ -495,4 +499,32 @@ img {
     font-style: italic;
     margin: 1em 0;
     text-align: center;
+}
+
+.toc {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.toc hr {
+    border: solid var(--light-grey) 0.3em;
+    opacity: 0.4;
+}
+
+.toc ul {
+    list-style: none;
+    display: block;
+}
+
+.toc ul ul {
+    padding-left: 1em;
+    margin-bottom: 0.5em;
+}
+
+.toc ul li {
+    display: block !important;
+}
+
+.toc a {
+    text-decoration: none;
 }
