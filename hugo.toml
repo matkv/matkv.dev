@@ -16,6 +16,9 @@ copyright = 'test'
 [markup.goldmark.parser.attribute]
 block = true
 
+[markup.highlight]
+noclasses=false
+
 [taxonomies]
     tag = "tags"
 

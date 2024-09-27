@@ -4,6 +4,9 @@
     var toggle = document.getElementById("darkmodeswitch");
     var darkTheme = document.getElementById("dark-css");
 
+    var lightSyntax = document.getElementById("light-syntax");
+    var darkSyntax = document.getElementById("dark-syntax");
+
     toggle.addEventListener("click", () => {
         if (toggle.className === "iconoir-half-moon") {
             setTheme("dark");
@@ -21,10 +24,13 @@
 
         if (mode === "dark") {
             darkTheme.disabled = false;
-
+            darkSyntax.disabled = false;
+            lightSyntax.disabled = true;
             toggle.className = "iconoir-sun-light";
         } else if (mode === "light") {
             darkTheme.disabled = true;
+            darkSyntax.disabled = true;
+            lightSyntax.disabled = false;
             toggle.className = "iconoir-half-moon";
         }
     }
