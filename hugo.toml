@@ -19,6 +19,16 @@ block = true
 [markup.highlight]
 noclasses=false
 
+# disable single page for "book" type
+[outputs.books]
+  page = []  
+  section = ["HTML"]  
+
+# disable single page for "micro-blog" type
+[outputs.micro-blog]
+  page = []  
+  section = ["HTML"]  
+
 [taxonomies]
     tag = "tags"
 
@@ -31,25 +41,25 @@ noclasses=false
     url = "/about"
     weight = 1
 
-[[menu.main]]
-    name = "Books"
-    url = "/books"
-    weight = 2
+# [[menu.main]]
+#    name = "Books"
+#    url = "/books"
+#    weight = 2
 
 [[menu.main]]
     name = "Micro blog"
     url = "/micro-blog"
-    weight = 3
+    weight = 2
 
 [[menu.main]]
     name = "Tags"
     url = "/tags"
-    weight = 4
+    weight = 3
 
 [[menu.main]]
     name = "Archive"
     url = "/archive"
-    weight = 5
+    weight = 4
 
 # [[menu.main]]
 #     name = "Start"

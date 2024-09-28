@@ -8,7 +8,7 @@
         <div class="yearheader">{{ .Key }}</div>
         {{ range $page := .Pages }}
         <li>
-            <span class="date">{{ .Date.Format "Sep 02" }} - </span>
+            <span class="date">{{ time.Format "01. Jan" .Date }} - </span>
             <span class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></span>
             <span class="tags">{{ range .Params.tags }}<a href="/tags/{{ . | urlize }}"># {{ . }} </a>{{ end }}</span>
         </li>
