@@ -16,6 +16,12 @@
             <i class="iconoir-bishop"></i>
         </a>
     </div>
+    <!-- Add books page manually because it is not treated as a "normal" page -->
+    <div class="post">
+        <div class="title">
+            <a href="/books">Books</a>
+        </div>
+    </div>
     {{ range where (where site.RegularPages "Params.exclude_from_home" "!=" "true") "Params.archive" "!=" "true" }}
     <div class="post">
         <div class="title">
