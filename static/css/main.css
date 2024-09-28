@@ -474,7 +474,6 @@ blockquote {
         color: var(--font-color);
         text-decoration: none;
         border-radius: 0.5em;
-        transition: background-color 0.3s;
         white-space: nowrap;
 
         &:hover {
@@ -527,4 +526,31 @@ img {
 
 .toc a {
     text-decoration: none;
+}
+
+.archive-page {
+    .yearheader {
+        font-weight: bold;
+        font-size: 1.1em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin: 0.5em 0;
+    }
+
+    .date {
+        min-width: 6em;
+    }
+
+    .title a {
+        font-weight: bold;
+        text-decoration: none;
+    }
 }

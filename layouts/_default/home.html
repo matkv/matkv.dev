@@ -16,12 +16,14 @@
             <i class="iconoir-bishop"></i>
         </a>
     </div>
-    {{ range where site.RegularPages "Params.exclude_from_home" "!=" "true" }}
+    {{ range where (where site.RegularPages "Params.exclude_from_home" "!=" "true") "Params.archive" "!=" "true" }}
     <div class="post">
         <div class="title">
             <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
         </div>
     </div>
-    {{ end}}
+    {{ end }}
+
+
 </div>
 {{ end }}

@@ -4,6 +4,7 @@ date = 2024-09-12T18:00:00+01:00
 draft = false
 tags = ['blog', 'website']
 toc = true
+archive = true
 +++
 
 THIS PAGE IS A TEMPORARY PLAYGROUND FOR TRYING OUT STYLING CHANGES.
