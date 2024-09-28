@@ -1,10 +1,19 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ .Content }}
+<div class="archive-page">
+    <h1>{{ .Title }}</h1>
+    <div class="content">{{ .Content }}</div>
 
-<ul>
-    {{ range .Pages }} <!-- This will iterate over all pages in the archive -->
-    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-    {{ end }}
-</ul>
+    <ul>
+        {{ range .Data.Pages.GroupByDate "2006" }}
+        <div class="yearheader">{{ .Key }}</div>
+        {{ range $page := .Pages }}
+        <li>
+            <span class="date">{{ .Date.Format "Sep 02" }} - </span>
+            <span class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></span>
+            <span class="tags">{{ range .Params.tags }}<a href="/tags/{{ . | urlize }}"># {{ . }} </a>{{ end }}</span>
+        </li>
+        {{ end }}
+        {{ end }}
+    </ul>
+</div>
 {{ end }}
