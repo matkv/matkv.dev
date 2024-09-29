@@ -1,5 +1,5 @@
 +++
-title = "The Shadow Rising"
+title = "The Shadow Rising (The Wheel of Time, #4)"
 bookauthor = "Robert Jordan"
 date = 2022-07-25T00:00:00+00:00
 rating = 4
