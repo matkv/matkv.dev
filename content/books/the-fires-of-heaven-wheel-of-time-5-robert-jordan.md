@@ -1,5 +1,5 @@
 +++
-title = "The Fires of Heaven"
+title = "The Fires of Heaven (The Wheel of Time, #5)"
 bookauthor = "Robert Jordan"
 date = 2022-09-26T00:00:00+00:00
 rating = 4

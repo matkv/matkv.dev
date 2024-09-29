@@ -2,6 +2,8 @@
 <h1>{{ .Title }}</h1>
 {{ .Content }}
 
+<p><b>Total books:</b> {{ len (.Pages) }}</p>
+
 <div class="book-favorites">
     <h2 class="heading">Favorite Books</h2>
     <div class="list">
