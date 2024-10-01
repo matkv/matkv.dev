@@ -558,3 +558,39 @@ img {
 .highlight pre {
     overflow-x: auto;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    table-layout: auto;
+    /* Ensures responsiveness */
+}
+
+tbody td:first-child a {
+    text-decoration: underline;
+}
+
+/* Table header */
+table thead th {
+    border-bottom: 2px solid #ddd;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Table cells */
+table tbody td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    vertical-align: top;
+}
+
+/* Links inside the table */
+table tbody td a {
+    text-decoration: none;
+    color: inherit;
+    word-wrap: break-word;
+    /* Ensures long URLs don't overflow */
+}
