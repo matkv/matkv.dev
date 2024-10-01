@@ -1,6 +1,6 @@
 :root {
     --light-color: #fff;
-    --dark-color: #161618;
+    --dark-color: #131313;
     --light-grey: #cecece;
     --background-color: var(--light-color);
     --font-color: var(--dark-color);
@@ -476,7 +476,7 @@ blockquote {
         white-space: nowrap;
 
         &:hover {
-            background-color: grey;
+            background-color: var(--constructiontext);
         }
     }
 }
