@@ -3,7 +3,7 @@ title = 'My Obsidian / Teuxdeux / Omnivore setup'
 date = 2023-10-20T19:00:00+02:00
 draft = false
 show_date = false
-tags = ['obsidian', 'teuxdeux', 'omnivore', 'software']
+tags = ['obsidian', 'teuxdeux', 'omnivore', 'software', 'tools']
 +++
 A quick overview of what I'm using as my personal knowledge base and to-do list.
 

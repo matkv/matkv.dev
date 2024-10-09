@@ -169,8 +169,19 @@ nav ul {
     }
 }
 
+.tag-container {
+    display: flex;
+}
+
+.tag-label {
+    margin-right: 0.5em;
+    font-weight: bold;
+}
+
 .tags ul {
     display: flex;
+    flex-wrap: wrap;
+    /* Allows items to wrap to the next line */
     list-style: none;
     padding: 0;
     margin: 0;
@@ -178,16 +189,16 @@ nav ul {
 }
 
 .tags ul li {
-    margin: 0 0.5em;
+    margin: 0 0.5em 0.5em 0;
     padding: 0em 0.7em;
     background-color: var(--light-grey);
     border-radius: 0.5em;
     display: inline-block;
+}
 
-    a {
-        color: var(--light-color);
-        text-decoration: none;
-    }
+.tags ul li a {
+    color: var(--light-color);
+    text-decoration: none;
 }
 
 .websitetitle {
