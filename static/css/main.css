@@ -164,7 +164,10 @@ nav ul {
         text-decoration: none;
     }
 
-    .darkmodemenutoggle {
+    .nav-icons {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5em;
         margin-left: auto;
     }
 }
