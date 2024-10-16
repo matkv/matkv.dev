@@ -19,15 +19,10 @@ block = true
 [markup.highlight]
 noclasses=false
 
-# disable single page for "book" type
-[outputs.books]
-  page = []  
-  section = ["HTML"]  
 
-# disable single page for "micro-blog" type
-[outputs.micro-blog]
-  page = []  
-  section = ["HTML"]  
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
 
 [taxonomies]
     tag = "tags"

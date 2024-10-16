@@ -1,0 +1,25 @@
+{
+    { range site.RegularPages
+    }
+}
+    {
+    "url": {
+        { .RelPermalink | jsonify
+        }
+    },
+    "title": {
+        { .Title | jsonify
+        }
+    }
+}{
+    { if not (eq @last .)
+    }
+},
+{
+    { end
+    }
+}
+{
+    { end
+    }
+}
