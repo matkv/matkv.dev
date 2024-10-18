@@ -1,4 +1,3 @@
-import Fuse from './fuse.mjs';
 import { Hit, Page } from './types.js';
 
 const JSON_INDEX_URL = `${window.location.origin}/index.json`;
@@ -31,7 +30,11 @@ const getInputEl = (): HTMLInputElement => {
     /**
      * TEMPLATE_TODO: Optional. If your HTML input element has a different selector, change it.
      */
-    return document.querySelector('.search-input');
+    const inputEl = document.querySelector('.search-input');
+    if (!inputEl) {
+        throw new Error('Search input element not found');
+    }
+    return inputEl as HTMLInputElement;
 };
 
 const enableInputEl = (): void => {
@@ -45,7 +48,7 @@ const initFuse = (pages: Page[]): void => {
 const doSearchIfUrlParamExists = (): void => {
     const urlParams = new URLSearchParams(window.location.search);
     if (urlParams.has(QUERY_URL_PARAM)) {
-        const query = decodeURIComponent(urlParams.get(QUERY_URL_PARAM));
+        const query = decodeURIComponent(urlParams.get(QUERY_URL_PARAM) || '');
         getInputEl().value = query;
         handleSearchEvent();
     }
@@ -134,7 +137,10 @@ const createHitHtml = (hit: Hit): string => {
 const renderHits = (hits: Hit[]): void => {
     const limitedHits = hits.slice(0, MAX_HITS_SHOWN);
     const html = limitedHits.map(createHitHtml).join('\n');
-    document.querySelector('.search-results-container').innerHTML = html;
+    const resultsContainer = document.querySelector('.search-results-container');
+    if (resultsContainer) {
+        resultsContainer.innerHTML = html;
+    }
 };
 
 const getQuery = (): string => {
