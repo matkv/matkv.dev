@@ -19,8 +19,8 @@ const RIGHT_SIDE_MATCH_HTML = '</span>';
  * TEMPLATE_TODO: Required. Tell Fuse.js which keys to search on.
  */
 const FUSE_OPTIONS = {
-    keys: ['title', 'url'],
-    ignoreLocation: true,
+    keys: ['title', 'content', 'url'],
+    ignoreLocation: false,
     includeMatches: true,
     minMatchCharLength: 2
 };
@@ -113,7 +113,7 @@ const highlightMatches = (hit: Hit, key: string) => {
 const createHitHtml = (hit: Hit): string => {
     const details = Object.keys(hit.item)
         .filter(key => {
-            return key !== 'title' && key !== 'url';
+            return key !== 'title' && key !== 'url' && key !== 'content'; // TODO check this / how to show content nicely
         })
         .map(key => {
             return `\
