@@ -1,0 +1,12 @@
+{{- $list := slice -}}
+
+{{- range site.Pages -}}
+  {{- $item := dict
+  "title" .Title
+  "content" .Plain
+  "url" .RelPermalink -}}
+
+  {{- $list = $list | append $item -}}
+{{- end -}}
+
+{{- $list | jsonify -}}

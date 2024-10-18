@@ -19,6 +19,9 @@ block = true
 [markup.highlight]
 noclasses=false
 
+[outputs]
+home = ["HTML", "JSON"]
+
 # disable single page for "book" type
 [outputs.books]
   page = []  
