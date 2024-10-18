@@ -7,4 +7,4 @@ tags = ['']
 layout = "search"
 +++
 
-This is the search.
+Start typing in the search below to show results.

@@ -22,7 +22,7 @@ const FUSE_OPTIONS = {
     keys: ['title', 'url'],
     ignoreLocation: true,
     includeMatches: true,
-    minMatchCharLength: 3
+    minMatchCharLength: 2
 };
 
 let fuse: any;
