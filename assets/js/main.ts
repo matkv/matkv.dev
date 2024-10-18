@@ -7,7 +7,7 @@ const QUERY_URL_PARAM = 'query';
 /**
  * TEMPLATE_TODO: Optioal. Change how many hits are shown.
  */
-const MAX_HITS_SHOWN = 10;
+const MAX_HITS_SHOWN = 50;
 
 /**
  * TEMPLATE_TODO: Optioal. Change the style of a highlighted match.
@@ -31,7 +31,7 @@ const getInputEl = (): HTMLInputElement => {
     /**
      * TEMPLATE_TODO: Optional. If your HTML input element has a different selector, change it.
      */
-    return document.querySelector('#search_input');
+    return document.querySelector('.search-input');
 };
 
 const enableInputEl = (): void => {
@@ -124,7 +124,7 @@ const createHitHtml = (hit: Hit): string => {
 
     return `\
   <p>
-    <strong>eva_number:</strong> <a href="${hit.item.url}">
+    <a href="${hit.item.url}">
     ${highlightMatches(hit, 'title')}
     </a><br>
     ${details}
@@ -134,10 +134,7 @@ const createHitHtml = (hit: Hit): string => {
 const renderHits = (hits: Hit[]): void => {
     const limitedHits = hits.slice(0, MAX_HITS_SHOWN);
     const html = limitedHits.map(createHitHtml).join('\n');
-    /**
-     * TEMPLATE_TODO: Optional. If your HTML results container element has a different selector, change it.
-     */
-    document.querySelector('#search_results_container').innerHTML = html;
+    document.querySelector('.search-results-container').innerHTML = html;
 };
 
 const getQuery = (): string => {
