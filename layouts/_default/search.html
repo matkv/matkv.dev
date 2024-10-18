@@ -1,10 +1,9 @@
 {{ define "main" }}
 {{ .Content }}
-<div class="search-box">
-    <input class="input" id="searchInput" type="text" placeholder="press '/' to search">
-    <div id="searchResult">
-        <!-- the search result will appear here -->
-    </div>
+<div class="search">
+    <input type="text" class="search-input" placeholder="Search...">
+    <button class="search-button">Go</button>
 </div>
-<script type="text/javascript" src="search.js"></script>
+
+
 {{ end }}
