@@ -1,9 +1,5 @@
 {{ define "main" }}
 {{ .Content }}
-<div class="search">
-    <input type="text" class="search-input" placeholder="Search...">
-    <button class="search-button">Go</button>
-</div>
-
-
+{{ partial "search.html" . }}
+{{ partial "scripts.html" . }}
 {{ end }}
