@@ -7,4 +7,4 @@ tags = ['']
 layout = "search"
 +++
 
-Start typing in the search below to show results.
+Start typing in the search below to show results. For now, this doesn't search through all the content on this website & might behave a bit weird. This is still a work in progress.
