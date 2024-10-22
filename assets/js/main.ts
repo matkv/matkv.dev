@@ -19,12 +19,9 @@ const RIGHT_SIDE_MATCH_HTML = '</span>';
  */
 const FUSE_OPTIONS = {
     keys: ['title', 'content', 'url'],
-    threshold: 0.3,
-    distance: 50,
-    ignoreLocation: false,
-    location: 0,
-    includeMatches: false,
-    minMatchCharLength: 2
+    ignoreLocation: true,
+    includeMatches: true,
+    minMatchCharLength: 3
 };
 
 let fuse: any;
