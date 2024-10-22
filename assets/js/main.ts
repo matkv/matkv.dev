@@ -6,7 +6,7 @@ const QUERY_URL_PARAM = 'query';
 /**
  * TEMPLATE_TODO: Optioal. Change how many hits are shown.
  */
-const MAX_HITS_SHOWN = 50;
+const MAX_HITS_SHOWN = 20;
 
 /**
  * TEMPLATE_TODO: Optioal. Change the style of a highlighted match.
