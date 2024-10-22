@@ -19,7 +19,7 @@ const RIGHT_SIDE_MATCH_HTML = '</span>';
  */
 const FUSE_OPTIONS = {
     keys: ['title', 'content', 'url'],
-    ignoreLocation: false,
+    ignoreLocation: true,
     includeMatches: true,
     minMatchCharLength: 2
 };
