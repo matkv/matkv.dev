@@ -1,0 +1,23 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+
+<p><b>Total movies:</b> {{ len (.Pages) }}</p>
+
+{{ range .Data.Pages.GroupByDate "2006" }}
+<div class="movie-reviews">
+    <div class="yearheader">{{ .Key }}</div>
+    {{ range $page := .Pages }}
+    <div class="movie-review">
+        <div class="header">
+            <div class="date">{{ time.Format "Jan 2006" .Date }}</div>
+            <a href="{{ .Params.Link }}">
+                <div class="title"><b>{{ .Params.Title }}</b> ({{ .Params.Year }})</div>
+            </a>
+            {{ partial "movie-rating.html" . }}
+        </div>
+    </div>
+    {{ end }}
+</div>
+{{ end }}
+{{ end }}
