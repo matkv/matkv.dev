@@ -16,3 +16,5 @@ You can find me here:
 - [StackOverflow](https://stackoverflow.com/users/9710458/matkv)
 
 If you want to contact me directly, you can send me an email at [mail@matkv.dev](mailto:mail@matkv.dev) !
+
+{{< build-time >}}

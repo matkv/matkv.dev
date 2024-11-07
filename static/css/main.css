@@ -146,7 +146,7 @@ header {
     }
 
     hr {
-        border: solid var(--light-grey 0.11em);
+        border: solid var(--light-grey) 0.11em;
         opacity: 0.4;
     }
 }
@@ -649,4 +649,16 @@ table tbody td a {
 
 .search-button:hover {
     background-color: #e0e0e0;
+}
+
+.build-time {
+    font-size: 0.85em;
+    margin-top: 3em;
+
+    hr {
+        border: solid var(--light-grey) 0.11em;
+        opacity: 0.4;
+        width: 12em;
+        margin-left: 0;
+    }
 }
