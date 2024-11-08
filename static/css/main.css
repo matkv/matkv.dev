@@ -662,3 +662,14 @@ table tbody td a {
         margin-left: 0;
     }
 }
+
+.lichess-embed {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    iframe {
+        width: 20em;
+        height: 29em;
+    }
+}
