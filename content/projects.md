@@ -3,6 +3,7 @@ title = 'Projects'
 date = 2024-09-23T17:53:53+02:00
 draft = false
 show_date = false
+pinned = true
 +++
 
 My open source projects.    
