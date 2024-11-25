@@ -4,4 +4,6 @@ date = {{ .Date }}
 draft = true
 show_date = false
 tags = ['']
+archive = false
+pinned = false
 +++
