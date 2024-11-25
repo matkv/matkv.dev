@@ -22,7 +22,7 @@
             <a href="/books">Books</a>
         </div>
     </div>
-    {{ range where (where site.RegularPages "Params.exclude_from_home" "!=" "true") "Params.archive" "!=" "true" }}
+    {{ range where (where site.RegularPages "Params.exclude_from_home" "!=" true) "Params.archive" "!=" true }}
     <div class="post">
         <div class="title">
             <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
