@@ -1,5 +1,6 @@
 ---
 title: "Books"
+pinned: true
 build:
   render: always
 cascade:
