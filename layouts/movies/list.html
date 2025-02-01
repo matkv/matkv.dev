@@ -1,0 +1,37 @@
+{{ define "main" }}
+<div class="movie-grid">
+    {{ range .Pages }}
+    <div class="movie-item">
+        <img src="{{ .Params.cover }}" alt="{{ .Title }}">
+    </div>
+    {{ end }}
+</div>
+
+<style>
+    .movie-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 10px;
+        padding: 20px;
+        justify-items: center;
+    }
+
+    .movie-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+    }
+
+    .movie-item img:hover {
+        transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+        .movie-grid {
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        }
+    }
+</style>
+{{ end }}
