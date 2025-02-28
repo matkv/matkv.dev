@@ -24,4 +24,3 @@ Links to useful & fun websites. Work in progress, just starting to populate this
 |---------|-------------|
 | [MonkeyType](https://monkeytype.com/) | Typing practice, keeps track of your records. |
 | [Exercism](https://exercism.org/) | Open source programming learning platform, non profit, no paid features at all + it has its own cli tool that let's you comfortably **download and submit exercises from your local machine/editor**|
-| [Omnivore](https://omniivore.app/home/) | My "read-later" app of choice. open source, no paid features (for now) and it has it's own Obsidian plugin to import saved articles into Obsidian
