@@ -13,7 +13,7 @@ cascade:
 My book reviews. Most of the books I've read since buying a Kindle Paperwhite in May 2019. 
 
 **Currently reading:**
-- **Wind and Truth (The Stormlight Archive #5)** - Brandon Sanderson
+- **Tender Is the Flesh** - Agustina Bazterrica
 - **How to Be a Stoic: Using Ancient Philosophy to Live a Modern Life** - Massimo Pigliucci
 - **The Daily Stoic: 366 Meditations on Wisdom, Perseverance, and the Art of Living** - Ryan Holiday
 - **Meditations** (Re-Reading) - Marcus Aurelius
