@@ -1,5 +1,6 @@
 ---
 title: "Micro Blog"
+exclude_from_home: true
 build:
   render: always
 cascade:
