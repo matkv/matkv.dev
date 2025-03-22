@@ -51,7 +51,7 @@
     }
 }
 
-highlight div,
+.highlight div,
 .highlight pre {
     background-color: var(--background-color);
 }

@@ -677,17 +677,28 @@ table tbody td a {
 .TIL {
     display: flex;
     flex-direction: column;
-    font-size: 0.95em;
-    background-color: green;
+    gap: 1em;
 
     .post {
         display: flex;
-        flex-direction: row;
-        align-items: baseline;
+        flex-direction: column;
+        border: 1px solid var(--light-grey);
+        border-radius: 0.5em;
+        padding: 0.5em;
+    }
+
+    .title {
+        font-size: 1.1em;
+        font-weight: bold;
+        color: var(--font-color);
     }
 
     .date {
-        font-weight: bold;
-        min-width: 7em;
+        margin-bottom: 0.5em;
+        color: var(--constructiontext);
+    }
+
+    .body {
+        color: var(--font-color);
     }
 }
