@@ -17,22 +17,28 @@
         </a>
     </div>
 
-    {{ range where (where (where site.Pages "Params.exclude_from_home" "!=" true) "Params.archive" "!=" true)
-    "Params.pinned" "==" true }}
+    <!-- Show pinned posts (sections and regular pages) first -->
+    {{ range where (where (where (where site.Pages "Params.exclude_from_home" "!=" true) "Params.archive" "!=" true)
+    "Kind" "!=" "taxonomy") "Kind" "!=" "term" }}
+    {{ if eq .Params.pinned true }}
     <div class="post">
         <div class="title">
             <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
         </div>
     </div>
     {{ end }}
+    {{ end }}
 
-    {{ range where (where (where site.RegularPages "Params.exclude_from_home" "!=" true) "Params.archive" "!=" true)
-    "Params.pinned" "!=" true }}
+    <!-- Show non-pinned posts (sections and regular pages) -->
+    {{ range where (where (where (where site.Pages "Params.exclude_from_home" "!=" true) "Params.archive" "!=" true)
+    "Kind" "!=" "taxonomy") "Kind" "!=" "term" }}
+    {{ if ne .Params.pinned true }}
     <div class="post">
         <div class="title">
             <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
         </div>
     </div>
+    {{ end }}
     {{ end }}
 
 </div>

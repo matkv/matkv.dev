@@ -1,6 +1,6 @@
 ---
-title: "Micro Blog"
-exclude_from_home: true
+title: "TIL"
+type: "TIL" # Ensure this matches the folder name in layouts
 build:
   render: always
 cascade:
@@ -9,3 +9,5 @@ cascade:
     publishResources: false
     render: never
 ---
+
+Test this is the text

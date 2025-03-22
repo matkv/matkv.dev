@@ -32,6 +32,11 @@ home = ["HTML", "JSON"]
   page = []  
   section = ["HTML"]  
 
+# Ensure the TIL type outputs lists
+[outputs.TIL]
+  page = []  
+  section = ["HTML"]  
+
 [taxonomies]
     tag = "tags"
 
