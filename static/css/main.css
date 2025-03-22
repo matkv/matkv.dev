@@ -673,3 +673,21 @@ table tbody td a {
         height: 29em;
     }
 }
+
+.TIL {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.95em;
+    background-color: green;
+
+    .post {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .date {
+        font-weight: bold;
+        min-width: 7em;
+    }
+}
