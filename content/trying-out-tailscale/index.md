@@ -7,7 +7,7 @@ tags = ['tailscale', 'tools']
 archive = false
 pinned = false
 +++
-I've been interested in trying out [Tailscale](https://tailscale.com/) recently - it is a tool that allows you to set up a secure networks between your personal devices. This allows you to access them from anywhere as if they are on the same local network.
+I've been interested in trying out [Tailscale](https://tailscale.com/) recently - it is a tool that allows you to set up a secure network between your personal devices. This allows you to access them from anywhere as if they are on the same local network.
 
 One of the main usecases for me would be to be able to access my dev projects on my phone while I'm working on them on my Windows desktop or within WSL Arch Linux. That way I can test this website or other web based projects on my phone without having to actually publish them anywhere.
 
