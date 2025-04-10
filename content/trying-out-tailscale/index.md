@@ -46,12 +46,6 @@ ssh matkv@MY_TAILSCALE_IP
 
 The only prerequisite is that tailscale is running on the device I want to access. On Linux that means the daemon has to be running.
 
-I made a little alias to start the daemon in WSL:
-
-```bash
-alias start-tailscale="sudo tailscaled"
-```
-
 ## Acessing my hugo site and the start project through Tailscale
 
 In order to access those projects from Tailscale (so for example from my phone) I need to start them a bit differently.
