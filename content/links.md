@@ -30,7 +30,7 @@ layout = 'links'
     - [/r/books](https://www.reddit.com/user/matkv/m/books/)
     
 - tools
-    - [ChatGPT](https://chat.openai.com/)
+    - [chatgpt](https://chat.openai.com/)
     - [bitwarden](https://vault.bitwarden.com/#/)
     - [ELBA](https://sso.raiffeisen.at/mein-login/identify)
     - [pomodoro](https://pomofocus.io/)
