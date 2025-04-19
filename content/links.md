@@ -5,22 +5,65 @@ draft = false
 show_date = false
 tags = ['']
 pinned = true
+layout = 'links'
 +++
 
-Links to useful & fun websites. Work in progress, just starting to populate this page.
+- main
+    - [matkv.dev](https://matkv.dev)
+    - [code.matkv.dev](https://code.matkv.dev)
+    - [teuxdeux](https://teuxdeux.com/home)
+    
+- google
+    - [mail](https://mail.google.com)
+    - [calendar](https://calendar.google.com)
+    - [drive](https://drive.google.com/drive/my-drive)
+    - [youtube](https://www.youtube.com/feed/subscriptions)
 
-## Blogs
+- dev
+    - [github](https://github.com/matkv)
+    - [stackoverflow](https://stackoverflow.com/)
+    - [hackernews](https://news.ycombinator.com/)
+    - [exercism](https://exercism.org/)
 
-| Links | Description |
-|---------|-------------|
-| [jvns / Julia Evans](https://jvns.ca/) | Interesting blog, lots of git topics. Comes up often on Hackernews.|
-| [XXIIVV](https://webring.xxiivv.com/) | Webring with a lot of very artistic websites, great for inspiration. |
-| [Taylor Town](https://taylor.town/) | Random posts but interesting, found it on HN |
-| [Blogs HN](https://blogs.hn/) | Collection of blogs |
+- books
+    - [goodreads](https://www.goodreads.com)
+    - [/r/books](https://www.reddit.com/user/matkv/m/books/)
+    
+- tools
+    - [ChatGPT](https://chat.openai.com/)
+    - [bitwarden](https://vault.bitwarden.com/#/)
+    - [ELBA](https://sso.raiffeisen.at/mein-login/identify)
+    - [pomodoro](https://pomofocus.io/)
 
-## Tools
+- fun
+    - [reddit](https://www.reddit.com/)
+    - [twitch](https://www.twitch.tv/directory/following/live)
+    - [lichess](https://lichess.org/@/matkv)
+    - [csstats](https://csstats.gg/player/76561198085684526)
 
-| Link | Description |
-|---------|-------------|
-| [MonkeyType](https://monkeytype.com/) | Typing practice, keeps track of your records. |
-| [Exercism](https://exercism.org/) | Open source programming learning platform, non profit, no paid features at all + it has its own cli tool that let's you comfortably **download and submit exercises from your local machine/editor**|
+- news
+    - [orf.at](https://orf.at/)
+    - [r/worldnews](https://www.reddit.com/r/worldnews/)
+
+- fitness & health
+    - [/r/fitness](https://www.reddit.com/r/fitness)
+    - [garmin](https://connect.garmin.com/modern/)
+    - [headspace](https://my.headspace.com/modes/meditate)
+
+- movies
+    - [imdb](https://www.imdb.com)
+    - [/r/movies](https://www.reddit.com/user/matkv/m/movies/)
+
+- random
+    - [wikipedia](https://www.wikipedia.org)
+    - [amazon](https://www.amazon.de/)
+
+- music
+    - [spotify](https://open.spotify.com/)
+    - [ultimate guitar](https://www.ultimate-guitar.com/)
+
+- blogs
+    - [jvns / julia evans](https://jvns.ca/)
+    - [XXIIVV](https://xxiivv.com/)
+    - [taylor town](https://taylor.town/)
+    - [blogs HN](https://blogs.hn/)
