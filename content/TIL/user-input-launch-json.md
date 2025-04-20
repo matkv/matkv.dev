@@ -1,6 +1,6 @@
 +++
 title = 'Asking for user input in a VSCode launch.json file'
-date = 2025-04-2100:00:00+02:00
+date = 2025-04-21T00:00:00+02:00
 +++
 
 While playing around with Zig (not that I'm actually going to try and learn it anytime soon I think) I had GitHub copilot generate the launch,json file for a little hello world app. Apparently you can ask for user input directly this way:
