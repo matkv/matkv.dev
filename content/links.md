@@ -64,6 +64,6 @@ layout = 'links'
 
 - blogs
     - [jvns / julia evans](https://jvns.ca/)
-    - [XXIIVV](https://xxiivv.com/)
+    - [XXIIVV](https://webring.xxiivv.com/)
     - [taylor town](https://taylor.town/)
     - [blogs HN](https://blogs.hn/)
