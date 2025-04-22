@@ -16,5 +16,5 @@ Quick reference for Git commands and concepts while reading [Pro Git](https://gi
 
 ## Links
 
-- [Git Cheat Sheet](https://www.git-tower.com/blog/git-cheat-sheet/)
+- [Git Cheat Sheet](https://wizardzines.com/git-cheat-sheet.pdf)
 - [Caching your GitHub credentials in Git](https://docs.github.com/en/get-started/git-basics/caching-your-github-credentials-in-git)
