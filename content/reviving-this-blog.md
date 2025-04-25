@@ -25,7 +25,7 @@ Overall I just don't want to feel limited about what I'm putting on here - I wil
 
 I have quite a lot of different interests & hobbies and this blog could be a nice way of sharing what I'm currently interested in.
 
-There are also some areas on this website that need general improvement or just a bit of tinkering. I need to add some book reviews for books I've read since the middle of last year & I've been also thinking of maybe trying out some sort of *micro blog* where I post small updates of what I'm up to every now and then. Maybe this could replace the "now" page that I'm currently using. 
+There are also some areas on this website that need general improvement or just a bit of tinkering. I need to add some book reviews for books I've read since the middle of last year & I've been also thinking of maybe trying out some sort of *log* where I post small updates of what I'm up to every now and then. Maybe this could replace the "now" page that I'm currently using. 
 
 I've been looking at a lot of the blogs/websites from [this](https://webring.xxiivv.com/) webring and have been getting a lot of inspiration for stuff I might want to add to this site. Since I don't have any other real programming pet projects (other than continuing learning Rust occasionally), at least I can improve some stuff on here - hopefully somewhat regularly.
 
