@@ -237,7 +237,7 @@ p {
     }
 }
 
-.micro-blog {
+.log {
     display: flex;
     flex-direction: column;
     font-size: 0.95em;

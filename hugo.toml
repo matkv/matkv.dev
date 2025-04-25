@@ -27,8 +27,8 @@ home = ["HTML", "JSON"]
   page = []  
   section = ["HTML"]  
 
-# disable single page for "micro-blog" type
-[outputs.micro-blog]
+# disable single page for "log" type
+[outputs.log]
   page = []  
   section = ["HTML"]  
 
@@ -55,8 +55,8 @@ home = ["HTML", "JSON"]
 #    weight = 2
 
 [[menu.main]]
-    name = "Micro blog"
-    url = "/micro-blog"
+    name = "Log"
+    url = "/log"
     weight = 2
 
 [[menu.main]]

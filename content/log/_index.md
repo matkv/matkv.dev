@@ -1,5 +1,5 @@
 ---
-title: "Micro Blog"
+title: "Log"
 exclude_from_home: true
 build:
   render: always
