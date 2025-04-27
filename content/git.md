@@ -1,7 +1,7 @@
 +++
 title = 'Git'
 date = 2025-04-22T20:00:00+02:00
-draft = false
+draft = true
 show_date = false
 tags = ['git', 'programming']
 pinned = false
