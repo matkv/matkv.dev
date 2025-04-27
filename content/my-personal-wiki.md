@@ -7,7 +7,7 @@ tags = ['wiki', 'quartz']
 archive = false
 pinned = false
 +++
-I reated a personal wiki using [Quartz](https://quartz.jzhao.xyz/). 
+I created a personal wiki using [Quartz](https://quartz.jzhao.xyz/). 
 
 I'm currently still in the process of setting everything up and learning how to use it. But overall it is a tool that let's me use markdown files (pretty much identical to how I'm already writing them in Obsidian) and creates a wiki structure with backlinks and a graph view.
 
@@ -15,6 +15,6 @@ I set up a separate [GitHub repo for it](https://github.com/matkv/wiki) and I'm 
 
 Overall I just want to move some of my more general notes on here to this new page. This blog here should be more focused on content that I personally write.
 
-I will probably update this post with more information and a general set-up guid for myself soon.
+I will probably update this post with more information and a general set-up guide for myself soon.
 
 **The (currently still empty) wiki is available at [wiki.matkv.dev](https://wiki.matkv.dev).**
