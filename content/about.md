@@ -15,6 +15,8 @@ You can find me here:
 - [Lichess](https://lichess.org/@/matkv)
 - [StackOverflow](https://stackoverflow.com/users/9710458/matkv)
 
+I also have a [personal wiki](https://wiki.matkv.dev) for general notes and tutorials that I want to have publicly available.
+
 If you want to contact me directly, you can send me an email at [mail@matkv.dev](mailto:mail@matkv.dev) !
 
 {{< build-time >}}

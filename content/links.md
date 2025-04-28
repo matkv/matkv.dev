@@ -10,6 +10,7 @@ layout = 'links'
 
 - main
     - [matkv.dev](https://matkv.dev)
+    - [wiki.matkv.dev](https://wiki.matkv.dev)
     - [code.matkv.dev](https://code.matkv.dev)
     - [teuxdeux](https://teuxdeux.com/home)
     
