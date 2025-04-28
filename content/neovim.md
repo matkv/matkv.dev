@@ -1,7 +1,7 @@
 +++
 title = 'Neovim'
 date = 2024-10-19T10:56:32+02:00
-draft = false
+draft = true
 show_date = false
 tags = ['neovim', 'tools']
 +++
