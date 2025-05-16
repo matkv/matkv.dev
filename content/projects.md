@@ -14,6 +14,7 @@ My open source projects.
 - [utils](https://github.com/matkv/utils) - A CLI tool to make some common personal tasks easier. Practice project for learning Go.
 - [start](https://github.com/matkv/start) - A bookmarks / startpage using SvelteKit and Tailwind CSS. 
 - [dotfiles](https://github.com/matkv/dotfiles) - My dotfiles repository.
+- [wiki](https://wiki.matkv.dev) - My personal wiki, built using [Quartz](https://quartz.jzhao.xyz/).
 
 ## On hold
 
