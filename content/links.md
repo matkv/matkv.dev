@@ -68,3 +68,12 @@ layout = 'links'
     - [XXIIVV](https://webring.xxiivv.com/)
     - [taylor town](https://taylor.town/)
     - [blogs HN](https://blogs.hn/)
+    - [boretti.me](https://borretti.me/article/)
+    
+- golang resources
+    - [learn go fast video](https://youtu.be/8uiZC0l4Ajw)
+    - [exercism](https://exercism.org/tracks/go)
+    - [tour of go](https://go.dev/tour/welcome/1)
+    - [how to write go code](https://go.dev/doc/code)
+    - [effective go](https://go.dev/doc/effective_go)
+    - [go by example](https://gobyexample.com/)
