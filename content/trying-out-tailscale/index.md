@@ -1,5 +1,5 @@
 +++
-title = 'Trying Out Tailscale'
+title = 'Trying out Tailscale'
 date = 2025-04-10T20:51:03+02:00
 draft = false
 show_date = true
