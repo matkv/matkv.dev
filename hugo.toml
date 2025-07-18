@@ -45,31 +45,36 @@ home = ["HTML", "JSON"]
     archive = '/archive/'
 
 [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
     name = "About"
     url = "/about"
-    weight = 1
+    weight = 2
 
 # [[menu.main]]
 #    name = "Books"
 #    url = "/books"
-#    weight = 2
+#    weight = 3
 
 [[menu.main]]
     name = "Log"
     url = "/log"
-    weight = 2
+    weight = 4
 
 [[menu.main]]
     name = "Tags"
     url = "/tags"
-    weight = 3
+    weight = 5
 
 [[menu.main]]
     name = "Archive"
     url = "/archive"
-    weight = 4
+    weight = 6
 
 # [[menu.main]]
 #     name = "Start"
 #     url = "/start"
-#     weight = 6
+#     weight = 7
