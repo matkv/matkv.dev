@@ -478,8 +478,13 @@ img {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .lightbox-content {
@@ -497,11 +502,12 @@ img {
 }
 
 @keyframes zoomIn {
-    from { 
+    from {
         opacity: 0;
         transform: translate(-50%, -50%) scale(0.8);
     }
-    to { 
+
+    to {
         opacity: 1;
         transform: translate(-50%, -50%) scale(1);
     }
@@ -516,11 +522,11 @@ img {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     opacity: 0;
     transition: opacity 0.3s ease;
-    
+
     /* Allow full width display, constrain height to viewport */
     max-width: 95vw;
     max-height: 90vh;
-    
+
     /* If image is wide, it will take full width up to 95vw */
     /* If image is tall, it will be constrained by height to 90vh */
 }
@@ -565,7 +571,7 @@ main img {
         max-width: 95vw;
         max-height: 85vh;
     }
-    
+
     .lightbox-close {
         top: 10px;
         right: 15px;
@@ -573,7 +579,7 @@ main img {
         height: 40px;
         font-size: 30px;
     }
-    
+
     .lightbox-image {
         max-height: 80vh;
         max-width: 90vw;
