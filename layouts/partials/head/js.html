@@ -1,9 +1,14 @@
-{{- with resources.Get "js/main.js" }}
+<!-- Lightbox script -->
+<script src="/js/lightbox.js"></script>
+
+{{- with resources.Get "js/main.ts" }}
 {{- if eq hugo.Environment "development" }}
 {{- with . | js.Build }}
 <script src="{{ .RelPermalink }}"></script>
 {{- end }}
 {{- else }}
+{{- with . | js.Build | minify | fingerprint }}
 <script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous"></script>
+{{- end }}
 {{- end }}
 {{- end }}

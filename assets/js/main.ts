@@ -26,19 +26,22 @@ const FUSE_OPTIONS = {
 
 let fuse: any;
 
-const getInputEl = (): HTMLInputElement => {
+const getInputEl = (): HTMLInputElement | null => {
     /**
      * TEMPLATE_TODO: Optional. If your HTML input element has a different selector, change it.
      */
     const inputEl = document.querySelector('.search-input');
     if (!inputEl) {
-        throw new Error('Search input element not found');
+        return null;
     }
     return inputEl as HTMLInputElement;
 };
 
 const enableInputEl = (): void => {
-    getInputEl().disabled = false;
+    const inputEl = getInputEl();
+    if (inputEl) {
+        inputEl.disabled = false;
+    }
 };
 
 const initFuse = (pages: Page[]): void => {
@@ -144,7 +147,8 @@ const renderHits = (hits: Hit[]): void => {
 };
 
 const getQuery = (): string => {
-    const query = getInputEl().value.trim();
+    const inputEl = getInputEl();
+    const query = inputEl ? inputEl.value.trim() : '';
     return query;
 };
 
@@ -160,9 +164,11 @@ const handleSearchEvent = (): void => {
 };
 
 const handleDOMContentLoaded = (): void => {
-    if (getInputEl()) {
+    // Initialize search functionality if search input exists
+    const searchInput = document.querySelector('.search-input');
+    if (searchInput) {
         fetchJsonIndex();
-        getInputEl().addEventListener('keyup', handleSearchEvent);
+        (searchInput as HTMLInputElement).addEventListener('keyup', handleSearchEvent);
     }
 };
 
