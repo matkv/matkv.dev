@@ -4,9 +4,21 @@
 <link rel="stylesheet" href="/css/main.css" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
 {{- end }}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css" />
-<link disabled id="dark-css" rel="stylesheet" href="/css/dark.css">
-<link id="light-syntax" rel="stylesheet" href="/css/syntax-light.css">
-<link id="dark-syntax" rel="stylesheet" href="/css/syntax-dark.css" disabled>
+<script>
+    (function () {
+        var saved = (globalThis && globalThis.localStorage && typeof globalThis.localStorage.getItem === 'function')
+            ? globalThis.localStorage.getItem('dark-mode-storage')
+            : null;
+        var prefers = (globalThis.matchMedia && globalThis.matchMedia('(prefers-color-scheme: dark)').matches);
+        var preferDark = (saved === 'dark') || (saved === null && prefers);
+        var darkDisabled = preferDark ? '' : ' disabled';
+        var lightSyntaxDisabled = preferDark ? ' disabled' : '';
+        var darkSyntaxDisabled = preferDark ? '' : ' disabled';
+        document.write('<link' + darkDisabled + ' id="dark-css" rel="stylesheet" href="/css/dark.css">');
+        document.write('<link id="light-syntax" rel="stylesheet" href="/css/syntax-light.css"' + lightSyntaxDisabled + '>');
+        document.write('<link id="dark-syntax" rel="stylesheet" href="/css/syntax-dark.css"' + darkSyntaxDisabled + '>');
+    })();
+</script>
 
 <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-touch-icon-60x60.png">
