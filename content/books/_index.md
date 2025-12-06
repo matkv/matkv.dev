@@ -13,7 +13,7 @@ cascade:
 My book reviews. Most of the books I've read since buying a Kindle Paperwhite in May 2019. 
 
 **Currently reading:**
-- **The Girl Who Kicked the Hornet's Nest (Millenium, #2)** - Stieg Larsson
+- **Between Two Fires** - Christopher Buehlman
 - **Learning Go: An Idiomatic Approach to Real-World Go Programming** - Jon Bodner
 - **Meditations** (Re-Reading) - Marcus Aurelius
 
