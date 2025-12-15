@@ -44,5 +44,5 @@ jobs:
           external_repository: matkv/matkv.github.io
           publish_dir: ./public
           user_name: matkv
-          user_email: matkobusljeta@gmail.com
+          user_email: mail@matkv.dev
           publish_branch: master
