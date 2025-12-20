@@ -1,2 +1,7 @@
 baseURL = 'https://matkv.dev/'
 title = 'matkv.dev'
+
+[markup]
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe = true
