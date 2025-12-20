@@ -9,18 +9,21 @@
 
 body {
     background-color: var(--background-color);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Google Sans Flex", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-weight: 400;
     color: var(--font-color);
     max-width: 45em;
     margin: 0 auto;
-    line-height: 1.25em;
-    font-size: 1em;
+    line-height: 1.30em;
+    font-size: 0.96em;
     padding-left: 1.5em;
     padding-right: 1.5em;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 
     a,
     a:visited {
@@ -98,17 +101,17 @@ main {
     margin-top: 0em;
 
     h1 {
-        font-size: 1.5em;
+        font-size: 1.35em;
         font-weight: 600;
     }
 
     h2 {
-        font-size: 1.2em;
+        font-size: 1.0em;
         font-weight: 600;
     }
 
     h3 {
-        font-size: 1.0em;
+        font-size: 0.95em;
         font-weight: 600;
     }
 }
@@ -193,7 +196,7 @@ p {
 
     .yearheader {
         font-weight: 600;
-        font-size: 1.1em;
+        font-size: 0.9em;
         margin-top: 0.5em;
         margin-bottom: 0.5em;
     }
@@ -274,7 +277,7 @@ p {
     }
 
     .title {
-        font-size: 1.1em;
+        font-size: 1.05em;
         font-weight: 600;
     }
 
@@ -283,7 +286,7 @@ p {
         flex-direction: row;
         justify-content: space-evenly;
         gap: 0.5em;
-        font-size: 1.75em;
+        font-size: 1.5em;
         margin-top: 2em;
         margin-bottom: 2em;
     }
@@ -599,7 +602,7 @@ main img {
 
     .yearheader {
         font-weight: 600;
-        font-size: 1.1em;
+        font-size: 0.9em;
         margin-top: 0.5em;
         margin-bottom: 0.5em;
     }
@@ -742,13 +745,13 @@ table tbody td a {
     }
 
     .title {
-        font-size: 1.1em;
+        font-size: 0.9em;
         font-weight: 600;
         color: var(--font-color);
     }
 
     .date {
-        margin-bottom: 0.5em;
+        font-size: 0.8em;
         color: var(--constructiontext);
     }
 
