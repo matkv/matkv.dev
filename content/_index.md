@@ -1,6 +1,7 @@
-+++
-title = 'Home'
-exclude_from_home = true
-+++
+---
+title: "Home"
+---
 
-This website is meant to be a place for me to share my interests, hobbies and thoughts.
+# Welcome to matkv.dev
+
+This is a fresh start. More content coming soon.
