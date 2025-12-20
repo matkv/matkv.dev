@@ -290,16 +290,94 @@ p {
 
 }
 
+/* Footnotes as sidenotes on wide screens */
 .footnotes {
     hr {
-        border: solid var(--light-grey 0.11em);
-        opacity: 0.4;
+        display: none;
     }
 
     font-size: 0.8em;
 
     ol {
+        padding-left: 0;
+        list-style: none;
+        counter-reset: sidenote-counter;
+    }
+
+    li {
+        counter-increment: sidenote-counter;
+    }
+
+    li::before {
+        content: counter(sidenote-counter) ". ";
+        font-weight: bold;
+    }
+
+    li p {
+        display: inline;
+    }
+
+    .footnote-backref {
+        display: none;
+    }
+}
+
+/* Wide screen layout - footnotes as sidenotes */
+@media (min-width: 1200px) {
+    main {
+        position: relative;
+    }
+
+    .footnotes {
+        position: absolute;
+        right: -18em;
+        width: 15em;
+        top: 0;
+        font-size: 0.75em;
+        line-height: 1.3em;
+    }
+
+    .footnotes hr {
+        display: none;
+    }
+
+    .footnotes ol {
+        margin: 0;
+        padding: 0;
+    }
+
+    .footnotes li {
+        margin-bottom: 1.5em;
+        padding: 0.5em;
+        background-color: rgba(206, 206, 206, 0.1);
+        border-left: 2px solid var(--light-grey);
+        position: absolute;
+    }
+}
+
+/* Mobile/narrow screen - traditional footnotes at bottom */
+@media (max-width: 1199px) {
+    .footnotes {
+        margin-top: 2em;
+    }
+
+    .footnotes hr {
+        display: block;
+        border: solid var(--light-grey) 0.11em;
+        opacity: 0.4;
+    }
+
+    .footnotes ol {
         padding-left: 1em;
+        list-style: decimal;
+    }
+
+    .footnotes li::before {
+        content: none;
+    }
+
+    .footnote-backref {
+        display: inline;
     }
 }
 
