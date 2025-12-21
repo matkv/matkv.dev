@@ -8,6 +8,8 @@ title = 'matkv.dev'
 
 [params]
 description = "This is the description."
+github = "https://github.com/matkv"
+email = "mailto:mail@matkv.dev"
 
 # Main menu definition
 [[menu.main]]
