@@ -2,4 +2,4 @@
 title = "Garden"
 +++
 
-This is a placeholder for the garden.
+This is where my long-term notes will be. This will also probably replace my [wiki](https://wiki.matkv.dev) at some point.

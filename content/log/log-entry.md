@@ -1,4 +1,4 @@
 +++
-title = "Log Entry"
+title = "Example log entry"
 +++
-This is a log entry.
+This is what a log entry looks like.

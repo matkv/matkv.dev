@@ -10,4 +10,4 @@ render = "always"
   render = "never"
 +++
 
-This is a placeholder for the book reviews.
+This is where my book reviews will be shown once I've imported them.

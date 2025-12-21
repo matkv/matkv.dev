@@ -1,5 +1,6 @@
 +++
-title = "Test book"
-author = "Test author"
+title = "First book"
+author = "First author"
+rating = 5
 +++
-This is a test book review.
+This is the the first book review.
