@@ -2,7 +2,6 @@
 title: "Home"
 ---
 
-## matkv.dev
 
 <br>
 I decided to completely reset & rewrite this site. Until it is in a somewhat working state, this placeholder will be shown.

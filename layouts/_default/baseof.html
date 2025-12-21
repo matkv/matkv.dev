@@ -10,7 +10,22 @@
 </head>
 
 <body>
-    {{ block "main" . }}{{ end }}
+    <div class="wrapper">
+        <div class="header">
+            <h2><a href="/">{{ .Site.Title }}</a></h2>
+            <div class="description">
+                <p>{{ .Site.Params.description }}</p>
+            </div>
+            <nav>
+                {{ range .Site.Menus.main }}
+                <a href="{{ .URL }}">{{ .Name }}</a>
+                {{ end }}
+            </nav>
+        </div>
+        <div class="content">
+            {{ block "main" . }}{{ end }}
+        </div>
+    </div>
 </body>
 
 </html>
