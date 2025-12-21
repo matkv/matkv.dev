@@ -5,3 +5,29 @@ title = 'matkv.dev'
 	[markup.goldmark]
 		[markup.goldmark.renderer]
 			unsafe = true
+
+[params]
+description = "This is the description."
+github = "https://github.com/matkv"
+email = "mailto:mail@matkv.dev"
+
+# Main menu definition
+[[menu.main]]
+	name = "library"
+	url = "/library/"
+	weight = 1
+
+[[menu.main]]
+	name = "garden"
+	url = "/garden/"
+	weight = 2
+
+[[menu.main]]
+	name = "log"
+	url = "/log/"
+	weight = 3
+
+[[menu.main]]
+	name = "projects"
+	url = "/projects"
+	weight = 4
