@@ -58,14 +58,10 @@ h4 {
 
 /* Header */
 .header {
-    padding: 2em;
+    padding: 0em 2em 0em 2em;
 }
 
-.header h2 {
-    margin: 0 0 0.5em 0;
-}
-
-.header h2 a {
+.header h1 a {
     text-decoration: none;
     color: var(--text-color);
 }
@@ -74,9 +70,6 @@ h4 {
     margin-bottom: 1em;
 }
 
-.header .description p {
-    margin: 0;
-}
 
 /* Navigation */
 .header nav {
@@ -95,32 +88,54 @@ h4 {
     text-decoration: underline;
 }
 
+.header hr {
+    margin: 1em 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
 /* Footer */
 .footer {
-    padding: 2em;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-    font-size: 0.85em;
+    padding: 2em 0 0 0;
+    margin-top: auto;
 }
 
-.footer a {
+.footer-desktop {
+    display: none;
+}
+
+.footer-mobile {
+    display: block;
+    padding: 2em;
+}
+
+.footer-links {
+    display: flex;
+    gap: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.footer-links a {
     color: var(--text-color);
     text-decoration: none;
-    opacity: 0.6;
-    transition: opacity 0.2s;
-    display: inline-flex;
-    align-items: center;
 }
 
-.footer a:hover {
-    opacity: 1;
+.footer-links svg {
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.footer-copy {
+    font-size: 0.85em;
+    color: #888;
 }
 
 /* Desktop layout with sidebar */
 @media (min-width: 48em) {
     .wrapper {
         flex-direction: row;
+        min-height: 100vh;
+        position: relative;
     }
 
     .header {
@@ -131,6 +146,8 @@ h4 {
         overflow-y: auto;
         flex-shrink: 0;
         padding: 2em 1.5em;
+        display: flex;
+        flex-direction: column;
     }
 
     .header nav {
@@ -138,13 +155,12 @@ h4 {
         gap: 0.5em;
     }
 
-    .footer {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: var(--sidebar-width);
-        padding: 1.5em;
-        background: var(--bg-color);
+    .footer-desktop {
+        display: block;
+    }
+
+    .footer-mobile {
+        display: none;
     }
 
     .content {

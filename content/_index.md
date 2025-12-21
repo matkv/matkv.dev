@@ -1,6 +1,7 @@
 +++
 title = "Home"
 +++
+# 🌱 Personal website & digital garden
 
 This is my personal website & digital garden. It is currently under construction.
 

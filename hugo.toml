@@ -10,24 +10,29 @@ title = 'matkv.dev'
 description = "This is my digital garden and a place for me to share my thoughts & interests."
 github = "https://github.com/matkv"
 email = "mailto:mail@matkv.dev"
+copyright = "matkv 2025"
 
-# Main menu definition
 [[menu.main]]
-	name = "library"
-	url = "/library/"
+	name = "now"
+	url = "/now"
 	weight = 1
-
-[[menu.main]]
-	name = "garden"
-	url = "/garden/"
-	weight = 2
 
 [[menu.main]]
 	name = "log"
 	url = "/log/"
+	weight = 2
+
+[[menu.main]]
+	name = "library"
+	url = "/library/"
 	weight = 3
+
+[[menu.main]]
+	name = "garden"
+	url = "/garden/"
+	weight = 4
 
 [[menu.main]]
 	name = "projects"
 	url = "/projects"
-	weight = 4
+	weight = 5
