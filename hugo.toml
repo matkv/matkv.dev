@@ -7,7 +7,7 @@ title = 'matkv.dev'
 			unsafe = true
 
 [params]
-description = "This is the description."
+description = "This is my digital garden and a place for me to share my thoughts & interests."
 github = "https://github.com/matkv"
 email = "mailto:mail@matkv.dev"
 
