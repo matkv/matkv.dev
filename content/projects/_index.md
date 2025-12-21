@@ -2,4 +2,4 @@
 title = "Projects"
 +++
 
-This is a placeholder for the projects.
+My personal software & music projects will be shown here.

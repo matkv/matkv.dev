@@ -1,0 +1,26 @@
+{{ define "main" }}
+<main>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Rating</th>
+                <th>Note</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{ range .Pages }}
+            <tr>
+                <td>{{ .Title }}</td>
+                <td>{{ .Params.author }}</td>
+                <td>{{ with .Params.rating }}{{ . }}{{ end }}</td>
+                <td>{{ .Content | markdownify }}</td>
+            </tr>
+            {{ end }}
+        </tbody>
+    </table>
+</main>
+{{ end }}

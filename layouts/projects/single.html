@@ -2,8 +2,5 @@
 <main>
     <h1>{{ .Title }}</h1>
     {{ .Content }}
-    {{ range .Pages }}
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    {{ end }}
 </main>
 {{ end }}
