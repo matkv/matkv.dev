@@ -12,15 +12,15 @@
     <div class="wrapper">
         <div class="header">
             <h1><a href="/">{{ .Site.Title }}</a></h1>
-            <div class="description">
-                <p>{{ .Site.Params.description }}</p>
-            </div>
-            <hr>
             <nav>
                 {{ range .Site.Menus.main }}
                 <a href="{{ .URL }}">{{ .Name }}</a>
                 {{ end }}
             </nav>
+            <hr>
+            <div class="description">
+                <p>{{ .Site.Params.description }}</p>
+            </div>
             <footer class="footer footer-desktop">
                 {{ partial "footer.html" . }}
             </footer>
