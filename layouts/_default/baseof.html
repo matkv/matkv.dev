@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     <link rel="stylesheet" href="/style.css">
+    <script>
+        (function () {
+            try {
+                var storedTheme = localStorage.getItem('theme');
+                var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                var theme = storedTheme || (prefersDark ? 'dark' : 'light');
+                document.documentElement.dataset.theme = theme;
+            } catch (error) {
+                document.documentElement.dataset.theme = 'light';
+            }
+        })();
+    </script>
 </head>
 
 <body>
@@ -16,6 +28,29 @@
                 {{ range .Site.Menus.main }}
                 <a href="{{ .URL }}">{{ .Name }}</a>
                 {{ end }}
+                <button type="button" class="theme-toggle__button" id="themeToggle" aria-label="Toggle dark mode"
+                    aria-pressed="false">
+                    <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" role="presentation">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <g>
+                                <line x1="12" y1="1" x2="12" y2="4"></line>
+                                <line x1="12" y1="20" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="6.34" y2="6.34"></line>
+                                <line x1="17.66" y1="17.66" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="4" y2="12"></line>
+                                <line x1="20" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="6.34" y2="17.66"></line>
+                                <line x1="17.66" y1="6.34" x2="19.78" y2="4.22"></line>
+                            </g>
+                        </svg>
+                    </span>
+                    <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" role="presentation">
+                            <path d="M21 14.5A8.5 8.5 0 0 1 9.5 3a8.5 8.5 0 1 0 11.5 11.5Z"></path>
+                        </svg>
+                    </span>
+                </button>
             </nav>
             <hr>
             <div class="description">
@@ -32,6 +67,33 @@
             {{ partial "footer.html" . }}
         </footer>
     </div>
+    <script>
+        (function () {
+            var toggle = document.getElementById('themeToggle');
+            if (!toggle) {
+                return;
+            }
+
+            var root = document.documentElement;
+
+            function setTheme(theme) {
+                root.dataset.theme = theme;
+                try {
+                    localStorage.setItem('theme', theme);
+                } catch (error) {
+                    /* localStorage unavailable */
+                }
+                toggle.setAttribute('aria-pressed', theme === 'dark');
+            }
+
+            toggle.addEventListener('click', function () {
+                var nextTheme = root.dataset.theme === 'dark' ? 'light' : 'dark';
+                setTheme(nextTheme);
+            });
+
+            setTheme(root.dataset.theme === 'dark' ? 'dark' : 'light');
+        })();
+    </script>
 </body>
 
 </html>
