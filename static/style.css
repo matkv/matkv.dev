@@ -1,3 +1,11 @@
+/* Full width override for specific pages */
+.full-width {
+    max-width: none !important;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
 :root {
     --color-accent: #171717;
     --color-bg: #faf9f6;
