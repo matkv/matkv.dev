@@ -8,7 +8,7 @@
                 <th>Title</th>
                 <th>Author</th>
                 <th>Rating</th>
-                <th>Note</th>
+                <th>Review</th>
             </tr>
         </thead>
         <tbody>
@@ -17,7 +17,12 @@
                 <td>{{ .Title }}</td>
                 <td>{{ .Params.author }}</td>
                 <td>{{ with .Params.rating }}{{ . }}{{ end }}</td>
-                <td>{{ .Content | markdownify }}</td>
+                <td>
+                    <details>
+                        <summary>Show review</summary>
+                        {{ .Content | markdownify }}
+                    </details>
+                </td>
             </tr>
             {{ end }}
         </tbody>

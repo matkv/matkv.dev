@@ -1,3 +1,21 @@
+/* Prevent column jumps for details in tables */
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+td,
+th {
+    overflow-wrap: break-word;
+}
+
+td:last-child,
+th:last-child {
+    min-width: 10em;
+    max-width: 22em;
+    overflow-wrap: break-word;
+}
+
 /* Full width override for specific pages */
 .full-width {
     max-width: none !important;
