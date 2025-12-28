@@ -3,7 +3,7 @@
     <h1>{{ .Title }}</h1>
     {{ .Content }}
     {{ range .Pages }}
-    <b>{{ .Title }}</b>
+    <b><a href="{{ .RelPermalink }}">{{ .Title }}</a></b>
     {{ .Content }}
     {{ end }}
 </main>
