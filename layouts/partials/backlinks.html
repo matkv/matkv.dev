@@ -1,0 +1,78 @@
+{{ $current := . }}
+{{ $links := slice }}
+{{ $rel := $current.RelPermalink }}
+{{ $relNoLead := replaceRE "^/+" "" $rel }}
+{{ $relNoTrail := replaceRE "/+$" "" $rel }}
+{{ $relTrim := replaceRE "^/+|/+$" "" $rel }}
+{{ $perm := $current.Permalink }}
+
+{{/* Match only link-like patterns to avoid false positives (words that happen to match path segments) */}}
+{{ range .Site.Pages }}
+  {{ if ne .Permalink $current.Permalink }}
+    {{ $c := . }}
+    {{ if or
+        (in $c.Content (printf "href=\"%s\"" $rel))
+        (in $c.Content (printf "href=\"%s\"" $relNoLead))
+        (in $c.Content (printf "href=\"%s\"" $relNoTrail))
+        (in $c.Content (printf "href=\"%s\"" $relTrim))
+        (in $c.Content (printf "href=%s" $relTrim))
+        (in $c.Content (printf "href=%s" $relNoLead))
+        (in $c.Content (printf "href=\"%s\"" $perm))
+        (in $c.Content (printf "href=%s" $perm))
+        (in $c.RawContent (printf "](%s)" $rel))
+        (in $c.RawContent (printf "](%s)" $relNoLead))
+        (in $c.RawContent (printf "](%s)" $relNoTrail))
+        (in $c.RawContent (printf "](%s)" $relTrim))
+      }}
+      {{ $links = $links | append $c }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ range .Site.Sections }}
+  {{ if ne .Permalink $current.Permalink }}
+    {{ $s := . }}
+    {{ if or
+        (in $s.Content (printf "href=\"%s\"" $rel))
+        (in $s.Content (printf "href=\"%s\"" $relNoLead))
+        (in $s.Content (printf "href=\"%s\"" $relNoTrail))
+        (in $s.Content (printf "href=\"%s\"" $relTrim))
+        (in $s.Content (printf "href=%s" $relTrim))
+        (in $s.RawContent (printf "](%s)" $rel))
+        (in $s.RawContent (printf "](%s)" $relNoLead))
+        (in $s.RawContent (printf "](%s)" $relTrim))
+      }}
+      {{ $links = $links | append $s }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* Deduplicate $links by Permalink to avoid duplicates from Pages+Sections */}}
+{{ $seen := dict }}
+{{ $uniq := slice }}
+{{ range $links }}
+  {{ if not (isset $seen .Permalink) }}
+    {{ $seen = merge $seen (dict .Permalink true) }}
+    {{ $uniq = $uniq | append . }}
+  {{ end }}
+{{ end }}
+{{ $links = $uniq }}
+
+{{ $manual := index .Site.Data.backlinks $current.RelPermalink }}
+
+{{ if or (gt (len $links) 0) $manual }}
+<section class="backlinks">
+  <h3>Backlinks</h3>
+  <ul>
+    {{ range $links }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+    
+    {{ with $manual }}
+      {{ range . }}
+        <li><a href="{{ .url }}">{{ .title }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</section>
+{{ end }}

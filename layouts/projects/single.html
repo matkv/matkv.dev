@@ -3,6 +3,7 @@
     <h1>{{ .Title }}</h1>
     {{ partial "tags.html" . }}
     {{ .Content }}
+    {{ partial "backlinks.html" . }}
 </main>
 
 {{ end }}

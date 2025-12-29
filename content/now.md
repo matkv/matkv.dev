@@ -6,7 +6,7 @@ I'm on Christmas break so I'm trying to focus on some personal projects and my h
 
 ## Software Development
 
-Working on [core](projects/core) and trying to improve my Go skills in general. 
+Working on [core](/projects/core) and trying to improve my Go skills in general.
 
 Giving Rust another try. Reading through [the book](https://doc.rust-lang.org/book/) slowly and once I feel like I have a grasp of the basics, I'll start with [tidysync](https://github.com/matkv/tidysync).
 
