@@ -395,7 +395,8 @@ hr {
 
 .cover-wrap {
     width: 100%;
-    aspect-ratio: 2 / 3; /* slightly taller than before (was 3/4) */
+    aspect-ratio: 2 / 3;
+    /* slightly taller than before (was 3/4) */
     min-height: 12rem;
     overflow: hidden;
     background: var(--color-toggle-bg);

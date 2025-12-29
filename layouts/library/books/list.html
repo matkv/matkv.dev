@@ -25,7 +25,8 @@
                     <div class="cover-wrap">
                         {{ $jpg := printf "/covers/%s.jpg" .Params.isbn | relURL }}
                         {{ $png := printf "/covers/%s.png" .Params.isbn | relURL }}
-                        <img src="{{ $jpg }}" alt="{{ .Title }} cover" onerror="this.onerror=null;this.src='{{ $png }}'">
+                        <img src="{{ $jpg }}" alt="{{ .Title }} cover"
+                            onerror="this.onerror=null;this.src='{{ $png }}'">
                     </div>
                     <div class="book-meta">
                         <h3 class="book-title">{{ .Title }}</h3>
@@ -54,7 +55,8 @@
                     <div class="cover-wrap">
                         {{ $jpg := printf "/covers/%s.jpg" .Params.isbn | relURL }}
                         {{ $png := printf "/covers/%s.png" .Params.isbn | relURL }}
-                        <img src="{{ $jpg }}" alt="{{ .Title }} cover" onerror="this.onerror=null;this.src='{{ $png }}'">
+                        <img src="{{ $jpg }}" alt="{{ .Title }} cover"
+                            onerror="this.onerror=null;this.src='{{ $png }}'">
                     </div>
                     <div class="book-meta">
                         <h3 class="book-title">{{ .Title }}</h3>
