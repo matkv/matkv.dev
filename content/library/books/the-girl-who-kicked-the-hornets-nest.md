@@ -2,7 +2,7 @@
 index = "[[Books]]"
 title = "The Girl Who Kicked the Hornet's Nest (Millennium, #3)"
 author = ["Stieg Larsson"]
-isbn = "9780307454560"
+isbn = "9780307269997"
 status = ["Finished"]
 year = 2007
 rating = 4

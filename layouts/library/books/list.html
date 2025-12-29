@@ -2,30 +2,76 @@
 <main class="full-width">
     <h1>{{ .Title }}</h1>
     {{ .Content }}
-    <table>
-        <thead>
-            <tr>
-                <th>Title</th>
-                <th>Author</th>
-                <th>Rating</th>
-                <th>Review</th>
-            </tr>
-        </thead>
-        <tbody>
-            {{ range .Pages }}
-            <tr>
-                <td>{{ .Title }}</td>
-                <td>{{ .Params.author }}</td>
-                <td>{{ with .Params.rating }}{{ . }}{{ end }}</td>
-                <td>
-                    <details>
-                        <summary>Show review</summary>
-                        {{ .Content | markdownify }}
-                    </details>
-                </td>
-            </tr>
+
+    {{/* Build two collections: finished and to-read */}}
+    {{ $.Scratch.Set "finished" (slice) }}
+    {{ $.Scratch.Set "toread" (slice) }}
+    {{ range .Pages }}
+    {{ if in .Params.status "Finished" }}
+    {{ $.Scratch.Add "finished" . }}
+    {{ else }}
+    {{ $.Scratch.Add "toread" . }}
+    {{ end }}
+    {{ end }}
+
+    <section class="book-grids">
+        {{ $finished := $.Scratch.Get "finished" }}
+        {{ if gt (len $finished) 0 }}
+        <h2>Finished</h2>
+        <div class="book-grid">
+            {{ range $finished }}
+            <article class="book-card">
+                <a href="{{ .RelPermalink }}" class="book-link">
+                    <div class="cover-wrap">
+                        {{ $jpg := printf "/covers/%s.jpg" .Params.isbn | relURL }}
+                        {{ $png := printf "/covers/%s.png" .Params.isbn | relURL }}
+                        <img src="{{ $jpg }}" alt="{{ .Title }} cover" onerror="this.onerror=null;this.src='{{ $png }}'">
+                    </div>
+                    <div class="book-meta">
+                        <h3 class="book-title">{{ .Title }}</h3>
+                        <div class="book-author">{{ delimit .Params.author ", " }}</div>
+                        {{ with .Params.rating }}<div class="book-rating">Rating: {{ . }}</div>{{ end }}
+                    </div>
+                </a>
+                {{ with .Content }}
+                <details class="book-review">
+                    <summary>Review</summary>
+                    {{ . | markdownify }}
+                </details>
+                {{ end }}
+            </article>
             {{ end }}
-        </tbody>
-    </table>
+        </div>
+        {{ end }}
+
+        {{ $toread := $.Scratch.Get "toread" }}
+        {{ if gt (len $toread) 0 }}
+        <h2>To read</h2>
+        <div class="book-grid">
+            {{ range $toread }}
+            <article class="book-card">
+                <a href="{{ .RelPermalink }}" class="book-link">
+                    <div class="cover-wrap">
+                        {{ $jpg := printf "/covers/%s.jpg" .Params.isbn | relURL }}
+                        {{ $png := printf "/covers/%s.png" .Params.isbn | relURL }}
+                        <img src="{{ $jpg }}" alt="{{ .Title }} cover" onerror="this.onerror=null;this.src='{{ $png }}'">
+                    </div>
+                    <div class="book-meta">
+                        <h3 class="book-title">{{ .Title }}</h3>
+                        <div class="book-author">{{ delimit .Params.author ", " }}</div>
+                    </div>
+                </a>
+                {{ with .Content }}
+                <details class="book-review">
+                    <summary>Notes</summary>
+                    {{ . | markdownify }}
+                </details>
+                {{ end }}
+            </article>
+            {{ end }}
+        </div>
+        {{ end }}
+    </section>
+
 </main>
 {{ end }}

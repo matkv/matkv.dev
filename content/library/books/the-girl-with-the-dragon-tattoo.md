@@ -2,7 +2,7 @@
 index = "[[Books]]"
 title = "The Girl With the Dragon Tattoo"
 author = ["Stieg Larsson"]
-isbn = "9780307454546"
+isbn = "9780307454553"
 status = ["Finished"]
 year = 2005
 rating = 4
