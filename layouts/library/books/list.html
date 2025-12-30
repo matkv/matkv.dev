@@ -25,8 +25,18 @@
                     <div class="cover-wrap">
                         {{ $jpg := printf "/covers/%s.jpg" .Params.isbn | relURL }}
                         {{ $png := printf "/covers/%s.png" .Params.isbn | relURL }}
-                        <img src="{{ $jpg }}" alt="{{ .Title }} cover"
-                            onerror="this.onerror=null;this.src='{{ $png }}'">
+                        {{ $pngFile := printf "static/covers/%s.png" .Params.isbn }}
+                        {{ $jpgFile := printf "static/covers/%s.jpg" .Params.isbn }}
+                        {{ $pngExists := fileExists $pngFile }}
+                        {{ $jpgExists := fileExists $jpgFile }}
+                        {{ if $pngExists }}
+                        <img src="{{ $png | relURL }}" alt="{{ .Title }} cover" data-jpg="{{ $jpg }}"
+                            data-png="{{ $png }}">
+                        {{ else if $jpgExists }}
+                        <img src="{{ $jpg }}" alt="{{ .Title }} cover" data-jpg="{{ $jpg }}" data-png="{{ $png }}">
+                        {{ else }}
+                        <img src="/style.css" alt="{{ .Title }} cover missing">
+                        {{ end }}
                     </div>
                     <div class="book-meta">
                         <h3 class="book-title">{{ .Title }}</h3>
@@ -55,8 +65,18 @@
                     <div class="cover-wrap">
                         {{ $jpg := printf "/covers/%s.jpg" .Params.isbn | relURL }}
                         {{ $png := printf "/covers/%s.png" .Params.isbn | relURL }}
-                        <img src="{{ $jpg }}" alt="{{ .Title }} cover"
-                            onerror="this.onerror=null;this.src='{{ $png }}'">
+                        {{ $pngFile := printf "static/covers/%s.png" .Params.isbn }}
+                        {{ $jpgFile := printf "static/covers/%s.jpg" .Params.isbn }}
+                        {{ $pngExists := fileExists $pngFile }}
+                        {{ $jpgExists := fileExists $jpgFile }}
+                        {{ if $pngExists }}
+                        <img src="{{ $png | relURL }}" alt="{{ .Title }} cover" data-jpg="{{ $jpg }}"
+                            data-png="{{ $png }}">
+                        {{ else if $jpgExists }}
+                        <img src="{{ $jpg }}" alt="{{ .Title }} cover" data-jpg="{{ $jpg }}" data-png="{{ $png }}">
+                        {{ else }}
+                        <img src="/style.css" alt="{{ .Title }} cover missing">
+                        {{ end }}
                     </div>
                     <div class="book-meta">
                         <h3 class="book-title">{{ .Title }}</h3>
