@@ -3,10 +3,6 @@ title = "New Year's Resolutions 2026"
 date = 2026-01-02T16:44:41+01:00
 draft = false
 +++
-
-<br>
-<br>
-
 **Personal**
 
 - Find a flat & move out
@@ -29,3 +25,4 @@ draft = false
 - Finish Obsidian vault revamp & set up [matkv.dev](https://matkv.dev) automatic builds from the vault
 - Continue learning Rust & start with small projects
 - Watch more movies & go to cinema more often
+- Practice guitar & piano more regularly and play around with music production more
