@@ -2,9 +2,21 @@
 <main>
     <h1>{{ .Title }}</h1>
     {{ .Content }}
-    {{ range .Pages }}
-    <b>{{ .Title }}</b>
-    {{ .Content}}
-    {{ end }}
+    <div class="log-list">
+        {{ range .Pages }}
+        <div class="log-item">
+            <div class="log-date">
+                <time datetime="{{ .Date.Format " 2006-01-02" }}">{{ .Date.Format "02 Jan 2006" }}</time>
+            </div>
+            <div class="log-content">
+                {{ if .Title }}
+                <b>{{ .Title }}</b>
+                {{ end }}
+                {{ .Content }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+
 </main>
 {{ end }}

@@ -428,3 +428,65 @@ hr {
 }
 
 /* (duplicate media-query removed; preserved in main layout section above) */
+
+/* Log list styling */
+.log-list {
+    list-style: none;
+    padding: 0;
+    margin: 2em 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.log-item {
+    display: flex;
+    align-items: baseline;
+    /* align date and text on the same baseline */
+    padding-bottom: 1em;
+    border-bottom: 1px solid var(--color-hr);
+}
+
+.log-date {
+    min-width: 5rem;
+    color: var(--color-footer-text);
+    font-size: 0.8em;
+    line-height: 1.2;
+    text-align: left;
+    flex-shrink: 0;
+}
+
+.log-date time {
+    display: inline-block;
+    line-height: 1.2;
+}
+
+
+.log-content {
+    flex: 1;
+}
+
+/* Remove top margin of first element in log-content so content rises when title is missing */
+.log-content>*:first-child {
+    margin-top: 0;
+}
+
+/* When a title (inline) precedes the first block, remove the block's top margin */
+.log-content p:first-of-type,
+.log-content ul:first-of-type,
+.log-content ol:first-of-type,
+.log-content h1:first-of-type,
+.log-content h2:first-of-type,
+.log-content h3:first-of-type,
+.log-content h4:first-of-type {
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 0em;
+    list-style-position: inside;
+}
+
+ul ul {
+    padding-left: 1.25em;
+}
