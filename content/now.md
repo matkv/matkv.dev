@@ -12,7 +12,7 @@ Giving Rust another try. Reading through [the book](https://doc.rust-lang.org/bo
 
 ## Reading
 
-Reading [Between Two Fires](https://www.goodreads.com/book/show/63637332-between-two-fires) by Christopher Buehlman. It's a historical fantasy/horror novel set during the Black Plague.
+Reading [Tress of the Emerald Sea](https://www.goodreads.com/book/show/60531406-tress-of-the-emerald-sea) by Brandon Sanderson. Felt like reading something more light-hearted after the last couple dark/sad books.
 
 ## Fitness
 
