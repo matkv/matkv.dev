@@ -29,9 +29,7 @@ th:last-child {
     --color-table-header: var(--color-text);
     --color-link-content: var(--color-accent);
     --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    --sidebar-width: 16em;
-    --content-max-width: 42em;
-    --breakpoint: 48em;
+    --content-max-width: 48em;
 }
 
 [data-theme="dark"] {
@@ -124,13 +122,23 @@ th {
     min-height: 100vh;
 }
 
-.content {
-    padding: 0 2em 2em 2em;
-    flex: 1;
+.header {
+    border-bottom: 1px solid var(--color-hr);
+    padding: 1.5em 0;
 }
 
-.header {
-    padding: 0em 2em 0em 2em;
+.header-content {
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    padding: 0 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.15em;
 }
 
 .header h1 a {
@@ -153,6 +161,14 @@ th {
 
 .header nav a:hover {
     text-decoration: underline;
+}
+
+.content {
+    flex: 1;
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    padding: 2em;
+    width: 100%;
 }
 
 .theme-toggle {
@@ -218,23 +234,18 @@ hr {
 }
 
 .footer {
-    padding: 2em 0 0 0;
-    margin-top: auto;
-}
-
-.footer-desktop {
-    display: none;
-}
-
-.footer-mobile {
-    display: block;
-    padding: 2em 1.5em;
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    padding: 0 2em 2em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1em;
 }
 
 .footer-links {
     display: flex;
     gap: 0.5em;
-    margin-bottom: 0.5em;
 }
 
 .footer-links a {
@@ -253,52 +264,14 @@ hr {
 }
 
 @media (min-width: 48em) {
-    .wrapper {
+    .header-content {
         flex-direction: row;
-        min-height: 100vh;
-        position: relative;
-    }
-
-    .header {
-        position: sticky;
-        top: 0;
-        width: var(--sidebar-width);
-        height: 100vh;
-        overflow-y: auto;
-        flex-shrink: 0;
-        padding: 2em 1.5em;
-        display: flex;
-        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .header nav {
-        flex-direction: column;
-        gap: 0.5em;
-        align-items: flex-start;
-    }
-
-    .theme-toggle__button {
-        margin-top: 0.2em;
-        margin-bottom: 0.2em;
-    }
-
-    .footer-desktop {
-        display: block;
-    }
-
-    .footer-mobile {
-        display: none;
-    }
-
-    .content {
-        flex: 1;
-        padding: 2em;
-        overflow-y: auto;
-        max-height: 100vh;
-    }
-
-    .content>* {
-        max-width: var(--content-max-width);
+        margin-left: auto;
     }
 }
 
