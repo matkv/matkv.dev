@@ -116,14 +116,21 @@ th {
     color: var(--color-table-header);
 }
 
+.book-table tr.book-table-year td {
+    padding-top: 1.2em;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
 .book-table th:nth-child(1),
-.book-table td:nth-child(1) { width: 55%; }
+.book-table td:nth-child(1) { width: 50%; }
 
 .book-table th:nth-child(2),
 .book-table td:nth-child(2) { width: 35%; }
 
 .book-table th:nth-child(3),
-.book-table td:nth-child(3) { width: 10%; text-align: center; }
+.book-table td:nth-child(3) { width: 15%; text-align: center; }
 
 .book-table,
 .book-table th:first-child,
@@ -146,8 +153,9 @@ th {
 .book-table details > summary::-webkit-details-marker { display: none; }
 
 .book-table details > summary::after {
-    content: '▶';
-    font-size: 0.7em;
+    content: '❯';
+    font-size: 1em;
+    line-height: 1;
     margin-left: 0.5em;
     flex-shrink: 0;
     transition: transform 0.2s;

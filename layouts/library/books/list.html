@@ -2,6 +2,8 @@
 <main class="full-width">
     <h1>{{ .Title }}</h1>
     {{ .Content }}
+
+    {{ $finished := where .Pages ".Params.status" "intersect" (slice "Finished") }}
     <table class="book-table">
         <thead>
             <tr>
@@ -11,6 +13,10 @@
             </tr>
         </thead>
         <tbody>
+            {{ range $finished.GroupByDate "2006" }}
+            <tr class="book-table-year">
+                <td colspan="3"><strong>{{ .Key }}</strong></td>
+            </tr>
             {{ range .Pages }}
             {{ $title := .Title }}
             <tr>
@@ -28,7 +34,24 @@
                 <td>{{ with .Params.rating }}{{ . }}{{ end }}</td>
             </tr>
             {{ end }}
+            {{ end }}
+
+            {{ $toread := where .Pages ".Params.status" "intersect" (slice "To-Read") }}
+            {{ if gt (len $toread) 0 }}
+            <tr class="book-table-year">
+                <td colspan="3"><strong>To Read</strong></td>
+            </tr>
+            {{ range $toread }}
+            {{ $title := .Title }}
+            <tr>
+                <td>{{ $title }}</td>
+                <td>{{ delimit .Params.author ", " }}</td>
+                <td></td>
+            </tr>
+            {{ end }}
+            {{ end }}
         </tbody>
     </table>
+
 </main>
 {{ end }}
