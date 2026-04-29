@@ -1,5 +1,6 @@
 +++
 title = "Library"
+description = "My book reviews and to-read list."
 +++
 
-This is the library. For now, only book reviews are implemented, but I'm planning to add movie reviews in the future.
+My book reviews and to-read list. In the future this will maybe also track my movie reviews.

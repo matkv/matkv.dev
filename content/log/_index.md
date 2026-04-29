@@ -1,13 +1,6 @@
 +++
 title = "Log"
-[build]
-render = "always"
-
-[[cascade]]
-  [cascade.build]
-  list = "local"
-  publishResources = false
-  render = "never"
+description = "A feed of short updates and micro blog posts."
 +++
 
-A feed of short updates and notes about what I'm working on, learning, or thinking about. Long-term content will go in the [garden](/garden) section instead.
+A feed of short updates and micro blog posts.

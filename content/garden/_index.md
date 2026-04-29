@@ -1,5 +1,6 @@
 +++
 title = "Garden"
+description = "Long-term content and a replacement for my wiki."
 +++
 
-This is where my long-term notes will be. This will also probably replace my [wiki](https://wiki.matkv.dev) at some point.
+This garden will be used for long term content and will probably replace my wiki.
