@@ -15,11 +15,13 @@
         <tbody>
             {{ range $finished.GroupByDate "2006" }}
             <tr class="book-table-year">
-                <td colspan="3"><strong>{{ .Key }}</strong></td>
+                <td colspan="3">
+                    <strong>{{ .Key }}</strong>
+                </td>
             </tr>
             {{ range .Pages }}
             {{ $title := .Title }}
-            <tr>
+            <tr class="book-row">
                 <td>
                     {{ with .Content }}
                     <details>
@@ -43,7 +45,7 @@
             </tr>
             {{ range $toread }}
             {{ $title := .Title }}
-            <tr>
+            <tr class="book-row">
                 <td>{{ $title }}</td>
                 <td>{{ delimit .Params.author ", " }}</td>
                 <td></td>

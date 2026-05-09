@@ -133,6 +133,25 @@ th {
 .book-table th:nth-child(3),
 .book-table td:nth-child(3) { width: 15%; text-align: center; }
 
+.book-table tr.book-table-year { counter-reset: book-num; }
+
+.book-table tr.book-row { counter-increment: book-num; }
+
+.book-table tr.book-row td:first-child {
+    position: relative;
+}
+
+.book-table tr.book-row td:first-child::before {
+    content: counter(book-num);
+    position: absolute;
+    right: calc(100% + 0.5em);
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-footer-text);
+    font-size: 0.75em;
+    user-select: none;
+}
+
 .book-table,
 .book-table th:first-child,
 .book-table td:first-child { border-left: none; padding-left: 0; }
