@@ -12,7 +12,6 @@ But in the meantime they at least changed the titlebar to look nice on QT (KDE),
 ![Ghostty](/images/log/Ghostty.png)
 
 It's possible that there's some small issue with the column length for fastfetch, haven't really checked that yet.
-
 ## GitHub Copilot CLI
 
 Another tool that I just started playing around with is [GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli). I've already been using GitHub Copilot in VS Code and Visual Studio for like a year now, both with a personal subscription and at work, but this allows you to run it directly in the terminal.
