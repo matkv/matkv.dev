@@ -10,7 +10,7 @@ title = 'matkv.dev'
 description = "This is my digital garden and a place for me to share my thoughts & interests."
 github = "https://github.com/matkv"
 email = "mailto:mail@matkv.dev"
-copyright = "matkv 2025"
+copyright = "matkv 2026"
 
 [[menu.main]]
 	name = "now"
