@@ -5,6 +5,7 @@ author = ["John Sellars"]
 rating = "4"
 year = "2019"
 status = ["Finished"]
+cover = "/covers/lessons-in-stoicism-what-ancient-philosophers-teach-us-about-how-to-live-john-sellars.jpg"
 +++
 
 After reading "Meditations" by Marcus Aurelius I wanted to read another book on Stoicism. I found this one by John Sellars to be super interesting.
