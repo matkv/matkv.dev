@@ -116,6 +116,48 @@ th {
     color: var(--color-table-header);
 }
 
+
+.book-chart {
+    display: flex;
+    flex-direction: column;
+    gap: 0.45em;
+    margin-bottom: 2em;
+    max-width: 400px;
+}
+
+.book-chart-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75em;
+}
+
+.book-chart-year {
+    width: 2.8em;
+    font-size: 0.82em;
+    color: var(--color-footer-text);
+    flex-shrink: 0;
+}
+
+.book-chart-bar-wrap {
+    flex: 1;
+    height: 0.9em;
+    background: var(--color-border);
+    border-radius: 2px;
+}
+
+.book-chart-bar {
+    height: 100%;
+    background: var(--color-text);
+    border-radius: 2px;
+    min-width: 2px;
+}
+
+.book-chart-count {
+    font-size: 0.82em;
+    color: var(--color-footer-text);
+    width: 1.5em;
+}
+
 .book-table tr.book-table-year td {
     padding-top: 2.5em;
     padding-bottom: 0.4em;

@@ -1,9 +1,25 @@
 {{ define "main" }}
 <main class="full-width">
+    {{ $finished := where .Pages ".Params.status" "intersect" (slice "Finished") }}
+    {{ $toread := where .Pages ".Params.status" "intersect" (slice "To-Read") }}
     <h1>{{ .Title }}</h1>
     {{ .Content }}
-
-    {{ $finished := where .Pages ".Params.status" "intersect" (slice "Finished") }}
+    {{ $groups := $finished.GroupByDate "2006" }}
+    {{ $max := 0 }}
+    {{ range $groups }}{{ if gt (len .Pages) $max }}{{ $max = len .Pages }}{{ end }}{{ end }}
+    <div class="book-chart">
+        {{ range $groups }}
+        {{ $count := len .Pages }}
+        {{ $pct := printf "%.0f" (mul (div (float $count) (float $max)) 100.0) }}
+        <div class="book-chart-row">
+            <span class="book-chart-year">{{ .Key }}</span>
+            <div class="book-chart-bar-wrap">
+                <div class="book-chart-bar" style="width: {{ $pct }}%"></div>
+            </div>
+            <span class="book-chart-count">{{ $count }}</span>
+        </div>
+        {{ end }}
+    </div>
     <table class="book-table">
         <thead>
             <tr>
@@ -38,7 +54,6 @@
             {{ end }}
             {{ end }}
 
-            {{ $toread := where .Pages ".Params.status" "intersect" (slice "To-Read") }}
             {{ if gt (len $toread) 0 }}
             <tr class="book-table-year">
                 <td colspan="3"><strong>To Read</strong></td>
