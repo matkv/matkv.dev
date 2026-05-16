@@ -23,13 +23,13 @@ copyright = "matkv 2026"
 	weight = 2
 
 [[menu.main]]
-	name = "library"
-	url = "/library/"
+	name = "index"
+	url = "/index/"
 	weight = 3
 
 [[menu.main]]
-	name = "index"
-	url = "/index/"
+	name = "library"
+	url = "/library/"
 	weight = 4
 
 [[menu.main]]
