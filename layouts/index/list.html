@@ -2,8 +2,19 @@
 <main>
     <h1>{{ .Title }}</h1>
     {{ .Content }}
-    {{ range where .Site.RegularPages "Params.index_entry" true }}
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    {{ end }}
+    <div class="index-list">
+        {{ range (where .Site.RegularPages "Params.index_entry" true).GroupByParam "section_path" }}
+        <div class="index-group">
+            <a class="index-group-path" href="{{ if eq .Key "/" }}/index/{{ else }}{{ .Key }}/{{ end }}">{{ .Key }}</a>
+            <div class="index-group-entries">
+                {{ range .Pages }}
+                <div class="index-tree-row">
+                    <a class="index-entry" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
 </main>
 {{ end }}

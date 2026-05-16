@@ -577,3 +577,65 @@ ul {
 ul ul {
     padding-left: 1.5em;
 }
+
+/* Index list */
+.index-list {
+    margin-top: 1.5em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16em, 1fr));
+    gap: 2em;
+    align-items: start;
+}
+
+.index-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.index-group-path {
+    font-family: monospace;
+    font-size: 1em;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 0.4em;
+    text-decoration: none;
+    display: block;
+}
+
+.index-group-path:hover {
+    text-decoration: underline;
+}
+
+.index-group-entries {
+    display: flex;
+    flex-direction: column;
+}
+
+.index-tree-row {
+    position: relative;
+    padding: 0.25em 0 0.25em 1.2em;
+    border-left: 1px solid var(--color-border);
+}
+
+.index-tree-row::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0.75em;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.index-tree-row:last-child {
+    border-image: linear-gradient(to bottom, var(--color-border) 50%, transparent 50%) 1;
+}
+
+.index-entry {
+    text-decoration: underline;
+    color: var(--color-link-content);
+    transition: opacity 0.15s ease;
+}
+
+.index-entry:hover {
+    opacity: 0.7;
+}

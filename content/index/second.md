@@ -2,6 +2,7 @@
 title = "Second garden entry called index now"
 description = "Second garden entry called index now"
 index_entry = true
+section_path = "/"
 url = "/second"
 +++
 
