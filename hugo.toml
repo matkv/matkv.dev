@@ -28,8 +28,8 @@ copyright = "matkv 2026"
 	weight = 3
 
 [[menu.main]]
-	name = "garden"
-	url = "/garden/"
+	name = "index"
+	url = "/index/"
 	weight = 4
 
 [[menu.main]]
