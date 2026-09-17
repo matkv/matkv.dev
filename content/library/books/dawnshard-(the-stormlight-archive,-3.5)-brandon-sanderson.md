@@ -1,6 +1,6 @@
 +++
 title = "Dawnshard (The Stormlight Archive, #3.5)"
-date = "2021-08-23"
+date = "2021-01-21"
 author = ["Brandon Sanderson"]
 rating = "4"
 year = "2020"

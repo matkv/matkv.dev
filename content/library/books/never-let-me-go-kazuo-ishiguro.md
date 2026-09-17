@@ -1,6 +1,6 @@
 +++
 title = "Never Let Me Go"
-date = "2021-08-23"
+date = "2019-05-26"
 author = ["Kazuo Ishiguro"]
 rating = "3"
 year = "2005"

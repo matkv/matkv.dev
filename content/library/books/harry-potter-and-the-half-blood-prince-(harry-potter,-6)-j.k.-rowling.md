@@ -1,6 +1,6 @@
 +++
 title = "Harry Potter and the Half-Blood Prince (Harry Potter, #6)"
-date = "2021-08-23"
+date = "2020-12-08"
 author = ["J.K. Rowling"]
 rating = "4"
 year = "2005"

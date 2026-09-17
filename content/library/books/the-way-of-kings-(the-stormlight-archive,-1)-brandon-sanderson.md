@@ -1,6 +1,6 @@
 +++
 title = "The Way of Kings (The Stormlight Archive, #1)"
-date = "2021-08-23"
+date = "2019-11-10"
 author = ["Brandon Sanderson"]
 rating = "5"
 year = "2010"

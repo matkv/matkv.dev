@@ -1,6 +1,6 @@
 +++
 title = "The Whisperer in Darkness"
-date = "2021-08-23"
+date = "2019-10-20"
 author = ["H.P. Lovecraft"]
 rating = "3"
 year = "1931"

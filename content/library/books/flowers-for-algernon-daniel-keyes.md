@@ -1,6 +1,6 @@
 +++
 title = "Flowers for Algernon"
-date = "2023-10-07"
+date = "2019-05-15"
 author = ["Daniel Keyes"]
 rating = "4"
 year = "1966"

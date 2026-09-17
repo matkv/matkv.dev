@@ -1,6 +1,6 @@
 +++
 title = "Meditations"
-date = "2021-09-07"
+date = "2021-09-09"
 author = ["Marcus Aurelius"]
 rating = "4"
 year = "180"

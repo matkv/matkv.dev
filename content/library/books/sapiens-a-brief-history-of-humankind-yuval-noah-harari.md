@@ -1,6 +1,6 @@
 +++
 title = "Sapiens: A Brief History of Humankind"
-date = "2021-08-23"
+date = "2019-09-10"
 author = ["Yuval Noah Harari"]
 rating = "3"
 year = "2011"

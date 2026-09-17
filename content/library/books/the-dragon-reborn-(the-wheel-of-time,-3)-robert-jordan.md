@@ -1,6 +1,6 @@
 +++
 title = "The Dragon Reborn (The Wheel of Time, #3)"
-date = "2022-03-14"
+date = "2022-03-12"
 author = ["Robert Jordan"]
 rating = "4"
 year = "2002"

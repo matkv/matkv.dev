@@ -1,6 +1,6 @@
 +++
 title = "Oathbringer (The Stormlight Archive, #3)"
-date = "2021-08-23"
+date = "2020-04-16"
 author = ["Brandon Sanderson"]
 rating = "5"
 year = "2017"

@@ -1,6 +1,6 @@
 +++
 title = "The Book Thief"
-date = "2021-08-23"
+date = "2019-06-14"
 author = ["Markus Zusak"]
 rating = "4"
 year = "2005"

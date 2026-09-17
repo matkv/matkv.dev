@@ -1,6 +1,6 @@
 +++
 title = "Norwegian Wood"
-date = "2021-08-23"
+date = "2019-06-30"
 author = ["Haruki Murakami"]
 rating = "4"
 year = "1987"

@@ -1,6 +1,6 @@
 +++
 title = "Knife of Dreams (Wheel of Time, #11)"
-date = "2023-08-28"
+date = "2023-08-27"
 author = ["Robert Jordan"]
 rating = "4"
 year = "2005"

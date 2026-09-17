@@ -1,6 +1,6 @@
 +++
 title = "Schoolgirl"
-date = "2022-01-30"
+date = "2022-01-01"
 author = ["Osamu Dazai"]
 rating = "3"
 year = "1939"

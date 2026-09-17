@@ -1,6 +1,6 @@
 +++
 title = "Let the Right One In"
-date = "2021-08-23"
+date = "2020-09-29"
 author = ["John Ajvide Lindqvist"]
 rating = "3"
 year = "2007"

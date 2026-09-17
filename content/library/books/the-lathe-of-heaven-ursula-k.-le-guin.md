@@ -1,6 +1,6 @@
 +++
 title = "The Lathe of Heaven"
-date = "2025-05-28"
+date = "2025-05-27"
 author = ["Ursula K. Le Guin"]
 rating = "3"
 year = "1971"

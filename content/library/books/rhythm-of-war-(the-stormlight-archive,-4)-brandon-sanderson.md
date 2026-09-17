@@ -1,6 +1,6 @@
 +++
 title = "Rhythm of War (The Stormlight Archive, #4)"
-date = "2021-08-23"
+date = "2021-03-24"
 author = ["Brandon Sanderson"]
 rating = "5"
 year = "2020"

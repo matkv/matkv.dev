@@ -1,6 +1,6 @@
 +++
 title = "What If?: Serious Scientific Answers to Absurd Hypothetical Questions"
-date = "2021-08-23"
+date = "2019-10-10"
 author = ["Randall Munroe"]
 rating = "4"
 year = "2014"

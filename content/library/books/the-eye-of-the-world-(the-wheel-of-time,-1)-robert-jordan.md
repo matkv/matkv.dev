@@ -1,6 +1,6 @@
 +++
 title = "The Eye of the World (The Wheel of Time, #1)"
-date = "2021-09-22"
+date = "2021-08-18"
 author = ["Robert Jordan"]
 rating = "4"
 year = "1990"

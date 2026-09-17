@@ -1,6 +1,6 @@
 +++
 title = "The Last Wish (The Witcher, #0.5)"
-date = "2021-08-23"
+date = "2020-08-16"
 author = ["Andrzej Sapkowski"]
 rating = "4"
 year = "1993"

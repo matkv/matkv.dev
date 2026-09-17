@@ -1,6 +1,6 @@
 +++
 title = "Harry Potter and the Chamber of Secrets (Harry Potter, #2)"
-date = "2020-10-10"
+date = "2020-10-24"
 author = ["J.K. Rowling"]
 rating = "4"
 year = "1998"

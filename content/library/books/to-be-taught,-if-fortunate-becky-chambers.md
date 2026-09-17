@@ -1,6 +1,6 @@
 +++
 title = "To Be Taught, If Fortunate"
-date = "2021-08-23"
+date = "2021-04-01"
 author = ["Becky Chambers"]
 rating = "4"
 year = "2019"

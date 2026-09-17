@@ -1,6 +1,6 @@
 +++
 title = "A Psalm for the Wild-Built (Monk & Robot, #1)"
-date = "2026-05-09"
+date = "2026-05-08"
 author = ["Becky Chambers"]
 rating = "4"
 year = "2021"

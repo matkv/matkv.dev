@@ -1,6 +1,6 @@
 +++
 title = "Play Winning Chess (Everyman Chess)"
-date = "2021-08-30"
+date = "2021-08-29"
 author = ["Yasser Seirawan"]
 rating = "4"
 year = "2003"

@@ -1,6 +1,6 @@
 +++
 title = "Permanent Record"
-date = "2021-08-23"
+date = "2019-10-04"
 author = ["Edward Snowden"]
 rating = "5"
 year = "2019"

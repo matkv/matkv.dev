@@ -1,6 +1,6 @@
 +++
 title = "A Crown of Swords (The Wheel of Time, #7)"
-date = "2023-10-07"
+date = "2023-02-05"
 author = ["Robert Jordan"]
 rating = "4"
 year = "1997"

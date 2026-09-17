@@ -1,6 +1,6 @@
 +++
 title = "The Stand"
-date = "2026-08-19"
+date = "2026-08-20"
 author = ["Stephen  King"]
 rating = "4"
 year = "1978"

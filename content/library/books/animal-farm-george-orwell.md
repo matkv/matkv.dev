@@ -1,6 +1,6 @@
 +++
 title = "Animal Farm"
-date = "2021-08-23"
+date = "2020-04-18"
 author = ["George Orwell"]
 rating = "2"
 year = "1945"
