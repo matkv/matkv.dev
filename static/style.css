@@ -158,6 +158,15 @@ th {
     width: 1.5em;
 }
 
+.book-chart-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75em;
+    padding-top: 0.45em;
+    border-top: 1px solid var(--color-border);
+}
+
 .book-table tr.book-table-year td {
     padding-top: 2.5em;
     padding-bottom: 0.4em;

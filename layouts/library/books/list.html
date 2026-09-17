@@ -19,6 +19,10 @@
             <span class="book-chart-count">{{ $count }}</span>
         </div>
         {{ end }}
+        <div class="book-chart-total">
+            <span class="book-chart-year">Total</span>
+            <span class="book-chart-count">{{ len $finished }}</span>
+        </div>
     </div>
     <table class="book-table">
         <thead>
