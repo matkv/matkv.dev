@@ -1,0 +1,23 @@
+{{ with .pages }}
+<section class="media-section">
+    <h2>{{ $.title }}<span class="media-count">{{ len . }}</span></h2>
+    {{ range .GroupByDate "2006" }}
+    <div class="media-year">
+        <strong>{{ if eq .Key "0001" }}Undated{{ else }}{{ .Key }}{{ end }}</strong>
+        <span class="media-count">{{ len .Pages }}</span>
+    </div>
+    <div class="media-grid">
+        {{ range .Pages }}
+        <div class="media-card">
+            <div class="media-cover">{{ with .Params.cover }}<img loading="lazy" src="{{ . }}" alt="">{{ end }}</div>
+            <p class="media-title">{{ .Title }}</p>
+            <div class="media-meta">
+                <span>{{ .Params.year }}</span>
+                <span>{{ with .Params.rating }}{{ . }}/10{{ end }}</span>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    {{ end }}
+</section>
+{{ end }}

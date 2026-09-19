@@ -648,3 +648,80 @@ ul ul {
 .index-entry:hover {
     opacity: 0.7;
 }
+/* Movies & TV shows grid */
+.media-section {
+    margin-top: 2.5em;
+}
+
+.media-section > h2 {
+    font-size: 1.05em;
+    font-weight: 600;
+    margin: 0 0 0.2em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid var(--color-hr);
+    padding-bottom: 0.4em;
+}
+
+.media-count {
+    font-weight: normal;
+    color: var(--color-footer-text);
+    font-size: 0.9em;
+}
+
+.media-year {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 1.6em 0 0.7em 0;
+    font-size: 0.95em;
+}
+
+.media-year strong {
+    font-weight: 600;
+}
+
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(6.5rem, 1fr));
+    gap: 1.1rem 0.9rem;
+}
+
+.media-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35em;
+    min-width: 0;
+}
+
+.media-cover {
+    aspect-ratio: 2 / 3;
+    overflow: hidden;
+    background: var(--color-toggle-bg);
+    border: 1px solid var(--color-table-border);
+}
+
+.media-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.media-title {
+    font-size: 0.9em;
+    line-height: 1.3;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.media-meta {
+    font-size: 0.82em;
+    color: var(--color-footer-text);
+    display: flex;
+    justify-content: space-between;
+}

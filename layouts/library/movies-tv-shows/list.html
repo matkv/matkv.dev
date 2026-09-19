@@ -1,0 +1,8 @@
+{{ define "main" }}
+<main class="full-width">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    {{ partial "media-section.html" (dict "title" "Movies" "pages" (where .Pages "Params.media_type" "Movie")) }}
+    {{ partial "media-section.html" (dict "title" "TV Shows" "pages" (where .Pages "Params.media_type" "TV Show")) }}
+</main>
+{{ end }}
