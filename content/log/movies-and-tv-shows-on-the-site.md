@@ -1,6 +1,6 @@
 +++
 title = "Movies and TV shows on the site"
-date = "2026-09-20"
+date = "2026-09-19"
 [build]
   render = "never"
   list = "local"
