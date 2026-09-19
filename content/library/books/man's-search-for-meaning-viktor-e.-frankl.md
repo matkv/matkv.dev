@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/mans-search-for-meaning-viktor-e-frankl.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 The first part of the book describes the experiences of the author during his imprisonment in several concentration camps and talks about dealing with the situation there and finding a reason to accept & continue enduring his suffering there. Obviously some very disturbing & tragic description of events there.

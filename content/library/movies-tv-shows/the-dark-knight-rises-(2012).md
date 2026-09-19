@@ -7,6 +7,6 @@ rating = "9"
 cover = "/covers/movies-tv-shows/the-dark-knight-rises-2012.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

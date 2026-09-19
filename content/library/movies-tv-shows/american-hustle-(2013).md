@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/american-hustle-2013.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

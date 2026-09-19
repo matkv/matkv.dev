@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/better-call-saul-2015.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

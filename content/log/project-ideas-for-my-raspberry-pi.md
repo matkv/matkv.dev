@@ -1,6 +1,9 @@
 +++
 title = "Project ideas for my Raspberry Pi"
 date = "2022-03-25"
+[build]
+  render = "never"
+  list = "local"
 +++
 
 Now that my old Raspberry Pi isn't used anymore as a 24/7 torrent box for my ... Linux ISOs, here are some ideas about what I could use for now.

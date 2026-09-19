@@ -1,6 +1,9 @@
 +++
 title = "My Neovim in VSCode setup"
 date = "2023-11-03"
+[build]
+  render = "never"
+  list = "local"
 +++
 
 My last update about Neovim, I swear :D

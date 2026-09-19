@@ -1,6 +1,9 @@
 +++
 title = "2 New VSTs"
 date = "2025-07-02"
+[build]
+  render = "never"
+  list = "local"
 +++
 
 Last week I bought two new VSTs during the summer sale of Native Instruments. Got some pretty good deals on them and I'm excited to play around with them and overall I'm trying to stick to my goal of practising music production more regularly.

@@ -7,6 +7,6 @@ rating = "9"
 cover = "/covers/movies-tv-shows/schindlers-list-1993.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

@@ -6,6 +6,6 @@ status = ["To-Read"]
 cover = "/covers/blood-meridian-or-the-evening-redness-in-the-west-cormac-mccarthy.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

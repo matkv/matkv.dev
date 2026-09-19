@@ -8,6 +8,6 @@ status = ["Finished"]
 cover = "/covers/winters-heart-the-wheel-of-time-9-robert-jordan.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

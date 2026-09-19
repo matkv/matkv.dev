@@ -1,6 +1,9 @@
 +++
 title = "Focusing on Go"
 date = "2023-10-06"
+[build]
+  render = "never"
+  list = "local"
 +++
 
 After messing around with Rust for quite a while, I've decided to put that on hold for the near future at least & shift my focus (back) to learning Go.

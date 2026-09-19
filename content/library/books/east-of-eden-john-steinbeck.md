@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/east-of-eden-john-steinbeck.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 Really great prose, definitely felt old-timey quite often but I guess that's to be expected from a book that was written a while ago. Very descriptive writing at times and not the biggest page-turner but I liked it a lot overall.

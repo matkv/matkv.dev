@@ -7,6 +7,6 @@ rating = "6"
 cover = "/covers/movies-tv-shows/monty-python-and-the-holy-grail-1975.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

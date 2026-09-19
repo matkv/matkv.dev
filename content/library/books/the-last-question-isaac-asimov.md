@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/the-last-question-isaac-asimov.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 Really cool short story with a suprising twist at the end. Definitely recommend it!

@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/squid-game-2021.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

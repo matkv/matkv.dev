@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/school-of-rock-2003.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/a-quiet-place-2018.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

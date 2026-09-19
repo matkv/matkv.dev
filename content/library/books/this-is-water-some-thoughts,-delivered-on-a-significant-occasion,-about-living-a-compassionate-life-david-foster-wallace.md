@@ -8,6 +8,6 @@ status = ["Finished"]
 cover = "/covers/this-is-water-some-thoughts-delivered-on-a-significant-occasion-about-living-a-compassionate-life-david-foster-wallace.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

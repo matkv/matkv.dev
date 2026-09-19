@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/harry-potter-and-the-goblet-of-fire-harry-potter-4-jk-rowling.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 My first Harry Potter book that I ever read. Loved that we get both the normal cozy Hogwarts athmosphere while also getting some more special scenes with the Triwizard tournament & the story starts to definitely shift to a more darker tone.

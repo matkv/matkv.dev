@@ -1,6 +1,9 @@
 +++
 title = "Downgrading Neovim to a simple text editor again"
 date = "2023-09-29"
+[build]
+  render = "never"
+  list = "local"
 +++
 
 Why I've decided to give up on trying to use Neovim as my main IDE and how I'm planning to use it in the future instead.

@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/harry-potter-and-the-chamber-of-secrets-harry-potter-2-jk-rowling.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 Simple writing style, super cozy feeling. Liked it a lot!

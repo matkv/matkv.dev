@@ -8,6 +8,6 @@ status = ["Finished"]
 cover = "/covers/the-gathering-storm-the-wheel-of-time-12-robert-jordan.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

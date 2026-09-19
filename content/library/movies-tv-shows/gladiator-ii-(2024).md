@@ -7,6 +7,6 @@ rating = "7"
 cover = "/covers/movies-tv-shows/gladiator-ii-2024.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

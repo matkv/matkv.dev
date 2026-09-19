@@ -7,6 +7,6 @@ rating = "7"
 cover = "/covers/movies-tv-shows/war-dogs-2016.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

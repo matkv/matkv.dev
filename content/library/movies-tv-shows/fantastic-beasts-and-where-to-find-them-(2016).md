@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/fantastic-beasts-and-where-to-find-them-2016.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

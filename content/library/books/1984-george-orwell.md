@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/1984-george-orwell.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 I personally don't find Orwell's writing still to be very engaging but overall I liked the book, definitely worth reading it for the references and general impact on popular culture

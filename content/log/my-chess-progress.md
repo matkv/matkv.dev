@@ -1,6 +1,9 @@
 +++
 title = "My chess progress"
 date = "2022-05-07"
+[build]
+  render = "never"
+  list = "local"
 +++
 
 So far this blog has been mostly just about updates on this website but kind of want to also write about other topics. So I thought I'd write a recap on my chess progress over the last year and how I'm planning to work on improving my chess in the future.

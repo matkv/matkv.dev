@@ -8,6 +8,6 @@ status = ["Finished"]
 cover = "/covers/lolita-vladimir-nabokov.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

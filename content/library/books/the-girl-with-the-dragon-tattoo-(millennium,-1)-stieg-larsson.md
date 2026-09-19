@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/the-girl-with-the-dragon-tattoo-millennium-1-stieg-larsson.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 Wanted a change of pace so I read a thriller / crime novel for the first time in quite a while. The book started pretty action-packed but then slowed down in the first third and lost me for a couple of weeks which means that it took me a while to finish.

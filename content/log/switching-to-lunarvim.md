@@ -1,6 +1,9 @@
 +++
 title = "Switching to Lunarvim"
 date = "2021-11-05"
+[build]
+  render = "never"
+  list = "local"
 +++
 
 I decided to give up on trying to get a productive NeoVim config set up anytime soon - I will instead try out **LunarVim**.

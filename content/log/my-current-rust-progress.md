@@ -1,6 +1,9 @@
 +++
 title = "My current Rust progress"
 date = "2022-02-22"
+[build]
+  render = "never"
+  list = "local"
 +++
 
 I started learning Rust back in December 2021. Here is a quick summary of my current progress at learning Rust.

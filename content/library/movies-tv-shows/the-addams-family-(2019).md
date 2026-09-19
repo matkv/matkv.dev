@@ -7,6 +7,6 @@ rating = "5"
 cover = "/covers/movies-tv-shows/the-addams-family-2019.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

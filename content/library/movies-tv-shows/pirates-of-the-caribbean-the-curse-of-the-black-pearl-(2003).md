@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/pirates-of-the-caribbean-the-curse-of-the-black-pearl-2003.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

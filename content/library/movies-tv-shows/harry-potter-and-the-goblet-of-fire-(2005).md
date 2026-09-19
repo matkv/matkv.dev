@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/harry-potter-and-the-goblet-of-fire-2005.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

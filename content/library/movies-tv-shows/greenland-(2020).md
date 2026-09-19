@@ -7,6 +7,6 @@ rating = "6"
 cover = "/covers/movies-tv-shows/greenland-2020.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

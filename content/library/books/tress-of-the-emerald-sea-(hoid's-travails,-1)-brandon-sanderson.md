@@ -8,6 +8,6 @@ status = ["Finished"]
 cover = "/covers/tress-of-the-emerald-sea-hoids-travails-1-brandon-sanderson.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

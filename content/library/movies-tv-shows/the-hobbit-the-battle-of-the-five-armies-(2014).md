@@ -7,6 +7,6 @@ rating = "7"
 cover = "/covers/movies-tv-shows/the-hobbit-the-battle-of-the-five-armies-2014.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

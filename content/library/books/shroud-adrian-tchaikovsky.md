@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/shroud-adrian-tchaikovsky.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 Loved how the narration jumped between the human protagonists and the alien ones.

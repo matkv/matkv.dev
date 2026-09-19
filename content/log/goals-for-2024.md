@@ -1,6 +1,9 @@
 +++
 title = "Goals for 2024"
 date = "2024-01-01"
+[build]
+  render = "never"
+  list = "local"
 +++
 
 It is officially 2024, so I want to summarise my plans, goals and habits I want to build this year.

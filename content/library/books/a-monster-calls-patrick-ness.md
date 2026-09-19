@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/a-monster-calls-patrick-ness.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 Liked it a lot. A pretty quick read, very unique story. The writing style was pretty and I liked the little stories within the main story that the reader is shown.

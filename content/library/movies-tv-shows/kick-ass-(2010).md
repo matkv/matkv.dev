@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/kick-ass-2010.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

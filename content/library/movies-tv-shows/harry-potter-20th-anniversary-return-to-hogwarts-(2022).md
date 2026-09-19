@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/harry-potter-20th-anniversary-return-to-hogwarts-2022.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

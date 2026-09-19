@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/flowers-for-algernon-daniel-keyes.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 Loved the way the writing style changes simultaneously with the mental state of the main character while the story progresses, first time I read something like that. In general the ending was kind of spoiled or at least too predictable by the synopsis and general descriptions of the book.

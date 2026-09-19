@@ -7,6 +7,6 @@ rating = "7"
 cover = "/covers/movies-tv-shows/the-simpsons-movie-2007.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

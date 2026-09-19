@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/dune-part-two-2024.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

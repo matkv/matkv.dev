@@ -7,6 +7,6 @@ year = "2018"
 status = ["Finished"]
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

@@ -7,6 +7,6 @@ rating = "6"
 cover = "/covers/movies-tv-shows/dracula-untold-2014.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

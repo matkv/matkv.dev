@@ -1,6 +1,9 @@
 +++
 title = "Trying Doom Emacs"
 date = "2021-11-16"
+[build]
+  render = "never"
+  list = "local"
 +++
 
 After trying out NeoVim and LunarVim, I've decided to also give Doom Emacs a try. I'm still unsure which editor fits my needs best so I'll just play around with all of them to help me build an opinion.

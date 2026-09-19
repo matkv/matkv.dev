@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/fight-club-1999.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

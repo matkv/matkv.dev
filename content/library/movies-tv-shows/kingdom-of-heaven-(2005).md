@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/kingdom-of-heaven-2005.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

@@ -8,6 +8,6 @@ status = ["Finished"]
 cover = "/covers/a-memory-of-light-wheel-of-time-14-robert-jordan.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

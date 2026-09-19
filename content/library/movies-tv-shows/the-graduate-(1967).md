@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/the-graduate-1967.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

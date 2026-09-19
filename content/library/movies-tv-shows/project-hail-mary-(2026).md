@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/project-hail-mary-2026.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

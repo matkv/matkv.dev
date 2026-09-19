@@ -7,6 +7,6 @@ rating = "7"
 cover = "/covers/movies-tv-shows/the-hangover-2009.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

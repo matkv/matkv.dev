@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/harry-potter-and-the-order-of-the-phoenix-harry-potter-5-jk-rowling.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 Loved the parts with Dumbledore's Army and Dolores Umbridge was a great villain character. Overall typical Harry Potter, I liked it!

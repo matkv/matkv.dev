@@ -8,6 +8,6 @@ status = ["Finished"]
 cover = "/covers/the-fires-of-heaven-wheel-of-time-5-robert-jordan.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

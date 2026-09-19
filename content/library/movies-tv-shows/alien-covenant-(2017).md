@@ -7,6 +7,6 @@ rating = "7"
 cover = "/covers/movies-tv-shows/alien-covenant-2017.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

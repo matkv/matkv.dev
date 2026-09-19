@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/shaun-of-the-dead-2004.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

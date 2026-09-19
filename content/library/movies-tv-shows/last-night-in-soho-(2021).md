@@ -7,6 +7,6 @@ rating = "7"
 cover = "/covers/movies-tv-shows/last-night-in-soho-2021.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

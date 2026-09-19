@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/donnie-darko-2001.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

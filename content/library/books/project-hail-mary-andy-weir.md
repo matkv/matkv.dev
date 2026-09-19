@@ -8,6 +8,6 @@ status = ["Finished"]
 cover = "/covers/project-hail-mary-andy-weir.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

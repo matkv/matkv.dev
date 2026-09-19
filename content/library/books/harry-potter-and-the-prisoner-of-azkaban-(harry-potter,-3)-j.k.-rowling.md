@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/harry-potter-and-the-prisoner-of-azkaban-harry-potter-3-jk-rowling.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 The story is finally getting a bit darker in this book but it still has that cozy feeling, the time travel aspect is also pretty interesting.

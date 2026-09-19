@@ -7,6 +7,6 @@ rating = "9"
 cover = "/covers/movies-tv-shows/the-shawshank-redemption-1994.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

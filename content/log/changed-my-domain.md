@@ -1,6 +1,9 @@
 +++
 title = "Changed my domain"
 date = "2022-04-28"
+[build]
+  render = "never"
+  list = "local"
 +++
 
 I changed the domain for this website! It can now be reached at [matkv.dev](https://matkv.dev). Previously it was my full name + ".com" but I decided to change it because I feel more comfortable sharing this domain on various sites without having to actually reveal my full name.

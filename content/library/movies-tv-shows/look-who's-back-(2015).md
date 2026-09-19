@@ -7,6 +7,6 @@ rating = "7"
 cover = "/covers/movies-tv-shows/look-whos-back-2015.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

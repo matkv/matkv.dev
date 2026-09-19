@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/django-unchained-2012.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

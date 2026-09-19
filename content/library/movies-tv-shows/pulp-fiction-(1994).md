@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/pulp-fiction-1994.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

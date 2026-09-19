@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/the-fault-in-our-stars-2014.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

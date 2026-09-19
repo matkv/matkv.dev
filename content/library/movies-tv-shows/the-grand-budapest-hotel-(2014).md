@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/the-grand-budapest-hotel-2014.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

@@ -7,6 +7,6 @@ rating = "7"
 cover = "/covers/movies-tv-shows/alien-1979.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

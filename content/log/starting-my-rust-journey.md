@@ -1,6 +1,9 @@
 +++
 title = "Starting my Rust journey"
 date = "2021-12-08"
+[build]
+  render = "never"
+  list = "local"
 +++
 
 After struggling to find ideas for side projects & not really being motivated about any of my current pet projects I have decided to try learning **Rust**. 

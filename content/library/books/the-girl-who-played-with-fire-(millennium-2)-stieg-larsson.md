@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/the-girl-who-played-with-fire-millennium-2-stieg-larsson.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 As with the previous book in the Millenium trilogy, I lost motivation somewhere in the middle and once again took a break while reading it. The story just seemed a bit too unfocused in the middle of the book.

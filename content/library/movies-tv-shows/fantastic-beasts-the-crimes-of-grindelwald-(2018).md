@@ -7,6 +7,6 @@ rating = "6"
 cover = "/covers/movies-tv-shows/fantastic-beasts-the-crimes-of-grindelwald-2018.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

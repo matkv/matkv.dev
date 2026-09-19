@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/dawnshard-the-stormlight-archive-35-brandon-sanderson.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 I really like the novellas in between the long books of The Stormlight Archive. Dawnshard was a nice change of pace and gave us a chance to spend more time with Rysn. Sandersons writing style was nice as usual and didn't get in the way of following the story. Overall I liked the book!

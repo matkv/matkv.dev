@@ -7,6 +7,6 @@ rating = "7"
 cover = "/covers/movies-tv-shows/blade-runner-1982.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

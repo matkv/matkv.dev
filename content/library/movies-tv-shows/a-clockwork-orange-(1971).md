@@ -7,6 +7,6 @@ rating = "6"
 cover = "/covers/movies-tv-shows/a-clockwork-orange-1971.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

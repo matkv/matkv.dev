@@ -7,6 +7,6 @@ rating = "9"
 cover = "/covers/movies-tv-shows/the-silence-of-the-lambs-1991.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

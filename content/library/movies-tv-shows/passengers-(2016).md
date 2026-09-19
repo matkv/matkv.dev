@@ -7,6 +7,6 @@ rating = "7"
 cover = "/covers/movies-tv-shows/passengers-2016.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/animal-farm-george-orwell.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 I get the overall message, but I just found it way too predictable and just like with 1984 I just don't really love Orwell's writing style. All in all I think it's worth the read though, even if it's just for the references in popular culture and general idea and political allegory.

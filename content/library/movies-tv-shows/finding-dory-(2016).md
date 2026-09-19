@@ -7,6 +7,6 @@ rating = "9"
 cover = "/covers/movies-tv-shows/finding-dory-2016.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

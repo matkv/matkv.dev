@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/cunk-on-everything-the-encyclopedia-philomena-philomena-cunk.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 Funny concept but overall it wasn't really my type of humor. I get that the character is supposed to be naive and stupid but it was just a bit too much for me.

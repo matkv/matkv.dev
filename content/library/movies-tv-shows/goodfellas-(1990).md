@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/goodfellas-1990.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

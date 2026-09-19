@@ -1,6 +1,9 @@
 +++
 title = "Reviving this blog"
 date = "2023-05-22"
+[build]
+  render = "never"
+  list = "local"
 +++
 
 I haven't been active on this blog for more than 8 months. I'm trying to change that now, so here are some ideas on what direction I want to take this blog in the future and what kind of content I want to focus on.

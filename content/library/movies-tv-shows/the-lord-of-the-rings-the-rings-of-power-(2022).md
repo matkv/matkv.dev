@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/the-lord-of-the-rings-the-rings-of-power-2022.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

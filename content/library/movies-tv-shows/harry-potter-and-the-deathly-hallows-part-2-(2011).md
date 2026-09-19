@@ -7,6 +7,6 @@ rating = "9"
 cover = "/covers/movies-tv-shows/harry-potter-and-the-deathly-hallows-part-2-2011.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/schachnovelle-stefan-zweig.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 I read this novella pretty spontaneously because I had just really been in a "chess mood" for the last couple of days.

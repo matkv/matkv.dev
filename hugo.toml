@@ -1,6 +1,13 @@
 baseURL = 'https://matkv.dev/'
 title = 'matkv.dev'
 
+# No RSS feeds - reviews and log entries have no pages of their own to link to.
+[outputs]
+home = ["HTML"]
+section = ["HTML"]
+taxonomy = ["HTML"]
+term = ["HTML"]
+
 [markup]
 	[markup.goldmark]
 		[markup.goldmark.renderer]

@@ -1,6 +1,9 @@
 +++
 title = "Trying out Ghostty & GitHub Copilot CLI"
 date = "2025-09-29"
+[build]
+  render = "never"
+  list = "local"
 +++
 
 ## Ghostty

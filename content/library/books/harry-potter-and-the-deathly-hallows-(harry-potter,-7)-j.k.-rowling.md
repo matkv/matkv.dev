@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/harry-potter-and-the-deathly-hallows-harry-potter-7-jk-rowling.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 Overall a nice end to the whole series, some of the conclusions/explanations to some plot holes felt kind of weak but again, the book suceeds at what it is trying to be.

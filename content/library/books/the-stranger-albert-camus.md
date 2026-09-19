@@ -8,6 +8,6 @@ status = ["Finished"]
 cover = "/covers/the-stranger-albert-camus.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

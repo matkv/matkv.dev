@@ -1,6 +1,9 @@
 +++
 title = "code.matkv.dev"
 date = "2023-07-03"
+[build]
+  render = "never"
+  list = "local"
 +++
 
 I just set up a second site that I'm planning to use for random programming projects. It runs on Blazor and can be found at [code.matkv.dev](https://code.matkv.dev)

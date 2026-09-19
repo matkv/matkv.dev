@@ -8,6 +8,6 @@ status = ["Finished"]
 cover = "/covers/crossroads-of-twilight-wheel-of-time-10-robert-jordan.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

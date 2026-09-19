@@ -7,6 +7,6 @@ rating = "7"
 cover = "/covers/movies-tv-shows/star-wars-episode-ix-the-rise-of-skywalker-2019.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/12-years-a-slave-2013.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

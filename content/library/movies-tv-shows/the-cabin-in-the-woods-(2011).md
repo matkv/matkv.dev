@@ -7,6 +7,6 @@ rating = "7"
 cover = "/covers/movies-tv-shows/the-cabin-in-the-woods-2011.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

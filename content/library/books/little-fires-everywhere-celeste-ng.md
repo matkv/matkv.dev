@@ -8,6 +8,6 @@ status = ["Finished"]
 cover = "/covers/little-fires-everywhere-celeste-ng.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

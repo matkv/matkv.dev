@@ -8,6 +8,6 @@ status = ["Finished"]
 cover = "/covers/new-spring-wheel-of-time-0-robert-jordan.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

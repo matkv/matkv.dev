@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/the-dark-knight-2008.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

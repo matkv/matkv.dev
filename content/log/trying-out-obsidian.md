@@ -1,6 +1,9 @@
 +++
 title = "Trying out Obsidian"
 date = "2022-05-12"
+[build]
+  render = "never"
+  list = "local"
 +++
 
 I've been interested in personal knowledge base systems recently. After reading about several different ones, I've decided to give **Obsidian** a shot & try moving all my existing notes there & set up an Obsidian vault from scratch.

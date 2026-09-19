@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/t2-trainspotting-2017.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

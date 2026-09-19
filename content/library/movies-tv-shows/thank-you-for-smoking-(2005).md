@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/thank-you-for-smoking-2005.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

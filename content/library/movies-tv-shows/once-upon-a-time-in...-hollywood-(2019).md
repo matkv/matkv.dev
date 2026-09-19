@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/once-upon-a-time-in-hollywood-2019.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

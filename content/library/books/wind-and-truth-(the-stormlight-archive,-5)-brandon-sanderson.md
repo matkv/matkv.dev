@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/wind-and-truth-the-stormlight-archive-5-brandon-sanderson.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 By far the longest book I've ever read (over 1800 pages on my Kindle version). I really liked it but compared to the previous 4 books I had some issues with. Overall the ending seems a bit unsatisfying because it seemed a bit rushed & most plot points have been left open (which is understandable considering this is the 5th out of 10 planned books). I would have preferred if some of those storylines would have had at least some sort of an ending.

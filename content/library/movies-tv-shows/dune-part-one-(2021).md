@@ -7,6 +7,6 @@ rating = "9"
 cover = "/covers/movies-tv-shows/dune-part-one-2021.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

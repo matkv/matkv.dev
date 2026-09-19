@@ -7,6 +7,6 @@ rating = "9"
 cover = "/covers/movies-tv-shows/the-lord-of-the-rings-the-return-of-the-king-2003.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

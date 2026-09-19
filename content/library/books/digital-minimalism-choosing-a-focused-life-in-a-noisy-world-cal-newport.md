@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/digital-minimalism-choosing-a-focused-life-in-a-noisy-world-cal-newport.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 I've been trying to get my phone usage down & just be more mindful about my technology usage in general so I decided to read this book by Cal Newport.

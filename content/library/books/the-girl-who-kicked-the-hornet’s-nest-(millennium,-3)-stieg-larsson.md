@@ -8,6 +8,6 @@ status = ["Finished"]
 cover = "/covers/the-girl-who-kicked-the-hornets-nest-millennium-3-stieg-larsson.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

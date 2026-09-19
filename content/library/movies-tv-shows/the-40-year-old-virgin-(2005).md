@@ -7,6 +7,6 @@ rating = "6"
 cover = "/covers/movies-tv-shows/the-40-year-old-virgin-2005.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

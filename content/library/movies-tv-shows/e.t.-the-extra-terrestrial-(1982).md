@@ -7,6 +7,6 @@ rating = "7"
 cover = "/covers/movies-tv-shows/et-the-extra-terrestrial-1982.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

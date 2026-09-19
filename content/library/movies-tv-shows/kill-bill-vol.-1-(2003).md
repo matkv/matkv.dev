@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/kill-bill-vol-1-2003.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

@@ -1,6 +1,9 @@
 +++
 title = "Neovim setup"
 date = "2021-10-29"
+[build]
+  render = "never"
+  list = "local"
 +++
 
 I decided to try out **Neovim** so I will use this blog post to document the setup process.

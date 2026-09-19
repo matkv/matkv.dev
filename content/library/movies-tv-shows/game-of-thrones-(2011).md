@@ -7,6 +7,6 @@ rating = "9"
 cover = "/covers/movies-tv-shows/game-of-thrones-2011.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

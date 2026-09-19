@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/rhythm-of-war-the-stormlight-archive-4-brandon-sanderson.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 Personally I didn't love that most of the book to place in the same location but overall it was amazing as usual. I actually didn't mind the pacing and the finale was great and left me eager to read the next one once it's out!

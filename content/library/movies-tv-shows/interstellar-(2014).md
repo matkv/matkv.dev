@@ -7,6 +7,6 @@ rating = "9"
 cover = "/covers/movies-tv-shows/interstellar-2014.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/the-hobbit-an-unexpected-journey-2012.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

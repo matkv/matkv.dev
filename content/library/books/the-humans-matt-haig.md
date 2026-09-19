@@ -8,6 +8,6 @@ status = ["Finished"]
 cover = "/covers/the-humans-matt-haig.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

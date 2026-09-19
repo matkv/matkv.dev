@@ -7,6 +7,6 @@ rating = "8"
 cover = "/covers/movies-tv-shows/the-girl-with-the-dragon-tattoo-2011.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

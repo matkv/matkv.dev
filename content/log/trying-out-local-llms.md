@@ -1,6 +1,9 @@
 +++
 title = "Trying out local LLMs"
 date = "2025-06-12"
+[build]
+  render = "never"
+  list = "local"
 +++
 
 I've been trying out local LLMs for the first time this weekend. I installed [Ollama](https://ollama.com/) locally on Windows and then downloaded two models just to play around with them: Deepseek R1 & LLama 2 Uncensored.

@@ -7,6 +7,6 @@ rating = "9"
 cover = "/covers/movies-tv-shows/the-office-2005.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

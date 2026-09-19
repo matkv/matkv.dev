@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/what-if-serious-scientific-answers-to-absurd-hypothetical-questions-randall-munroe.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 Really fun book! If you enjoy the xkcd comics, you'll enjoy this book too. Each chapter answers some silly question in a pretty scientific way. It's easy to just pick it up every now and then because each chapter can basically stand on its own.

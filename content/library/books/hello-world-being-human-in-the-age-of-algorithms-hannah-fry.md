@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/hello-world-being-human-in-the-age-of-algorithms-hannah-fry.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 Really interesting topic, the writing style was fine too. However it doesn't really go into detail or a lot of depth about the specific examples in the book. Overall I enjoyed it, would definitely recommend it to someone who is into IT in general.

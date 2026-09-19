@@ -8,7 +8,7 @@ status = ["Finished"]
 cover = "/covers/between-two-fires-christopher-buehlman.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
 One of the best books I read in a while. Some genuinely gross & horrifying scenes during the Plague in France in contrast with a beautiful & heartfelt "father"/"daughter" relationship between a knight called Thomas and a girl called Delphine.

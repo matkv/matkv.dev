@@ -7,6 +7,6 @@ rating = "7"
 cover = "/covers/movies-tv-shows/avatar-the-way-of-water-2022.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

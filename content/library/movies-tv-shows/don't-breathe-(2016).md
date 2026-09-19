@@ -7,6 +7,6 @@ rating = "7"
 cover = "/covers/movies-tv-shows/dont-breathe-2016.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

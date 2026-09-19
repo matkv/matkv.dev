@@ -7,6 +7,6 @@ rating = "9"
 cover = "/covers/movies-tv-shows/the-lord-of-the-rings-the-two-towers-2002.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

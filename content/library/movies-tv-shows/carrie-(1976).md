@@ -7,6 +7,6 @@ rating = "6"
 cover = "/covers/movies-tv-shows/carrie-1976.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

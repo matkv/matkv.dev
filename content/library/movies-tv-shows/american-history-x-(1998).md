@@ -7,6 +7,6 @@ rating = "9"
 cover = "/covers/movies-tv-shows/american-history-x-1998.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 

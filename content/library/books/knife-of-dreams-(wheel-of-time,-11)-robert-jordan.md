@@ -8,6 +8,6 @@ status = ["Finished"]
 cover = "/covers/knife-of-dreams-wheel-of-time-11-robert-jordan.jpg"
 [build]
   render = "never"
-  list = "always"
+  list = "local"
 +++
 
