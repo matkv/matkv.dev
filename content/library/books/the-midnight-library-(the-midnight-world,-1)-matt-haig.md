@@ -6,6 +6,9 @@ rating = "3"
 year = "2020"
 status = ["Finished"]
 cover = "/covers/the-midnight-library-the-midnight-world-1-matt-haig.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 
 It took me quite a while to finish this book even though it's only around 300 pages long. I started it once early last year but actually gave up on it because the story just didn't click with me.  

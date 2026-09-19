@@ -6,6 +6,9 @@ rating = "4"
 year = "1987"
 status = ["Finished"]
 cover = "/covers/norwegian-wood-haruki-murakami.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 
 Really unique writing style, the story itself wasn't actually a big part of the book. I felt like the relationships between the characters were the main focus. Definitely felt quite relatable at times.

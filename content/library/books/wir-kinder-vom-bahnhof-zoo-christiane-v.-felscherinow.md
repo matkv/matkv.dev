@@ -6,5 +6,8 @@ rating = "3"
 year = "1978"
 status = ["Finished"]
 cover = "/covers/wir-kinder-vom-bahnhof-zoo-christiane-v-felscherinow.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 

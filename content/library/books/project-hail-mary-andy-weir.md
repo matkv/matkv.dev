@@ -6,5 +6,8 @@ rating = "4"
 year = "2021"
 status = ["Finished"]
 cover = "/covers/project-hail-mary-andy-weir.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 

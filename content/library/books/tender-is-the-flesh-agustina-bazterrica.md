@@ -6,5 +6,8 @@ rating = "3"
 year = "2020"
 status = ["Finished"]
 cover = "/covers/tender-is-the-flesh-agustina-bazterrica.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 

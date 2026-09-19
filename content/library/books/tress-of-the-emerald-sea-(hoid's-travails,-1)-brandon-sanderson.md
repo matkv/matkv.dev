@@ -6,5 +6,8 @@ rating = "4"
 year = "2023"
 status = ["Finished"]
 cover = "/covers/tress-of-the-emerald-sea-hoids-travails-1-brandon-sanderson.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 

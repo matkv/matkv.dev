@@ -6,5 +6,8 @@ rating = "4"
 year = "2010"
 status = ["Finished"]
 cover = "/covers/towers-of-midnight-wheel-of-time-13-robert-jordan.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 

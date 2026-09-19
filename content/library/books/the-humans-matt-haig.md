@@ -6,5 +6,8 @@ rating = "3"
 year = "2013"
 status = ["Finished"]
 cover = "/covers/the-humans-matt-haig.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 

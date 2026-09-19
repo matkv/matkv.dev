@@ -6,6 +6,9 @@ rating = "3"
 year = "2014"
 status = ["Finished"]
 cover = "/covers/the-ocean-at-the-end-of-the-lane-neil-gaiman.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 
 My first book by Neil Gaiman. I don't know why, but I just didn't completely vibe with this book. Definitely had some pretty creative ideas and the writing style was pretty but I just didn't find the story to be very engaging.

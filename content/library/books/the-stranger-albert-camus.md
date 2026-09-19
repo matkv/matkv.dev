@@ -6,5 +6,8 @@ rating = "3"
 year = "1942"
 status = ["Finished"]
 cover = "/covers/the-stranger-albert-camus.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 

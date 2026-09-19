@@ -6,6 +6,9 @@ rating = "4"
 year = "2014"
 status = ["Finished"]
 cover = "/covers/all-the-light-we-cannot-see-anthony-doerr.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 
 Loved the writing style and the way the story switches between the two different viewpoints of the main characters. I definitely remember thinking that the prose was really beautiful.

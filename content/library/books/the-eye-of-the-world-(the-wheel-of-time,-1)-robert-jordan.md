@@ -6,6 +6,9 @@ rating = "4"
 year = "1990"
 status = ["Finished"]
 cover = "/covers/the-eye-of-the-world-the-wheel-of-time-1-robert-jordan.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 
 Started reading this book expecting a very slow and dry read but I was suprised how easy to read and engaging this story was. The beginning was definitely a bit slow but soon the story really picks up and the characters are driven by danger and urgency.

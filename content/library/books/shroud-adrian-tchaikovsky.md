@@ -6,6 +6,9 @@ rating = "4"
 year = "2025"
 status = ["Finished"]
 cover = "/covers/shroud-adrian-tchaikovsky.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 
 Loved how the narration jumped between the human protagonists and the alien ones.

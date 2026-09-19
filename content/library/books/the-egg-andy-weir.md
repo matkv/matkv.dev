@@ -6,6 +6,9 @@ rating = "4"
 year = "2009"
 status = ["Finished"]
 cover = "/covers/the-egg-andy-weir.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 
 Super cute story, really creative idea with a suprisingly deep meaning. Absolutely recommend this short story!

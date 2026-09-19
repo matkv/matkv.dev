@@ -6,6 +6,9 @@ rating = "3"
 year = "1952"
 status = ["Finished"]
 cover = "/covers/the-old-man-and-the-sea-ernest-hemingway.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 
 My first book by Ernest Hemingway. Overall I thought it was okay, definitely a fairly slow read -  not necessarily boring but the roughly 80-90 pages felt longer than they actually were.

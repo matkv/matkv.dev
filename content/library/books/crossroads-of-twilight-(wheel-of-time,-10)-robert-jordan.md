@@ -6,5 +6,8 @@ rating = "4"
 year = "2003"
 status = ["Finished"]
 cover = "/covers/crossroads-of-twilight-wheel-of-time-10-robert-jordan.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 

@@ -6,6 +6,9 @@ rating = "4"
 year = "180"
 status = ["Finished"]
 cover = "/covers/meditations-marcus-aurelius.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 
 This is my first introduction to stoicism and actually the first book on philosophy in general that I read. I read the Gregory Hayes translation which helped a lot - I first tried an older translation that was unecessarily difficult to understand when you're used to modern English.

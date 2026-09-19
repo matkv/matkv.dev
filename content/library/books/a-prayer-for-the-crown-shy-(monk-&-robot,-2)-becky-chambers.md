@@ -6,5 +6,8 @@ rating = "4"
 year = "2022"
 status = ["Finished"]
 cover = "/covers/a-prayer-for-the-crown-shy-monk-robot-2-becky-chambers.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 

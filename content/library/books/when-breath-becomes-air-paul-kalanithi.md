@@ -6,6 +6,9 @@ rating = "5"
 year = "2016"
 status = ["Finished"]
 cover = "/covers/when-breath-becomes-air-paul-kalanithi.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 
 This book describes the experiences of a neurosurgeon during his time in medical school to residency and then in the second part how he dealt with his lung cancer diagnosis all the way up until his eventual death.

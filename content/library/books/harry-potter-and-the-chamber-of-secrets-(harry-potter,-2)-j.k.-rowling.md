@@ -6,6 +6,9 @@ rating = "4"
 year = "1998"
 status = ["Finished"]
 cover = "/covers/harry-potter-and-the-chamber-of-secrets-harry-potter-2-jk-rowling.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 
 Simple writing style, super cozy feeling. Liked it a lot!

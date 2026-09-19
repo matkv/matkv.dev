@@ -6,5 +6,8 @@ rating = "4"
 year = "1993"
 status = ["Finished"]
 cover = "/covers/the-fires-of-heaven-wheel-of-time-5-robert-jordan.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 

@@ -5,5 +5,8 @@ author = ["Private"]
 rating = "3"
 year = "2018"
 status = ["Finished"]
+[build]
+  render = "never"
+  list = "always"
 +++
 

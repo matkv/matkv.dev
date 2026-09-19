@@ -6,5 +6,8 @@ rating = "4"
 year = "1997"
 status = ["Finished"]
 cover = "/covers/a-crown-of-swords-the-wheel-of-time-7-robert-jordan.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 

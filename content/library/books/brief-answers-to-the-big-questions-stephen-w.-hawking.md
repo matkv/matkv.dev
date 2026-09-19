@@ -6,6 +6,9 @@ rating = "4"
 year = "2018"
 status = ["Finished"]
 cover = "/covers/brief-answers-to-the-big-questions-stephen-w-hawking.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 
 This book is a collection of questions mostly about space, the future and technology that Stephen Hawking answers in pretty short chapters. Some questions/answers give insight to his own experiences in his life, both about his work and his personal struggle with his disability, some are about his expectations about the future, for example the impact of the advancement of A.I on humanity.

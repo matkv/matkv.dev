@@ -6,6 +6,9 @@ rating = "4"
 year = "2003"
 status = ["Finished"]
 cover = "/covers/play-winning-chess-everyman-chess-yasser-seirawan.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 
 First chess book I read! Interesting lessons, some fun chess trivia and lots of examples and games to go through.

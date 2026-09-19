@@ -10,7 +10,7 @@ Since all of the content for this site will live in my Obsidian Vault, I am curr
 
 - 📚 Library
     - 📖 Book reviews
-    - 🎬 Movie reviews (in the future)
+    - 🎬 Movies & TV shows
 - 🌱 Index / Digital garden
     - Should replace my [wiki](https://wiki.matkv.dev)
 - 📝 Log / Micro blog

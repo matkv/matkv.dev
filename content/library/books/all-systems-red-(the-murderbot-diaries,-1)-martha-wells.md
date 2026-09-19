@@ -6,6 +6,9 @@ rating = "4"
 year = "2017"
 status = ["Finished"]
 cover = "/covers/all-systems-red-the-murderbot-diaries-1-martha-wells.jpg"
+[build]
+  render = "never"
+  list = "always"
 +++
 
 This book is written from the perspective of a security bot (in a science fiction setting) which managed to become independent. The book follows its thoughts now that it has to deal with social awkwardness, its pessimistic worldview and the human clients on
